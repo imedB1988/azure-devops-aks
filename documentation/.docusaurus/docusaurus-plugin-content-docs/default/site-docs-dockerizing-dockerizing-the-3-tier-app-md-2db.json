@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Dockerizing/dockerizing the 3-tier app",
+  "id": "Dockerizing/dockerizing the 3-tier app",
+  "title": "Dockerizing the Front End",
+  "description": "To containerize the front end application using Docker, follow these steps:",
+  "source": "@site/docs/Dockerizing/dockerizing the 3-tier app.md",
+  "sourceDirName": "Dockerizing",
+  "slug": "/Dockerizing/dockerizing the 3-tier app",
+  "permalink": "/docs/Dockerizing/dockerizing the 3-tier app",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Dockerizing/dockerizing the 3-tier app.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dockerizing ",
+    "permalink": "/docs/category/dockerizing-"
+  },
+  "next": {
+    "title": "Docker Compose Configuration",
+    "permalink": "/docs/Dockerizing/docker compose"
+  }
+}

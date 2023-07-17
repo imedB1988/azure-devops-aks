@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Monitoring/Overview",
+  "id": "Monitoring/Overview",
+  "title": "Overview",
+  "description": "Monitoring with Prometheus and Grafana",
+  "source": "@site/docs/Monitoring/Overview.md",
+  "sourceDirName": "Monitoring",
+  "slug": "/Monitoring/Overview",
+  "permalink": "/docs/Monitoring/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Monitoring",
+    "permalink": "/docs/category/monitoring"
+  },
+  "next": {
+    "title": "Exposing Metrics for Developer VMs",
+    "permalink": "/docs/Monitoring/ExposeMetrics"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Multi-Tenancy",
+  "description": "Enjoy!",
+  "slug": "/category/multi-tenancy",
+  "permalink": "/docs/category/multi-tenancy",
+  "navigation": {
+    "previous": {
+      "title": "CommingSoon",
+      "permalink": "/docs/Disaster Recovery/CommingSoon"
+    },
+    "next": {
+      "title": "Overview of Capsule",
+      "permalink": "/docs/Multi-Tenancy/Overview"
+    }
+  }
+}

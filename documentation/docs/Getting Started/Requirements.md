@@ -9,11 +9,10 @@ sidebar_position: 1
 To get started, you'll need to clone the project repository. You can do this by running the following command in your terminal:
 
 ```bash
-$ git clone https://github.com/Chamssiddine/remote-development-environment
+$ git clone https://github.com/Chamssiddine/azure-devops-aks
 ```
 
 This will create a local copy of the project on your computer.
-
 
 
 ## Step 2: Requirements
@@ -23,12 +22,11 @@ Our project has a few requirements that you'll need to meet in order to get it u
 * Terraform : is an open-source infrastructure as code software tool, You can download Terraform from the official website at https://developer.hashicorp.com/terraform/downloads.
 
 
-* GCP : Our project uses Google Cloud Platform (GCP) as its cloud provider. You'll need to have a GCP account set up and create a new project before you can get started. If you don't have a GCP account, you can sign up for a free trial at https://cloud.google.com.
-
+* Azure Acess : Our project uses Azure as its cloud provider.
 
 * Ansible : is an open-source automation tool that allows you to automate the deployment and configuration of software and infrastructure. You can download Ansible from the official website at https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html.
 
-* Docker 
+* Docker
 
 * Python
 
@@ -36,7 +34,7 @@ Our project has a few requirements that you'll need to meet in order to get it u
 
 Once you have met the requirements outlined in Step 2, you can begin the installation process. Here are the steps you'll need to follow:
 
-Install Terraform, Ansible, Docker, Python and GCP: Follow the instructions provided on the official website on your computer.
+Install Terraform, Ansible, Docker, Python and Azure Access: Follow the instructions provided on the official website on your computer.
 
 
 

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Configuration Management/Configuring AWX",
+  "id": "Configuration Management/Configuring AWX",
+  "title": "Configuring AWX",
+  "description": "Requirements",
+  "source": "@site/docs/Configuration Management/Configuring AWX.md",
+  "sourceDirName": "Configuration Management",
+  "slug": "/Configuration Management/Configuring AWX",
+  "permalink": "/docs/Configuration Management/Configuring AWX",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Configuring AWX.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Running Ansible Playbook with Dynamic Inventory",
+    "permalink": "/docs/Configuration Management/Ansible"
+  },
+  "next": {
+    "title": "Serverspec",
+    "permalink": "/docs/Configuration Management/Serverspec"
+  }
+}

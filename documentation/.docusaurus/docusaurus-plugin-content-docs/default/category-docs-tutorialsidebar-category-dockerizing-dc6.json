@@ -1,0 +1,16 @@
+{
+  "title": "Dockerizing ",
+  "description": "Enjoy!",
+  "slug": "/category/dockerizing-",
+  "permalink": "/docs/category/dockerizing-",
+  "navigation": {
+    "previous": {
+      "title": "CRUD 3-Tier Application",
+      "permalink": "/docs/Application Architecture/Overview"
+    },
+    "next": {
+      "title": "Dockerizing the Front End",
+      "permalink": "/docs/Dockerizing/dockerizing the 3-tier app"
+    }
+  }
+}

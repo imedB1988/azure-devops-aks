@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Getting Started/Requirements",
+  "id": "Getting Started/Requirements",
+  "title": "How to start with the project",
+  "description": "In this guide, we'll walk you through the steps necessary to get started with the project.",
+  "source": "@site/docs/Getting Started/Requirements.md",
+  "sourceDirName": "Getting Started",
+  "slug": "/Getting Started/Requirements",
+  "permalink": "/docs/Getting Started/Requirements",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Getting Started/Requirements.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/docs/category/getting-started"
+  },
+  "next": {
+    "title": "Application Architecture",
+    "permalink": "/docs/category/application-architecture"
+  }
+}

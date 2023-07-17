@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Developer Access/Access AWX",
+  "id": "Developer Access/Access AWX",
+  "title": "Access AWX",
+  "description": "",
+  "source": "@site/docs/Developer Access/Access AWX.md",
+  "sourceDirName": "Developer Access",
+  "slug": "/Developer Access/Access AWX",
+  "permalink": "/docs/Developer Access/Access AWX",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Developer Access/Access AWX.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Access GCP instance",
+    "permalink": "/docs/Developer Access/Access GCP instance"
+  },
+  "next": {
+    "title": "This is my video script",
+    "permalink": "/docs/script/"
+  }
+}

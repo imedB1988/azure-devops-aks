@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multi-Tenancy/Configure & Install Capsule",
+  "id": "Multi-Tenancy/Configure & Install Capsule",
+  "title": "Configure & Install Capsule",
+  "description": "Due to the limitation of my gcp university account it's not possible to enable rbac security groups",
+  "source": "@site/docs/Multi-Tenancy/Configure & Install Capsule.md",
+  "sourceDirName": "Multi-Tenancy",
+  "slug": "/Multi-Tenancy/Configure & Install Capsule",
+  "permalink": "/docs/Multi-Tenancy/Configure & Install Capsule",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Multi-Tenancy/Configure & Install Capsule.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview of Capsule",
+    "permalink": "/docs/Multi-Tenancy/Overview"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}

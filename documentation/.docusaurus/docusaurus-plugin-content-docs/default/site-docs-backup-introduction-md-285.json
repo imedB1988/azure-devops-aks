@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Backup/Introduction",
+  "id": "Backup/Introduction",
+  "title": "Veeam Use Cases",
+  "description": "Veeam is a comprehensive backup and disaster recovery solution that offers various use cases to meet the needs of different organizations. Here are some common use cases where Veeam proves to be valuable:",
+  "source": "@site/docs/Backup/Introduction.md",
+  "sourceDirName": "Backup",
+  "slug": "/Backup/Introduction",
+  "permalink": "/docs/Backup/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Backup/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backup",
+    "permalink": "/docs/category/backup"
+  },
+  "next": {
+    "title": "Installatation of Kasten10 by Veaam",
+    "permalink": "/docs/Backup/Installatation of Kasten10 by Veaam"
+  }
+}

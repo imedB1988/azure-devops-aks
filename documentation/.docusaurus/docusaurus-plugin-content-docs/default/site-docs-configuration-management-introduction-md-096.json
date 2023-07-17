@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Configuration Management/Introduction",
+  "id": "Configuration Management/Introduction",
+  "title": "Configuration Management",
+  "description": "Introduction",
+  "source": "@site/docs/Configuration Management/Introduction.md",
+  "sourceDirName": "Configuration Management",
+  "slug": "/Configuration Management/Introduction",
+  "permalink": "/docs/Configuration Management/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration Management",
+    "permalink": "/docs/category/configuration-management"
+  },
+  "next": {
+    "title": "Installing AWX",
+    "permalink": "/docs/Configuration Management/Installing AWX"
+  }
+}

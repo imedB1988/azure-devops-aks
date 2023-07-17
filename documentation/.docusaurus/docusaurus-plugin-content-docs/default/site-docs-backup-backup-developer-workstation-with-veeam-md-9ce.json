@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Backup/Backup Developer workstation with Veeam",
+  "id": "Backup/Backup Developer workstation with Veeam",
+  "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
+  "description": "Overview",
+  "source": "@site/docs/Backup/Backup Developer workstation with Veeam.md",
+  "sourceDirName": "Backup",
+  "slug": "/Backup/Backup Developer workstation with Veeam",
+  "permalink": "/docs/Backup/Backup Developer workstation with Veeam",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Backup/Backup Developer workstation with Veeam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backup kubernetes namespace with Kasten10 by Veeam",
+    "permalink": "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam"
+  },
+  "next": {
+    "title": "Secrets",
+    "permalink": "/docs/category/secrets"
+  }
+}

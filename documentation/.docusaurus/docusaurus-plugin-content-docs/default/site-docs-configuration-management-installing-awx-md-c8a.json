@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Configuration Management/Installing AWX",
+  "id": "Configuration Management/Installing AWX",
+  "title": "Installing AWX",
+  "description": "How to install AWX using kubernetes operator",
+  "source": "@site/docs/Configuration Management/Installing AWX.md",
+  "sourceDirName": "Configuration Management",
+  "slug": "/Configuration Management/Installing AWX",
+  "permalink": "/docs/Configuration Management/Installing AWX",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Installing AWX.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration Management",
+    "permalink": "/docs/Configuration Management/Introduction"
+  },
+  "next": {
+    "title": "Running Ansible Playbook with Dynamic Inventory",
+    "permalink": "/docs/Configuration Management/Ansible"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Single Sign-On with Keycloak/Overview",
+  "id": "Single Sign-On with Keycloak/Overview",
+  "title": "Overview",
+  "description": "Single Sign-On with Keycloak",
+  "source": "@site/docs/Single Sign-On with Keycloak/Overview.md",
+  "sourceDirName": "Single Sign-On with Keycloak",
+  "slug": "/Single Sign-On with Keycloak/Overview",
+  "permalink": "/docs/Single Sign-On with Keycloak/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Single Sign-On with Keycloak/Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Single Sign-On with Keycloak",
+    "permalink": "/docs/category/single-sign-on-with-keycloak"
+  },
+  "next": {
+    "title": "Installation & Configuration of Keycloak",
+    "permalink": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak"
+  }
+}

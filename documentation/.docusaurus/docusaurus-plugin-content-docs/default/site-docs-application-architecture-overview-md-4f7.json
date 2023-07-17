@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Application Architecture/Overview",
+  "id": "Application Architecture/Overview",
+  "title": "CRUD 3-Tier Application",
+  "description": "Overview",
+  "source": "@site/docs/Application Architecture/Overview.md",
+  "sourceDirName": "Application Architecture",
+  "slug": "/Application Architecture/Overview",
+  "permalink": "/docs/Application Architecture/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Application Architecture/Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Application Architecture",
+    "permalink": "/docs/category/application-architecture"
+  },
+  "next": {
+    "title": "Dockerizing ",
+    "permalink": "/docs/category/dockerizing-"
+  }
+}

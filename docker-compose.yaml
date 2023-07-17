@@ -1,0 +1,50 @@
+version: '3'
+services:
+  mongodb:
+    container_name: mongodb
+    image: mongo:6-jammy
+    environment:
+      - MONGO_INITDB_DATABASE=crud-users-db
+    volumes:
+      - /tmp/mongo-data:/data/db
+    ports:
+      - '27017:27017'
+    networks:
+      api:
+        ipv4_address: 172.20.0.2
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./src/frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - backend
+    networks:
+      api:
+        ipv4_address: 172.20.0.3
+
+  backend:
+    container_name: backend
+    build:
+      context: ./src/backend
+      dockerfile: Dockerfile
+    ports:
+      - 3700:3700
+    depends_on:
+      - mongodb
+    networks:
+      api:
+        ipv4_address: 172.20.0.4
+    environment:
+      - MONGO_URI=mongodb://mongodb:27017/crud-users-db
+      - PORT=3700
+
+networks: 
+  api: 
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16

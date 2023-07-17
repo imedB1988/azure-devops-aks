@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Monitoring/Installation of Prometheus",
+  "id": "Monitoring/Installation of Prometheus",
+  "title": "Installation of Prometheus",
+  "description": "1. Navigate to the Prometheus chart directory:",
+  "source": "@site/docs/Monitoring/Installation of Prometheus.md",
+  "sourceDirName": "Monitoring",
+  "slug": "/Monitoring/Installation of Prometheus",
+  "permalink": "/docs/Monitoring/Installation of Prometheus",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/Installation of Prometheus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exposing Metrics for Developer VMs",
+    "permalink": "/docs/Monitoring/ExposeMetrics"
+  },
+  "next": {
+    "title": "Installation of Grafana",
+    "permalink": "/docs/Monitoring/Installation of Grafana"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Multi-Tenancy/Overview",
+  "id": "Multi-Tenancy/Overview",
+  "title": "Overview of Capsule",
+  "description": "",
+  "source": "@site/docs/Multi-Tenancy/Overview.md",
+  "sourceDirName": "Multi-Tenancy",
+  "slug": "/Multi-Tenancy/Overview",
+  "permalink": "/docs/Multi-Tenancy/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Multi-Tenancy/Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multi-Tenancy",
+    "permalink": "/docs/category/multi-tenancy"
+  },
+  "next": {
+    "title": "Configure & Install Capsule",
+    "permalink": "/docs/Multi-Tenancy/Configure & Install Capsule"
+  }
+}

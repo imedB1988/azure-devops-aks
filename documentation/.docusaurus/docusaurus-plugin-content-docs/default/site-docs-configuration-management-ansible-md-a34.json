@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Configuration Management/Ansible",
+  "id": "Configuration Management/Ansible",
+  "title": "Running Ansible Playbook with Dynamic Inventory",
+  "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
+  "source": "@site/docs/Configuration Management/Ansible.md",
+  "sourceDirName": "Configuration Management",
+  "slug": "/Configuration Management/Ansible",
+  "permalink": "/docs/Configuration Management/Ansible",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Ansible.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installing AWX",
+    "permalink": "/docs/Configuration Management/Installing AWX"
+  },
+  "next": {
+    "title": "Configuring AWX",
+    "permalink": "/docs/Configuration Management/Configuring AWX"
+  }
+}

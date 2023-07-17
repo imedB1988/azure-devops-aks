@@ -1,0 +1,16 @@
+{
+  "title": "Monitoring",
+  "description": "Enjoy!",
+  "slug": "/category/monitoring",
+  "permalink": "/docs/category/monitoring",
+  "navigation": {
+    "previous": {
+      "title": "Docker Compose Configuration",
+      "permalink": "/docs/Dockerizing/docker compose"
+    },
+    "next": {
+      "title": "Overview",
+      "permalink": "/docs/Monitoring/Overview"
+    }
+  }
+}

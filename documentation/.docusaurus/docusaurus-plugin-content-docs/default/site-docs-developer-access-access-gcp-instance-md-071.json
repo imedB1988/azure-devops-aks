@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Developer Access/Access GCP instance",
+  "id": "Developer Access/Access GCP instance",
+  "title": "Access GCP instance",
+  "description": "Step 1 install ssh plugin in VSCODE",
+  "source": "@site/docs/Developer Access/Access GCP instance.md",
+  "sourceDirName": "Developer Access",
+  "slug": "/Developer Access/Access GCP instance",
+  "permalink": "/docs/Developer Access/Access GCP instance",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Developer Access/Access GCP instance.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  },
+  "next": {
+    "title": "Access AWX",
+    "permalink": "/docs/Developer Access/Access AWX"
+  }
+}

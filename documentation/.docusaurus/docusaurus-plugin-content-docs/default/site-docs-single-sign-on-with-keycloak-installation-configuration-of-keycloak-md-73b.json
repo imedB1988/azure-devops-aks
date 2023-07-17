@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
+  "id": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
+  "title": "Installation & Configuration of Keycloak",
+  "description": "1. Navigate to the Keycloak Helm Chart directory in your Git repo:",
+  "source": "@site/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak.md",
+  "sourceDirName": "Single Sign-On with Keycloak",
+  "slug": "/Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
+  "permalink": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Single Sign-On with Keycloak/Overview"
+  },
+  "next": {
+    "title": "How to Integrate Keycloak with AWX",
+    "permalink": "/docs/Single Sign-On with Keycloak/Integration with AWX"
+  }
+}

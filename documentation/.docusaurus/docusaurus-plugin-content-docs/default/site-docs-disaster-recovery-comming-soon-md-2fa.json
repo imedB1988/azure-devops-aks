@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Disaster Recovery/CommingSoon",
+  "id": "Disaster Recovery/CommingSoon",
+  "title": "CommingSoon",
+  "description": "- Scaling and managing the infrastructure",
+  "source": "@site/docs/Disaster Recovery/CommingSoon.md",
+  "sourceDirName": "Disaster Recovery",
+  "slug": "/Disaster Recovery/CommingSoon",
+  "permalink": "/docs/Disaster Recovery/CommingSoon",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Disaster Recovery/CommingSoon.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disaster Recovery",
+    "permalink": "/docs/category/disaster-recovery"
+  },
+  "next": {
+    "title": "Multi-Tenancy",
+    "permalink": "/docs/category/multi-tenancy"
+  }
+}

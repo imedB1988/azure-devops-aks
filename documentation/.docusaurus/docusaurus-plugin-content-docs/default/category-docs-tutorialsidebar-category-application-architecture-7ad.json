@@ -1,0 +1,16 @@
+{
+  "title": "Application Architecture",
+  "description": "Enjoy!",
+  "slug": "/category/application-architecture",
+  "permalink": "/docs/category/application-architecture",
+  "navigation": {
+    "previous": {
+      "title": "How to start with the project",
+      "permalink": "/docs/Getting Started/Requirements"
+    },
+    "next": {
+      "title": "CRUD 3-Tier Application",
+      "permalink": "/docs/Application Architecture/Overview"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Dockerizing/docker compose",
+  "id": "Dockerizing/docker compose",
+  "title": "Docker Compose Configuration",
+  "description": "To create and manage multiple containers simultaneously, you can use Docker Compose. The following Docker Compose configuration file allows you to deploy the front end, back end, and MongoDB containers together:",
+  "source": "@site/docs/Dockerizing/docker compose.md",
+  "sourceDirName": "Dockerizing",
+  "slug": "/Dockerizing/docker compose",
+  "permalink": "/docs/Dockerizing/docker compose",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Dockerizing/docker compose.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Dockerizing the Front End",
+    "permalink": "/docs/Dockerizing/dockerizing the 3-tier app"
+  },
+  "next": {
+    "title": "Monitoring",
+    "permalink": "/docs/category/monitoring"
+  }
+}

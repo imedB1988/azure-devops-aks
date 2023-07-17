@@ -1,0 +1,16 @@
+{
+  "title": "Single Sign-On with Keycloak",
+  "description": "Enjoy!",
+  "slug": "/category/single-sign-on-with-keycloak",
+  "permalink": "/docs/category/single-sign-on-with-keycloak",
+  "navigation": {
+    "previous": {
+      "title": "Serverspec",
+      "permalink": "/docs/Configuration Management/Serverspec"
+    },
+    "next": {
+      "title": "Overview",
+      "permalink": "/docs/Single Sign-On with Keycloak/Overview"
+    }
+  }
+}

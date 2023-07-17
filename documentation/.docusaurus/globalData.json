@@ -1,0 +1,306 @@
+{
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1689578155615.json",
+        "lunrIndex": "lunr-index-1689578155615.json"
+      }
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "Application Architecture/Overview",
+              "path": "/docs/Application Architecture/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Backup/Backup Developer workstation with Veeam",
+              "path": "/docs/Backup/Backup Developer workstation with Veeam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Backup/Backup kubernetes namespace with Kasten10 by Veeam",
+              "path": "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Backup/Installatation of Kasten10 by Veaam",
+              "path": "/docs/Backup/Installatation of Kasten10 by Veaam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Backup/Introduction",
+              "path": "/docs/Backup/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuration Management/Ansible",
+              "path": "/docs/Configuration Management/Ansible",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuration Management/Configuring AWX",
+              "path": "/docs/Configuration Management/Configuring AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuration Management/Installing AWX",
+              "path": "/docs/Configuration Management/Installing AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuration Management/Introduction",
+              "path": "/docs/Configuration Management/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Configuration Management/Serverspec",
+              "path": "/docs/Configuration Management/Serverspec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Developer Access/Access AWX",
+              "path": "/docs/Developer Access/Access AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Developer Access/Access GCP instance",
+              "path": "/docs/Developer Access/Access GCP instance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Disaster Recovery/CommingSoon",
+              "path": "/docs/Disaster Recovery/CommingSoon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Dockerizing/docker compose",
+              "path": "/docs/Dockerizing/docker compose",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Dockerizing/dockerizing the 3-tier app",
+              "path": "/docs/Dockerizing/dockerizing the 3-tier app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Getting Started/Requirements",
+              "path": "/docs/Getting Started/Requirements",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "intro",
+              "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Monitoring/Configuration of Grafana Dashboards",
+              "path": "/docs/Monitoring/Configuration of Grafana Dashboards",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Monitoring/ExposeMetrics",
+              "path": "/docs/Monitoring/ExposeMetrics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Monitoring/Installation of Grafana",
+              "path": "/docs/Monitoring/Installation of Grafana",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Monitoring/Installation of Prometheus",
+              "path": "/docs/Monitoring/Installation of Prometheus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Monitoring/Overview",
+              "path": "/docs/Monitoring/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Multi-Tenancy/Configure & Install Capsule",
+              "path": "/docs/Multi-Tenancy/Configure & Install Capsule",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Multi-Tenancy/Overview",
+              "path": "/docs/Multi-Tenancy/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "script/script",
+              "path": "/docs/script/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Secrets/CentralizedSecret",
+              "path": "/docs/Secrets/CentralizedSecret",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Secrets/Configure Vault",
+              "path": "/docs/Secrets/Configure Vault",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Secrets/Install Vault",
+              "path": "/docs/Secrets/Install Vault",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Secrets/Integrate Vault with helm",
+              "path": "/docs/Secrets/Integrate Vault with helm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Secrets/Integrate Vault with Jenkins",
+              "path": "/docs/Secrets/Integrate Vault with Jenkins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
+              "path": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Single Sign-On with Keycloak/Integration with AWX",
+              "path": "/docs/Single Sign-On with Keycloak/Integration with AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Single Sign-On with Keycloak/Integration with Grafana",
+              "path": "/docs/Single Sign-On with Keycloak/Integration with Grafana",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Single Sign-On with Keycloak/Overview",
+              "path": "/docs/Single Sign-On with Keycloak/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/congratulations",
+              "path": "/docs/tutorial-basics/congratulations",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-blog-post",
+              "path": "/docs/tutorial-basics/create-a-blog-post",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-document",
+              "path": "/docs/tutorial-basics/create-a-document",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/create-a-page",
+              "path": "/docs/tutorial-basics/create-a-page",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/deploy-your-site",
+              "path": "/docs/tutorial-basics/deploy-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-basics/markdown-features",
+              "path": "/docs/tutorial-basics/markdown-features",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/manage-docs-versions",
+              "path": "/docs/tutorial-extras/manage-docs-versions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "tutorial-extras/translate-your-site",
+              "path": "/docs/tutorial-extras/translate-your-site",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/getting-started",
+              "path": "/docs/category/getting-started",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/application-architecture",
+              "path": "/docs/category/application-architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/dockerizing-",
+              "path": "/docs/category/dockerizing-",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/monitoring",
+              "path": "/docs/category/monitoring",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/configuration-management",
+              "path": "/docs/category/configuration-management",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/single-sign-on-with-keycloak",
+              "path": "/docs/category/single-sign-on-with-keycloak",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/backup",
+              "path": "/docs/category/backup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/secrets",
+              "path": "/docs/category/secrets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/disaster-recovery",
+              "path": "/docs/category/disaster-recovery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/multi-tenancy",
+              "path": "/docs/category/multi-tenancy",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---basics",
+              "path": "/docs/category/tutorial---basics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/tutorial---extras",
+              "path": "/docs/category/tutorial---extras",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/docs/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

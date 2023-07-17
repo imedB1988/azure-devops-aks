@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Monitoring/ExposeMetrics",
+  "id": "Monitoring/ExposeMetrics",
+  "title": "Exposing Metrics for Developer VMs",
+  "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
+  "source": "@site/docs/Monitoring/ExposeMetrics.md",
+  "sourceDirName": "Monitoring",
+  "slug": "/Monitoring/ExposeMetrics",
+  "permalink": "/docs/Monitoring/ExposeMetrics",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/ExposeMetrics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Monitoring/Overview"
+  },
+  "next": {
+    "title": "Installation of Prometheus",
+    "permalink": "/docs/Monitoring/Installation of Prometheus"
+  }
+}

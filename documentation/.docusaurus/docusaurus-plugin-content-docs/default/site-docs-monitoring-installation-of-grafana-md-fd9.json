@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Monitoring/Installation of Grafana",
+  "id": "Monitoring/Installation of Grafana",
+  "title": "Installation of Grafana",
+  "description": "To deploy Grafana using the Helm Chart, follow these steps:",
+  "source": "@site/docs/Monitoring/Installation of Grafana.md",
+  "sourceDirName": "Monitoring",
+  "slug": "/Monitoring/Installation of Grafana",
+  "permalink": "/docs/Monitoring/Installation of Grafana",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/Installation of Grafana.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation of Prometheus",
+    "permalink": "/docs/Monitoring/Installation of Prometheus"
+  },
+  "next": {
+    "title": "Configuration of Grafana Dashboards",
+    "permalink": "/docs/Monitoring/Configuration of Grafana Dashboards"
+  }
+}

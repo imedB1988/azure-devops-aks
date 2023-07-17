@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Configuration Management/Serverspec",
+  "id": "Configuration Management/Serverspec",
+  "title": "Serverspec",
+  "description": "Why Use ServerSpec with Ansible",
+  "source": "@site/docs/Configuration Management/Serverspec.md",
+  "sourceDirName": "Configuration Management",
+  "slug": "/Configuration Management/Serverspec",
+  "permalink": "/docs/Configuration Management/Serverspec",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Serverspec.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuring AWX",
+    "permalink": "/docs/Configuration Management/Configuring AWX"
+  },
+  "next": {
+    "title": "Single Sign-On with Keycloak",
+    "permalink": "/docs/category/single-sign-on-with-keycloak"
+  }
+}
