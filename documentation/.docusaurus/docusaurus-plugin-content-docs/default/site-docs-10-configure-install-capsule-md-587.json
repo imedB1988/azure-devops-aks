@@ -1,0 +1,27 @@
+{
+  "unversionedId": "10/Configure & Install Capsule",
+  "id": "10/Configure & Install Capsule",
+  "title": "Configure & Install Capsule",
+  "description": "Due to the limitation of my gcp university account it's not possible to enable rbac security groups",
+  "source": "@site/docs/10/Configure & Install Capsule.md",
+  "sourceDirName": "10",
+  "slug": "/10/Configure & Install Capsule",
+  "permalink": "/docs/10/Configure & Install Capsule",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/10/Configure & Install Capsule.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview of Capsule",
+    "permalink": "/docs/10/Overview"
+  },
+  "next": {
+    "title": "Tutorial - Basics",
+    "permalink": "/docs/category/tutorial---basics"
+  }
+}

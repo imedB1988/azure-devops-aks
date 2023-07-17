@@ -1,0 +1,27 @@
+{
+  "unversionedId": "6/Overview",
+  "id": "6/Overview",
+  "title": "Overview",
+  "description": "Single Sign-On with Keycloak",
+  "source": "@site/docs/6/Overview.md",
+  "sourceDirName": "6",
+  "slug": "/6/Overview",
+  "permalink": "/docs/6/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/6/Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Single Sign-On with Keycloak",
+    "permalink": "/docs/category/single-sign-on-with-keycloak"
+  },
+  "next": {
+    "title": "Installation & Configuration of Keycloak",
+    "permalink": "/docs/6/Installation & Configuration of Keycloak"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "8/Integrate Vault with helm",
+  "id": "8/Integrate Vault with helm",
+  "title": "Integrate Vault with helm",
+  "description": "",
+  "source": "@site/docs/8/Integrate Vault with helm.md",
+  "sourceDirName": "8",
+  "slug": "/8/Integrate Vault with helm",
+  "permalink": "/docs/8/Integrate Vault with helm",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/Integrate Vault with helm.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configure Vault Cluster",
+    "permalink": "/docs/8/Configure Vault"
+  },
+  "next": {
+    "title": "Integrate Vault with Jenkins",
+    "permalink": "/docs/8/Integrate Vault with Jenkins"
+  }
+}

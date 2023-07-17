@@ -99,35 +99,179 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '17a'),
+    component: ComponentCreator('/docs', '6ab'),
     routes: [
+      {
+        path: '/docs/10/Configure & Install Capsule',
+        component: ComponentCreator('/docs/10/Configure & Install Capsule', '709'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/10/Overview',
+        component: ComponentCreator('/docs/10/Overview', '260'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/4/Configuration of Grafana Dashboards',
+        component: ComponentCreator('/docs/4/Configuration of Grafana Dashboards', '3c6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/4/ExposeMetrics',
+        component: ComponentCreator('/docs/4/ExposeMetrics', '75b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/4/Installation of Grafana',
+        component: ComponentCreator('/docs/4/Installation of Grafana', '0e9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/4/Installation of Prometheus',
+        component: ComponentCreator('/docs/4/Installation of Prometheus', '3cf'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/4/Overview',
+        component: ComponentCreator('/docs/4/Overview', 'b84'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/5/Ansible',
+        component: ComponentCreator('/docs/5/Ansible', 'c9b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/5/Configuring AWX',
+        component: ComponentCreator('/docs/5/Configuring AWX', '6f9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/5/Installing AWX',
+        component: ComponentCreator('/docs/5/Installing AWX', '003'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/5/Introduction',
+        component: ComponentCreator('/docs/5/Introduction', '2e4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/5/Serverspec',
+        component: ComponentCreator('/docs/5/Serverspec', '63a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/6/Installation & Configuration of Keycloak',
+        component: ComponentCreator('/docs/6/Installation & Configuration of Keycloak', '7a3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/6/Integration with AWX',
+        component: ComponentCreator('/docs/6/Integration with AWX', '472'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/6/Integration with Grafana',
+        component: ComponentCreator('/docs/6/Integration with Grafana', '862'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/6/Overview',
+        component: ComponentCreator('/docs/6/Overview', 'f34'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/7/Backup Developer workstation with Veeam',
+        component: ComponentCreator('/docs/7/Backup Developer workstation with Veeam', '962'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/7/Backup kubernetes namespace with Kasten10 by Veeam',
+        component: ComponentCreator('/docs/7/Backup kubernetes namespace with Kasten10 by Veeam', '7db'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/7/Installatation of Kasten10 by Veaam',
+        component: ComponentCreator('/docs/7/Installatation of Kasten10 by Veaam', '434'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/7/Introduction',
+        component: ComponentCreator('/docs/7/Introduction', 'd66'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/8/CentralizedSecret',
+        component: ComponentCreator('/docs/8/CentralizedSecret', 'fd3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/8/Configure Vault',
+        component: ComponentCreator('/docs/8/Configure Vault', 'd09'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/8/Install Vault',
+        component: ComponentCreator('/docs/8/Install Vault', '8ca'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/8/Integrate Vault with helm',
+        component: ComponentCreator('/docs/8/Integrate Vault with helm', '682'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/8/Integrate Vault with Jenkins',
+        component: ComponentCreator('/docs/8/Integrate Vault with Jenkins', 'bf7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/9/CommingSoon',
+        component: ComponentCreator('/docs/9/CommingSoon', '437'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/90/Access AWX',
+        component: ComponentCreator('/docs/90/Access AWX', 'b7a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/90/Access GCP instance',
+        component: ComponentCreator('/docs/90/Access GCP instance', '153'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/Application Architecture/Overview',
         component: ComponentCreator('/docs/Application Architecture/Overview', '8a2'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Backup/Backup Developer workstation with Veeam',
-        component: ComponentCreator('/docs/Backup/Backup Developer workstation with Veeam', '664'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam',
-        component: ComponentCreator('/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam', '431'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Backup/Installatation of Kasten10 by Veaam',
-        component: ComponentCreator('/docs/Backup/Installatation of Kasten10 by Veaam', '04f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Backup/Introduction',
-        component: ComponentCreator('/docs/Backup/Introduction', 'f0f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -204,54 +348,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Configuration Management/Ansible',
-        component: ComponentCreator('/docs/Configuration Management/Ansible', 'f41'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Configuration Management/Configuring AWX',
-        component: ComponentCreator('/docs/Configuration Management/Configuring AWX', 'cc3'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Configuration Management/Installing AWX',
-        component: ComponentCreator('/docs/Configuration Management/Installing AWX', '8f1'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Configuration Management/Introduction',
-        component: ComponentCreator('/docs/Configuration Management/Introduction', '22b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Configuration Management/Serverspec',
-        component: ComponentCreator('/docs/Configuration Management/Serverspec', '43e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Developer Access/Access AWX',
-        component: ComponentCreator('/docs/Developer Access/Access AWX', '0c3'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Developer Access/Access GCP instance',
-        component: ComponentCreator('/docs/Developer Access/Access GCP instance', 'c0c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Disaster Recovery/CommingSoon',
-        component: ComponentCreator('/docs/Disaster Recovery/CommingSoon', '17d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/Dockerizing/docker compose',
         component: ComponentCreator('/docs/Dockerizing/docker compose', '6e9'),
         exact: true,
@@ -272,108 +368,6 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro', 'aed'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Monitoring/Configuration of Grafana Dashboards',
-        component: ComponentCreator('/docs/Monitoring/Configuration of Grafana Dashboards', '541'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Monitoring/ExposeMetrics',
-        component: ComponentCreator('/docs/Monitoring/ExposeMetrics', '190'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Monitoring/Installation of Grafana',
-        component: ComponentCreator('/docs/Monitoring/Installation of Grafana', '3a3'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Monitoring/Installation of Prometheus',
-        component: ComponentCreator('/docs/Monitoring/Installation of Prometheus', '88a'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Monitoring/Overview',
-        component: ComponentCreator('/docs/Monitoring/Overview', '86b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Multi-Tenancy/Configure & Install Capsule',
-        component: ComponentCreator('/docs/Multi-Tenancy/Configure & Install Capsule', '888'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Multi-Tenancy/Overview',
-        component: ComponentCreator('/docs/Multi-Tenancy/Overview', '436'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/script/',
-        component: ComponentCreator('/docs/script/', '31c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Secrets/CentralizedSecret',
-        component: ComponentCreator('/docs/Secrets/CentralizedSecret', 'bbd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Secrets/Configure Vault',
-        component: ComponentCreator('/docs/Secrets/Configure Vault', '2db'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Secrets/Install Vault',
-        component: ComponentCreator('/docs/Secrets/Install Vault', 'c63'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Secrets/Integrate Vault with helm',
-        component: ComponentCreator('/docs/Secrets/Integrate Vault with helm', 'bd6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Secrets/Integrate Vault with Jenkins',
-        component: ComponentCreator('/docs/Secrets/Integrate Vault with Jenkins', 'f42'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak',
-        component: ComponentCreator('/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak', '1ff'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Single Sign-On with Keycloak/Integration with AWX',
-        component: ComponentCreator('/docs/Single Sign-On with Keycloak/Integration with AWX', '0e9'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Single Sign-On with Keycloak/Integration with Grafana',
-        component: ComponentCreator('/docs/Single Sign-On with Keycloak/Integration with Grafana', '5cc'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Single Sign-On with Keycloak/Overview',
-        component: ComponentCreator('/docs/Single Sign-On with Keycloak/Overview', 'def'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

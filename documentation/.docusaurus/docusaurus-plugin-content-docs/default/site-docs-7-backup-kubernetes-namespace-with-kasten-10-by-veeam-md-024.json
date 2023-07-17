@@ -1,0 +1,27 @@
+{
+  "unversionedId": "7/Backup kubernetes namespace with Kasten10 by Veeam",
+  "id": "7/Backup kubernetes namespace with Kasten10 by Veeam",
+  "title": "Backup kubernetes namespace with Kasten10 by Veeam",
+  "description": "This documentation provides a step-by-step guide on how to configure backup policies using the GCP Veeam service. By following these instructions, you can effectively manage and store backups for your namespaces in Google Cloud Platform (GCP). Video tutorials are included to demonstrate the configuration process.",
+  "source": "@site/docs/7/Backup kubernetes namespace with Kasten10 by Veeam.md",
+  "sourceDirName": "7",
+  "slug": "/7/Backup kubernetes namespace with Kasten10 by Veeam",
+  "permalink": "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/7/Backup kubernetes namespace with Kasten10 by Veeam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installatation of Kasten10 by Veaam",
+    "permalink": "/docs/7/Installatation of Kasten10 by Veaam"
+  },
+  "next": {
+    "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
+    "permalink": "/docs/7/Backup Developer workstation with Veeam"
+  }
+}

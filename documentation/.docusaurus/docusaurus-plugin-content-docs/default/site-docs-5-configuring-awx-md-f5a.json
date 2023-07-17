@@ -1,0 +1,27 @@
+{
+  "unversionedId": "5/Configuring AWX",
+  "id": "5/Configuring AWX",
+  "title": "Configuring AWX",
+  "description": "Requirements",
+  "source": "@site/docs/5/Configuring AWX.md",
+  "sourceDirName": "5",
+  "slug": "/5/Configuring AWX",
+  "permalink": "/docs/5/Configuring AWX",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Configuring AWX.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Running Ansible Playbook with Dynamic Inventory",
+    "permalink": "/docs/5/Ansible"
+  },
+  "next": {
+    "title": "Serverspec",
+    "permalink": "/docs/5/Serverspec"
+  }
+}

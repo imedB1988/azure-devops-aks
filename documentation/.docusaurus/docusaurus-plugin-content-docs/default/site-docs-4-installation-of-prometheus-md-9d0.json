@@ -1,0 +1,27 @@
+{
+  "unversionedId": "4/Installation of Prometheus",
+  "id": "4/Installation of Prometheus",
+  "title": "Installation of Prometheus",
+  "description": "1. Navigate to the Prometheus chart directory:",
+  "source": "@site/docs/4/Installation of Prometheus.md",
+  "sourceDirName": "4",
+  "slug": "/4/Installation of Prometheus",
+  "permalink": "/docs/4/Installation of Prometheus",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Installation of Prometheus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exposing Metrics for Developer VMs",
+    "permalink": "/docs/4/ExposeMetrics"
+  },
+  "next": {
+    "title": "Installation of Grafana",
+    "permalink": "/docs/4/Installation of Grafana"
+  }
+}

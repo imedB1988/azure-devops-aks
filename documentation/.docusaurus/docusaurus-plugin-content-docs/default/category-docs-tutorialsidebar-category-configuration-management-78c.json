@@ -6,11 +6,11 @@
   "navigation": {
     "previous": {
       "title": "Configuration of Grafana Dashboards",
-      "permalink": "/docs/Monitoring/Configuration of Grafana Dashboards"
+      "permalink": "/docs/4/Configuration of Grafana Dashboards"
     },
     "next": {
       "title": "Configuration Management",
-      "permalink": "/docs/Configuration Management/Introduction"
+      "permalink": "/docs/5/Introduction"
     }
   }
 }

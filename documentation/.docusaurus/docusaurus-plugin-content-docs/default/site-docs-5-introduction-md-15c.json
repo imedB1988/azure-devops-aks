@@ -1,0 +1,27 @@
+{
+  "unversionedId": "5/Introduction",
+  "id": "5/Introduction",
+  "title": "Configuration Management",
+  "description": "Introduction",
+  "source": "@site/docs/5/Introduction.md",
+  "sourceDirName": "5",
+  "slug": "/5/Introduction",
+  "permalink": "/docs/5/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration Management",
+    "permalink": "/docs/category/configuration-management"
+  },
+  "next": {
+    "title": "Installing AWX",
+    "permalink": "/docs/5/Installing AWX"
+  }
+}

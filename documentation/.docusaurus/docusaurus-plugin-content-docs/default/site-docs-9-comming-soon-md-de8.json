@@ -1,0 +1,27 @@
+{
+  "unversionedId": "9/CommingSoon",
+  "id": "9/CommingSoon",
+  "title": "CommingSoon",
+  "description": "- Scaling and managing the infrastructure",
+  "source": "@site/docs/9/CommingSoon.md",
+  "sourceDirName": "9",
+  "slug": "/9/CommingSoon",
+  "permalink": "/docs/9/CommingSoon",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/9/CommingSoon.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disaster Recovery",
+    "permalink": "/docs/category/disaster-recovery"
+  },
+  "next": {
+    "title": "Multi-Tenancy",
+    "permalink": "/docs/category/multi-tenancy"
+  }
+}

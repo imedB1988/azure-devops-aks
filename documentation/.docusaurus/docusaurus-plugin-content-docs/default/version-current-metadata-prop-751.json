@@ -11,7 +11,7 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Introduction",
+        "label": "CRUD 3-Tier Application",
         "href": "/docs/intro",
         "docId": "intro"
       },
@@ -75,32 +75,32 @@
           {
             "type": "link",
             "label": "Overview",
-            "href": "/docs/Monitoring/Overview",
-            "docId": "Monitoring/Overview"
+            "href": "/docs/4/Overview",
+            "docId": "4/Overview"
           },
           {
             "type": "link",
             "label": "Exposing Metrics for Developer VMs",
-            "href": "/docs/Monitoring/ExposeMetrics",
-            "docId": "Monitoring/ExposeMetrics"
+            "href": "/docs/4/ExposeMetrics",
+            "docId": "4/ExposeMetrics"
           },
           {
             "type": "link",
             "label": "Installation of Prometheus",
-            "href": "/docs/Monitoring/Installation of Prometheus",
-            "docId": "Monitoring/Installation of Prometheus"
+            "href": "/docs/4/Installation of Prometheus",
+            "docId": "4/Installation of Prometheus"
           },
           {
             "type": "link",
             "label": "Installation of Grafana",
-            "href": "/docs/Monitoring/Installation of Grafana",
-            "docId": "Monitoring/Installation of Grafana"
+            "href": "/docs/4/Installation of Grafana",
+            "docId": "4/Installation of Grafana"
           },
           {
             "type": "link",
             "label": "Configuration of Grafana Dashboards",
-            "href": "/docs/Monitoring/Configuration of Grafana Dashboards",
-            "docId": "Monitoring/Configuration of Grafana Dashboards"
+            "href": "/docs/4/Configuration of Grafana Dashboards",
+            "docId": "4/Configuration of Grafana Dashboards"
           }
         ],
         "href": "/docs/category/monitoring"
@@ -114,32 +114,32 @@
           {
             "type": "link",
             "label": "Configuration Management",
-            "href": "/docs/Configuration Management/Introduction",
-            "docId": "Configuration Management/Introduction"
+            "href": "/docs/5/Introduction",
+            "docId": "5/Introduction"
           },
           {
             "type": "link",
             "label": "Installing AWX",
-            "href": "/docs/Configuration Management/Installing AWX",
-            "docId": "Configuration Management/Installing AWX"
+            "href": "/docs/5/Installing AWX",
+            "docId": "5/Installing AWX"
           },
           {
             "type": "link",
             "label": "Running Ansible Playbook with Dynamic Inventory",
-            "href": "/docs/Configuration Management/Ansible",
-            "docId": "Configuration Management/Ansible"
+            "href": "/docs/5/Ansible",
+            "docId": "5/Ansible"
           },
           {
             "type": "link",
             "label": "Configuring AWX",
-            "href": "/docs/Configuration Management/Configuring AWX",
-            "docId": "Configuration Management/Configuring AWX"
+            "href": "/docs/5/Configuring AWX",
+            "docId": "5/Configuring AWX"
           },
           {
             "type": "link",
             "label": "Serverspec",
-            "href": "/docs/Configuration Management/Serverspec",
-            "docId": "Configuration Management/Serverspec"
+            "href": "/docs/5/Serverspec",
+            "docId": "5/Serverspec"
           }
         ],
         "href": "/docs/category/configuration-management"
@@ -153,26 +153,26 @@
           {
             "type": "link",
             "label": "Overview",
-            "href": "/docs/Single Sign-On with Keycloak/Overview",
-            "docId": "Single Sign-On with Keycloak/Overview"
+            "href": "/docs/6/Overview",
+            "docId": "6/Overview"
           },
           {
             "type": "link",
             "label": "Installation & Configuration of Keycloak",
-            "href": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-            "docId": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak"
+            "href": "/docs/6/Installation & Configuration of Keycloak",
+            "docId": "6/Installation & Configuration of Keycloak"
           },
           {
             "type": "link",
             "label": "How to Integrate Keycloak with AWX",
-            "href": "/docs/Single Sign-On with Keycloak/Integration with AWX",
-            "docId": "Single Sign-On with Keycloak/Integration with AWX"
+            "href": "/docs/6/Integration with AWX",
+            "docId": "6/Integration with AWX"
           },
           {
             "type": "link",
             "label": "Integration with Grafana",
-            "href": "/docs/Single Sign-On with Keycloak/Integration with Grafana",
-            "docId": "Single Sign-On with Keycloak/Integration with Grafana"
+            "href": "/docs/6/Integration with Grafana",
+            "docId": "6/Integration with Grafana"
           }
         ],
         "href": "/docs/category/single-sign-on-with-keycloak"
@@ -186,26 +186,26 @@
           {
             "type": "link",
             "label": "Veeam Use Cases",
-            "href": "/docs/Backup/Introduction",
-            "docId": "Backup/Introduction"
+            "href": "/docs/7/Introduction",
+            "docId": "7/Introduction"
           },
           {
             "type": "link",
             "label": "Installatation of Kasten10 by Veaam",
-            "href": "/docs/Backup/Installatation of Kasten10 by Veaam",
-            "docId": "Backup/Installatation of Kasten10 by Veaam"
+            "href": "/docs/7/Installatation of Kasten10 by Veaam",
+            "docId": "7/Installatation of Kasten10 by Veaam"
           },
           {
             "type": "link",
             "label": "Backup kubernetes namespace with Kasten10 by Veeam",
-            "href": "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-            "docId": "Backup/Backup kubernetes namespace with Kasten10 by Veeam"
+            "href": "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam",
+            "docId": "7/Backup kubernetes namespace with Kasten10 by Veeam"
           },
           {
             "type": "link",
             "label": "Documentation: Configuring Backup Policies with GCP Veeam Service",
-            "href": "/docs/Backup/Backup Developer workstation with Veeam",
-            "docId": "Backup/Backup Developer workstation with Veeam"
+            "href": "/docs/7/Backup Developer workstation with Veeam",
+            "docId": "7/Backup Developer workstation with Veeam"
           }
         ],
         "href": "/docs/category/backup"
@@ -219,32 +219,32 @@
           {
             "type": "link",
             "label": "CentralizedSecret",
-            "href": "/docs/Secrets/CentralizedSecret",
-            "docId": "Secrets/CentralizedSecret"
+            "href": "/docs/8/CentralizedSecret",
+            "docId": "8/CentralizedSecret"
           },
           {
             "type": "link",
             "label": "Install Vault",
-            "href": "/docs/Secrets/Install Vault",
-            "docId": "Secrets/Install Vault"
+            "href": "/docs/8/Install Vault",
+            "docId": "8/Install Vault"
           },
           {
             "type": "link",
             "label": "Configure Vault Cluster",
-            "href": "/docs/Secrets/Configure Vault",
-            "docId": "Secrets/Configure Vault"
+            "href": "/docs/8/Configure Vault",
+            "docId": "8/Configure Vault"
           },
           {
             "type": "link",
             "label": "Integrate Vault with helm",
-            "href": "/docs/Secrets/Integrate Vault with helm",
-            "docId": "Secrets/Integrate Vault with helm"
+            "href": "/docs/8/Integrate Vault with helm",
+            "docId": "8/Integrate Vault with helm"
           },
           {
             "type": "link",
             "label": "Integrate Vault with Jenkins",
-            "href": "/docs/Secrets/Integrate Vault with Jenkins",
-            "docId": "Secrets/Integrate Vault with Jenkins"
+            "href": "/docs/8/Integrate Vault with Jenkins",
+            "docId": "8/Integrate Vault with Jenkins"
           }
         ],
         "href": "/docs/category/secrets"
@@ -258,8 +258,8 @@
           {
             "type": "link",
             "label": "CommingSoon",
-            "href": "/docs/Disaster Recovery/CommingSoon",
-            "docId": "Disaster Recovery/CommingSoon"
+            "href": "/docs/9/CommingSoon",
+            "docId": "9/CommingSoon"
           }
         ],
         "href": "/docs/category/disaster-recovery"
@@ -273,14 +273,14 @@
           {
             "type": "link",
             "label": "Overview of Capsule",
-            "href": "/docs/Multi-Tenancy/Overview",
-            "docId": "Multi-Tenancy/Overview"
+            "href": "/docs/10/Overview",
+            "docId": "10/Overview"
           },
           {
             "type": "link",
             "label": "Configure & Install Capsule",
-            "href": "/docs/Multi-Tenancy/Configure & Install Capsule",
-            "docId": "Multi-Tenancy/Configure & Install Capsule"
+            "href": "/docs/10/Configure & Install Capsule",
+            "docId": "10/Configure & Install Capsule"
           }
         ],
         "href": "/docs/category/multi-tenancy"
@@ -353,109 +353,199 @@
       },
       {
         "type": "category",
-        "label": "Developer Access",
+        "label": "90",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Access GCP instance",
-            "href": "/docs/Developer Access/Access GCP instance",
-            "docId": "Developer Access/Access GCP instance"
+            "href": "/docs/90/Access GCP instance",
+            "docId": "90/Access GCP instance"
           },
           {
             "type": "link",
             "label": "Access AWX",
-            "href": "/docs/Developer Access/Access AWX",
-            "docId": "Developer Access/Access AWX"
+            "href": "/docs/90/Access AWX",
+            "docId": "90/Access AWX"
           }
         ]
-      },
-      {
-        "type": "link",
-        "label": "This is my video script",
-        "href": "/docs/script/",
-        "docId": "script/script"
       }
     ]
   },
   "docs": {
-    "Application Architecture/Overview": {
-      "id": "Application Architecture/Overview",
-      "title": "CRUD 3-Tier Application",
-      "description": "Overview",
+    "10/Configure & Install Capsule": {
+      "id": "10/Configure & Install Capsule",
+      "title": "Configure & Install Capsule",
+      "description": "Due to the limitation of my gcp university account it's not possible to enable rbac security groups",
       "sidebar": "tutorialSidebar"
     },
-    "Backup/Backup Developer workstation with Veeam": {
-      "id": "Backup/Backup Developer workstation with Veeam",
-      "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
-      "description": "Overview",
+    "10/Overview": {
+      "id": "10/Overview",
+      "title": "Overview of Capsule",
+      "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "Backup/Backup kubernetes namespace with Kasten10 by Veeam": {
-      "id": "Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-      "title": "Backup kubernetes namespace with Kasten10 by Veeam",
-      "description": "This documentation provides a step-by-step guide on how to configure backup policies using the GCP Veeam service. By following these instructions, you can effectively manage and store backups for your namespaces in Google Cloud Platform (GCP). Video tutorials are included to demonstrate the configuration process.",
+    "4/Configuration of Grafana Dashboards": {
+      "id": "4/Configuration of Grafana Dashboards",
+      "title": "Configuration of Grafana Dashboards",
+      "description": "Configuration of Grafana Dashboards",
       "sidebar": "tutorialSidebar"
     },
-    "Backup/Installatation of Kasten10 by Veaam": {
-      "id": "Backup/Installatation of Kasten10 by Veaam",
-      "title": "Installatation of Kasten10 by Veaam",
-      "description": "Step 1: Create a K10 Service Account",
+    "4/ExposeMetrics": {
+      "id": "4/ExposeMetrics",
+      "title": "Exposing Metrics for Developer VMs",
+      "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
       "sidebar": "tutorialSidebar"
     },
-    "Backup/Introduction": {
-      "id": "Backup/Introduction",
-      "title": "Veeam Use Cases",
-      "description": "Veeam is a comprehensive backup and disaster recovery solution that offers various use cases to meet the needs of different organizations. Here are some common use cases where Veeam proves to be valuable:",
+    "4/Installation of Grafana": {
+      "id": "4/Installation of Grafana",
+      "title": "Installation of Grafana",
+      "description": "To deploy Grafana using the Helm Chart, follow these steps:",
       "sidebar": "tutorialSidebar"
     },
-    "Configuration Management/Ansible": {
-      "id": "Configuration Management/Ansible",
+    "4/Installation of Prometheus": {
+      "id": "4/Installation of Prometheus",
+      "title": "Installation of Prometheus",
+      "description": "1. Navigate to the Prometheus chart directory:",
+      "sidebar": "tutorialSidebar"
+    },
+    "4/Overview": {
+      "id": "4/Overview",
+      "title": "Overview",
+      "description": "Monitoring with Prometheus and Grafana",
+      "sidebar": "tutorialSidebar"
+    },
+    "5/Ansible": {
+      "id": "5/Ansible",
       "title": "Running Ansible Playbook with Dynamic Inventory",
       "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
       "sidebar": "tutorialSidebar"
     },
-    "Configuration Management/Configuring AWX": {
-      "id": "Configuration Management/Configuring AWX",
+    "5/Configuring AWX": {
+      "id": "5/Configuring AWX",
       "title": "Configuring AWX",
       "description": "Requirements",
       "sidebar": "tutorialSidebar"
     },
-    "Configuration Management/Installing AWX": {
-      "id": "Configuration Management/Installing AWX",
+    "5/Installing AWX": {
+      "id": "5/Installing AWX",
       "title": "Installing AWX",
       "description": "How to install AWX using kubernetes operator",
       "sidebar": "tutorialSidebar"
     },
-    "Configuration Management/Introduction": {
-      "id": "Configuration Management/Introduction",
+    "5/Introduction": {
+      "id": "5/Introduction",
       "title": "Configuration Management",
       "description": "Introduction",
       "sidebar": "tutorialSidebar"
     },
-    "Configuration Management/Serverspec": {
-      "id": "Configuration Management/Serverspec",
+    "5/Serverspec": {
+      "id": "5/Serverspec",
       "title": "Serverspec",
       "description": "Why Use ServerSpec with Ansible",
       "sidebar": "tutorialSidebar"
     },
-    "Developer Access/Access AWX": {
-      "id": "Developer Access/Access AWX",
+    "6/Installation & Configuration of Keycloak": {
+      "id": "6/Installation & Configuration of Keycloak",
+      "title": "Installation & Configuration of Keycloak",
+      "description": "1. Navigate to the Keycloak Helm Chart directory in your Git repo:",
+      "sidebar": "tutorialSidebar"
+    },
+    "6/Integration with AWX": {
+      "id": "6/Integration with AWX",
+      "title": "How to Integrate Keycloak with AWX",
+      "description": "1. Navigate to setttings on AWX -> Miscellaneous System settings",
+      "sidebar": "tutorialSidebar"
+    },
+    "6/Integration with Grafana": {
+      "id": "6/Integration with Grafana",
+      "title": "Integration with Grafana",
+      "description": "Integrate Keycloak with Grafana",
+      "sidebar": "tutorialSidebar"
+    },
+    "6/Overview": {
+      "id": "6/Overview",
+      "title": "Overview",
+      "description": "Single Sign-On with Keycloak",
+      "sidebar": "tutorialSidebar"
+    },
+    "7/Backup Developer workstation with Veeam": {
+      "id": "7/Backup Developer workstation with Veeam",
+      "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
+      "description": "Overview",
+      "sidebar": "tutorialSidebar"
+    },
+    "7/Backup kubernetes namespace with Kasten10 by Veeam": {
+      "id": "7/Backup kubernetes namespace with Kasten10 by Veeam",
+      "title": "Backup kubernetes namespace with Kasten10 by Veeam",
+      "description": "This documentation provides a step-by-step guide on how to configure backup policies using the GCP Veeam service. By following these instructions, you can effectively manage and store backups for your namespaces in Google Cloud Platform (GCP). Video tutorials are included to demonstrate the configuration process.",
+      "sidebar": "tutorialSidebar"
+    },
+    "7/Installatation of Kasten10 by Veaam": {
+      "id": "7/Installatation of Kasten10 by Veaam",
+      "title": "Installatation of Kasten10 by Veaam",
+      "description": "Step 1: Create a K10 Service Account",
+      "sidebar": "tutorialSidebar"
+    },
+    "7/Introduction": {
+      "id": "7/Introduction",
+      "title": "Veeam Use Cases",
+      "description": "Veeam is a comprehensive backup and disaster recovery solution that offers various use cases to meet the needs of different organizations. Here are some common use cases where Veeam proves to be valuable:",
+      "sidebar": "tutorialSidebar"
+    },
+    "8/CentralizedSecret": {
+      "id": "8/CentralizedSecret",
+      "title": "CentralizedSecret",
+      "description": "Importance of Centralized Credentials Management with Vault by HashiCorp",
+      "sidebar": "tutorialSidebar"
+    },
+    "8/Configure Vault": {
+      "id": "8/Configure Vault",
+      "title": "Configure Vault Cluster",
+      "description": "Step 1: Initialize and unseal one Vault pod",
+      "sidebar": "tutorialSidebar"
+    },
+    "8/Install Vault": {
+      "id": "8/Install Vault",
+      "title": "Install Vault",
+      "description": "Install the Vault Helm chart",
+      "sidebar": "tutorialSidebar"
+    },
+    "8/Integrate Vault with helm": {
+      "id": "8/Integrate Vault with helm",
+      "title": "Integrate Vault with helm",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "8/Integrate Vault with Jenkins": {
+      "id": "8/Integrate Vault with Jenkins",
+      "title": "Integrate Vault with Jenkins",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "9/CommingSoon": {
+      "id": "9/CommingSoon",
+      "title": "CommingSoon",
+      "description": "- Scaling and managing the infrastructure",
+      "sidebar": "tutorialSidebar"
+    },
+    "90/Access AWX": {
+      "id": "90/Access AWX",
       "title": "Access AWX",
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "Developer Access/Access GCP instance": {
-      "id": "Developer Access/Access GCP instance",
+    "90/Access GCP instance": {
+      "id": "90/Access GCP instance",
       "title": "Access GCP instance",
       "description": "Step 1 install ssh plugin in VSCODE",
       "sidebar": "tutorialSidebar"
     },
-    "Disaster Recovery/CommingSoon": {
-      "id": "Disaster Recovery/CommingSoon",
-      "title": "CommingSoon",
-      "description": "- Scaling and managing the infrastructure",
+    "Application Architecture/Overview": {
+      "id": "Application Architecture/Overview",
+      "title": "CRUD 3-Tier Application",
+      "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
     "Dockerizing/docker compose": {
@@ -478,110 +568,8 @@
     },
     "intro": {
       "id": "intro",
-      "title": "Introduction",
-      "description": "-->",
-      "sidebar": "tutorialSidebar"
-    },
-    "Monitoring/Configuration of Grafana Dashboards": {
-      "id": "Monitoring/Configuration of Grafana Dashboards",
-      "title": "Configuration of Grafana Dashboards",
-      "description": "Configuration of Grafana Dashboards",
-      "sidebar": "tutorialSidebar"
-    },
-    "Monitoring/ExposeMetrics": {
-      "id": "Monitoring/ExposeMetrics",
-      "title": "Exposing Metrics for Developer VMs",
-      "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Monitoring/Installation of Grafana": {
-      "id": "Monitoring/Installation of Grafana",
-      "title": "Installation of Grafana",
-      "description": "To deploy Grafana using the Helm Chart, follow these steps:",
-      "sidebar": "tutorialSidebar"
-    },
-    "Monitoring/Installation of Prometheus": {
-      "id": "Monitoring/Installation of Prometheus",
-      "title": "Installation of Prometheus",
-      "description": "1. Navigate to the Prometheus chart directory:",
-      "sidebar": "tutorialSidebar"
-    },
-    "Monitoring/Overview": {
-      "id": "Monitoring/Overview",
-      "title": "Overview",
-      "description": "Monitoring with Prometheus and Grafana",
-      "sidebar": "tutorialSidebar"
-    },
-    "Multi-Tenancy/Configure & Install Capsule": {
-      "id": "Multi-Tenancy/Configure & Install Capsule",
-      "title": "Configure & Install Capsule",
-      "description": "Due to the limitation of my gcp university account it's not possible to enable rbac security groups",
-      "sidebar": "tutorialSidebar"
-    },
-    "Multi-Tenancy/Overview": {
-      "id": "Multi-Tenancy/Overview",
-      "title": "Overview of Capsule",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "script/script": {
-      "id": "script/script",
-      "title": "This is my video script",
-      "description": "end result",
-      "sidebar": "tutorialSidebar"
-    },
-    "Secrets/CentralizedSecret": {
-      "id": "Secrets/CentralizedSecret",
-      "title": "CentralizedSecret",
-      "description": "Importance of Centralized Credentials Management with Vault by HashiCorp",
-      "sidebar": "tutorialSidebar"
-    },
-    "Secrets/Configure Vault": {
-      "id": "Secrets/Configure Vault",
-      "title": "Configure Vault Cluster",
-      "description": "Step 1: Initialize and unseal one Vault pod",
-      "sidebar": "tutorialSidebar"
-    },
-    "Secrets/Install Vault": {
-      "id": "Secrets/Install Vault",
-      "title": "Install Vault",
-      "description": "Install the Vault Helm chart",
-      "sidebar": "tutorialSidebar"
-    },
-    "Secrets/Integrate Vault with helm": {
-      "id": "Secrets/Integrate Vault with helm",
-      "title": "Integrate Vault with helm",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "Secrets/Integrate Vault with Jenkins": {
-      "id": "Secrets/Integrate Vault with Jenkins",
-      "title": "Integrate Vault with Jenkins",
-      "description": "",
-      "sidebar": "tutorialSidebar"
-    },
-    "Single Sign-On with Keycloak/Installation & Configuration of Keycloak": {
-      "id": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-      "title": "Installation & Configuration of Keycloak",
-      "description": "1. Navigate to the Keycloak Helm Chart directory in your Git repo:",
-      "sidebar": "tutorialSidebar"
-    },
-    "Single Sign-On with Keycloak/Integration with AWX": {
-      "id": "Single Sign-On with Keycloak/Integration with AWX",
-      "title": "How to Integrate Keycloak with AWX",
-      "description": "1. Navigate to setttings on AWX -> Miscellaneous System settings",
-      "sidebar": "tutorialSidebar"
-    },
-    "Single Sign-On with Keycloak/Integration with Grafana": {
-      "id": "Single Sign-On with Keycloak/Integration with Grafana",
-      "title": "Integration with Grafana",
-      "description": "Integrate Keycloak with Grafana",
-      "sidebar": "tutorialSidebar"
-    },
-    "Single Sign-On with Keycloak/Overview": {
-      "id": "Single Sign-On with Keycloak/Overview",
-      "title": "Overview",
-      "description": "Single Sign-On with Keycloak",
+      "title": "CRUD 3-Tier Application",
+      "description": "Project Purpose",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Remote Development Environment',
-  tagline: 'A remote development environment for your team',
-  favicon: 'img/logo.png',
+  title: 'Migrate 3-tier application to AZURE',
+  tagline: 'Move to Cloud Properly with AZURE',
+  favicon: 'img/logo.pngx',
 
   // Set the production url of your site here
   url: 'https://rde.netlify.app/',
@@ -20,7 +20,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Chamssiddine', // Usually your GitHub org/user name.
-  projectName: 'Remote Development Environment', // Usually your repo name.
+  projectName: 'Migrate 3-tier application to azure', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -43,14 +43,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Chamssiddine/remote-development-environment',
+            'https://github.com/Chamssiddine/azure-devops-aks',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Chamssiddine/remote-development-environment',
+            'https://github.com/Chamssiddine/azure-devops-aks',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -65,7 +65,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'Remote Dev Env',
+        title: 'Azure DevOps AKS',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
@@ -79,7 +79,7 @@ const config = {
           },
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/Chamssiddine/remote-development-environment',
+            href: 'https://github.com/Chamssiddine/azure-devops-aks',
             label: 'GitHub',
             position: 'right',
           },
@@ -123,12 +123,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/Chamssiddine/remote-development-environment',
+                href: 'https://github.com/Chamssiddine/azure-devops-aks',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Remote Dev Env. Chamssiddine Project .`,
+        copyright: `Copyright © ${new Date().getFullYear()} Azure DevOps AKS. Chamssiddine Project .`,
       },
       prism: {
         theme: lightCodeTheme,

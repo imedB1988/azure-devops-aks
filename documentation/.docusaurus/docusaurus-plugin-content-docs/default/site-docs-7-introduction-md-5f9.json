@@ -1,0 +1,27 @@
+{
+  "unversionedId": "7/Introduction",
+  "id": "7/Introduction",
+  "title": "Veeam Use Cases",
+  "description": "Veeam is a comprehensive backup and disaster recovery solution that offers various use cases to meet the needs of different organizations. Here are some common use cases where Veeam proves to be valuable:",
+  "source": "@site/docs/7/Introduction.md",
+  "sourceDirName": "7",
+  "slug": "/7/Introduction",
+  "permalink": "/docs/7/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/7/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Backup",
+    "permalink": "/docs/category/backup"
+  },
+  "next": {
+    "title": "Installatation of Kasten10 by Veaam",
+    "permalink": "/docs/7/Installatation of Kasten10 by Veaam"
+  }
+}

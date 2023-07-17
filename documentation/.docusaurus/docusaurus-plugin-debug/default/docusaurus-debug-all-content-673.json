@@ -11,8 +11,8 @@
           "className": "docs-version-current",
           "path": "/docs",
           "tagsPath": "/docs/tags",
-          "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs",
-          "editUrlLocalized": "https://github.com/Chamssiddine/remote-development-environment/i18n/en/docusaurus-plugin-content-docs/current",
+          "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs",
+          "editUrlLocalized": "https://github.com/Chamssiddine/azure-devops-aks/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "/Users/chamseddine/Documents/github/azure-devops-aks/documentation/sidebars.js",
@@ -20,97 +20,16 @@
           "contentPathLocalized": "/Users/chamseddine/Documents/github/azure-devops-aks/documentation/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "Application Architecture/Overview",
-              "id": "Application Architecture/Overview",
-              "title": "CRUD 3-Tier Application",
-              "description": "Overview",
-              "source": "@site/docs/Application Architecture/Overview.md",
-              "sourceDirName": "Application Architecture",
-              "slug": "/Application Architecture/Overview",
-              "permalink": "/docs/Application Architecture/Overview",
+              "unversionedId": "10/Configure & Install Capsule",
+              "id": "10/Configure & Install Capsule",
+              "title": "Configure & Install Capsule",
+              "description": "Due to the limitation of my gcp university account it's not possible to enable rbac security groups",
+              "source": "@site/docs/10/Configure & Install Capsule.md",
+              "sourceDirName": "10",
+              "slug": "/10/Configure & Install Capsule",
+              "permalink": "/docs/10/Configure & Install Capsule",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Application Architecture/Overview.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Application Architecture",
-                "permalink": "/docs/category/application-architecture"
-              },
-              "next": {
-                "title": "Dockerizing ",
-                "permalink": "/docs/category/dockerizing-"
-              }
-            },
-            {
-              "unversionedId": "Backup/Backup Developer workstation with Veeam",
-              "id": "Backup/Backup Developer workstation with Veeam",
-              "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
-              "description": "Overview",
-              "source": "@site/docs/Backup/Backup Developer workstation with Veeam.md",
-              "sourceDirName": "Backup",
-              "slug": "/Backup/Backup Developer workstation with Veeam",
-              "permalink": "/docs/Backup/Backup Developer workstation with Veeam",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Backup/Backup Developer workstation with Veeam.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Backup kubernetes namespace with Kasten10 by Veeam",
-                "permalink": "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam"
-              },
-              "next": {
-                "title": "Secrets",
-                "permalink": "/docs/category/secrets"
-              }
-            },
-            {
-              "unversionedId": "Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-              "id": "Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-              "title": "Backup kubernetes namespace with Kasten10 by Veeam",
-              "description": "This documentation provides a step-by-step guide on how to configure backup policies using the GCP Veeam service. By following these instructions, you can effectively manage and store backups for your namespaces in Google Cloud Platform (GCP). Video tutorials are included to demonstrate the configuration process.",
-              "source": "@site/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam.md",
-              "sourceDirName": "Backup",
-              "slug": "/Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-              "permalink": "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Installatation of Kasten10 by Veaam",
-                "permalink": "/docs/Backup/Installatation of Kasten10 by Veaam"
-              },
-              "next": {
-                "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
-                "permalink": "/docs/Backup/Backup Developer workstation with Veeam"
-              }
-            },
-            {
-              "unversionedId": "Backup/Installatation of Kasten10 by Veaam",
-              "id": "Backup/Installatation of Kasten10 by Veaam",
-              "title": "Installatation of Kasten10 by Veaam",
-              "description": "Step 1: Create a K10 Service Account",
-              "source": "@site/docs/Backup/Installatation of Kasten10 by Veaam.md",
-              "sourceDirName": "Backup",
-              "slug": "/Backup/Installatation of Kasten10 by Veaam",
-              "permalink": "/docs/Backup/Installatation of Kasten10 by Veaam",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Backup/Installatation of Kasten10 by Veaam.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/10/Configure & Install Capsule.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -119,25 +38,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Veeam Use Cases",
-                "permalink": "/docs/Backup/Introduction"
+                "title": "Overview of Capsule",
+                "permalink": "/docs/10/Overview"
               },
               "next": {
-                "title": "Backup kubernetes namespace with Kasten10 by Veeam",
-                "permalink": "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam"
+                "title": "Tutorial - Basics",
+                "permalink": "/docs/category/tutorial---basics"
               }
             },
             {
-              "unversionedId": "Backup/Introduction",
-              "id": "Backup/Introduction",
-              "title": "Veeam Use Cases",
-              "description": "Veeam is a comprehensive backup and disaster recovery solution that offers various use cases to meet the needs of different organizations. Here are some common use cases where Veeam proves to be valuable:",
-              "source": "@site/docs/Backup/Introduction.md",
-              "sourceDirName": "Backup",
-              "slug": "/Backup/Introduction",
-              "permalink": "/docs/Backup/Introduction",
+              "unversionedId": "10/Overview",
+              "id": "10/Overview",
+              "title": "Overview of Capsule",
+              "description": "",
+              "source": "@site/docs/10/Overview.md",
+              "sourceDirName": "10",
+              "slug": "/10/Overview",
+              "permalink": "/docs/10/Overview",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Backup/Introduction.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/10/Overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -146,25 +65,160 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Backup",
-                "permalink": "/docs/category/backup"
+                "title": "Multi-Tenancy",
+                "permalink": "/docs/category/multi-tenancy"
               },
               "next": {
-                "title": "Installatation of Kasten10 by Veaam",
-                "permalink": "/docs/Backup/Installatation of Kasten10 by Veaam"
+                "title": "Configure & Install Capsule",
+                "permalink": "/docs/10/Configure & Install Capsule"
               }
             },
             {
-              "unversionedId": "Configuration Management/Ansible",
-              "id": "Configuration Management/Ansible",
+              "unversionedId": "4/Configuration of Grafana Dashboards",
+              "id": "4/Configuration of Grafana Dashboards",
+              "title": "Configuration of Grafana Dashboards",
+              "description": "Configuration of Grafana Dashboards",
+              "source": "@site/docs/4/Configuration of Grafana Dashboards.md",
+              "sourceDirName": "4",
+              "slug": "/4/Configuration of Grafana Dashboards",
+              "permalink": "/docs/4/Configuration of Grafana Dashboards",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Configuration of Grafana Dashboards.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation of Grafana",
+                "permalink": "/docs/4/Installation of Grafana"
+              },
+              "next": {
+                "title": "Configuration Management",
+                "permalink": "/docs/category/configuration-management"
+              }
+            },
+            {
+              "unversionedId": "4/ExposeMetrics",
+              "id": "4/ExposeMetrics",
+              "title": "Exposing Metrics for Developer VMs",
+              "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
+              "source": "@site/docs/4/ExposeMetrics.md",
+              "sourceDirName": "4",
+              "slug": "/4/ExposeMetrics",
+              "permalink": "/docs/4/ExposeMetrics",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/ExposeMetrics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/4/Overview"
+              },
+              "next": {
+                "title": "Installation of Prometheus",
+                "permalink": "/docs/4/Installation of Prometheus"
+              }
+            },
+            {
+              "unversionedId": "4/Installation of Grafana",
+              "id": "4/Installation of Grafana",
+              "title": "Installation of Grafana",
+              "description": "To deploy Grafana using the Helm Chart, follow these steps:",
+              "source": "@site/docs/4/Installation of Grafana.md",
+              "sourceDirName": "4",
+              "slug": "/4/Installation of Grafana",
+              "permalink": "/docs/4/Installation of Grafana",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Installation of Grafana.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation of Prometheus",
+                "permalink": "/docs/4/Installation of Prometheus"
+              },
+              "next": {
+                "title": "Configuration of Grafana Dashboards",
+                "permalink": "/docs/4/Configuration of Grafana Dashboards"
+              }
+            },
+            {
+              "unversionedId": "4/Installation of Prometheus",
+              "id": "4/Installation of Prometheus",
+              "title": "Installation of Prometheus",
+              "description": "1. Navigate to the Prometheus chart directory:",
+              "source": "@site/docs/4/Installation of Prometheus.md",
+              "sourceDirName": "4",
+              "slug": "/4/Installation of Prometheus",
+              "permalink": "/docs/4/Installation of Prometheus",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Installation of Prometheus.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exposing Metrics for Developer VMs",
+                "permalink": "/docs/4/ExposeMetrics"
+              },
+              "next": {
+                "title": "Installation of Grafana",
+                "permalink": "/docs/4/Installation of Grafana"
+              }
+            },
+            {
+              "unversionedId": "4/Overview",
+              "id": "4/Overview",
+              "title": "Overview",
+              "description": "Monitoring with Prometheus and Grafana",
+              "source": "@site/docs/4/Overview.md",
+              "sourceDirName": "4",
+              "slug": "/4/Overview",
+              "permalink": "/docs/4/Overview",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Monitoring",
+                "permalink": "/docs/category/monitoring"
+              },
+              "next": {
+                "title": "Exposing Metrics for Developer VMs",
+                "permalink": "/docs/4/ExposeMetrics"
+              }
+            },
+            {
+              "unversionedId": "5/Ansible",
+              "id": "5/Ansible",
               "title": "Running Ansible Playbook with Dynamic Inventory",
               "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
-              "source": "@site/docs/Configuration Management/Ansible.md",
-              "sourceDirName": "Configuration Management",
-              "slug": "/Configuration Management/Ansible",
-              "permalink": "/docs/Configuration Management/Ansible",
+              "source": "@site/docs/5/Ansible.md",
+              "sourceDirName": "5",
+              "slug": "/5/Ansible",
+              "permalink": "/docs/5/Ansible",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Ansible.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Ansible.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -174,24 +228,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Installing AWX",
-                "permalink": "/docs/Configuration Management/Installing AWX"
+                "permalink": "/docs/5/Installing AWX"
               },
               "next": {
                 "title": "Configuring AWX",
-                "permalink": "/docs/Configuration Management/Configuring AWX"
+                "permalink": "/docs/5/Configuring AWX"
               }
             },
             {
-              "unversionedId": "Configuration Management/Configuring AWX",
-              "id": "Configuration Management/Configuring AWX",
+              "unversionedId": "5/Configuring AWX",
+              "id": "5/Configuring AWX",
               "title": "Configuring AWX",
               "description": "Requirements",
-              "source": "@site/docs/Configuration Management/Configuring AWX.md",
-              "sourceDirName": "Configuration Management",
-              "slug": "/Configuration Management/Configuring AWX",
-              "permalink": "/docs/Configuration Management/Configuring AWX",
+              "source": "@site/docs/5/Configuring AWX.md",
+              "sourceDirName": "5",
+              "slug": "/5/Configuring AWX",
+              "permalink": "/docs/5/Configuring AWX",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Configuring AWX.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Configuring AWX.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -201,24 +255,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Running Ansible Playbook with Dynamic Inventory",
-                "permalink": "/docs/Configuration Management/Ansible"
+                "permalink": "/docs/5/Ansible"
               },
               "next": {
                 "title": "Serverspec",
-                "permalink": "/docs/Configuration Management/Serverspec"
+                "permalink": "/docs/5/Serverspec"
               }
             },
             {
-              "unversionedId": "Configuration Management/Installing AWX",
-              "id": "Configuration Management/Installing AWX",
+              "unversionedId": "5/Installing AWX",
+              "id": "5/Installing AWX",
               "title": "Installing AWX",
               "description": "How to install AWX using kubernetes operator",
-              "source": "@site/docs/Configuration Management/Installing AWX.md",
-              "sourceDirName": "Configuration Management",
-              "slug": "/Configuration Management/Installing AWX",
-              "permalink": "/docs/Configuration Management/Installing AWX",
+              "source": "@site/docs/5/Installing AWX.md",
+              "sourceDirName": "5",
+              "slug": "/5/Installing AWX",
+              "permalink": "/docs/5/Installing AWX",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Installing AWX.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Installing AWX.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -228,24 +282,24 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Configuration Management",
-                "permalink": "/docs/Configuration Management/Introduction"
+                "permalink": "/docs/5/Introduction"
               },
               "next": {
                 "title": "Running Ansible Playbook with Dynamic Inventory",
-                "permalink": "/docs/Configuration Management/Ansible"
+                "permalink": "/docs/5/Ansible"
               }
             },
             {
-              "unversionedId": "Configuration Management/Introduction",
-              "id": "Configuration Management/Introduction",
+              "unversionedId": "5/Introduction",
+              "id": "5/Introduction",
               "title": "Configuration Management",
               "description": "Introduction",
-              "source": "@site/docs/Configuration Management/Introduction.md",
-              "sourceDirName": "Configuration Management",
-              "slug": "/Configuration Management/Introduction",
-              "permalink": "/docs/Configuration Management/Introduction",
+              "source": "@site/docs/5/Introduction.md",
+              "sourceDirName": "5",
+              "slug": "/5/Introduction",
+              "permalink": "/docs/5/Introduction",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Introduction.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Introduction.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -259,20 +313,20 @@
               },
               "next": {
                 "title": "Installing AWX",
-                "permalink": "/docs/Configuration Management/Installing AWX"
+                "permalink": "/docs/5/Installing AWX"
               }
             },
             {
-              "unversionedId": "Configuration Management/Serverspec",
-              "id": "Configuration Management/Serverspec",
+              "unversionedId": "5/Serverspec",
+              "id": "5/Serverspec",
               "title": "Serverspec",
               "description": "Why Use ServerSpec with Ansible",
-              "source": "@site/docs/Configuration Management/Serverspec.md",
-              "sourceDirName": "Configuration Management",
-              "slug": "/Configuration Management/Serverspec",
-              "permalink": "/docs/Configuration Management/Serverspec",
+              "source": "@site/docs/5/Serverspec.md",
+              "sourceDirName": "5",
+              "slug": "/5/Serverspec",
+              "permalink": "/docs/5/Serverspec",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Configuration Management/Serverspec.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Serverspec.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -282,7 +336,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Configuring AWX",
-                "permalink": "/docs/Configuration Management/Configuring AWX"
+                "permalink": "/docs/5/Configuring AWX"
               },
               "next": {
                 "title": "Single Sign-On with Keycloak",
@@ -290,16 +344,16 @@
               }
             },
             {
-              "unversionedId": "Developer Access/Access AWX",
-              "id": "Developer Access/Access AWX",
-              "title": "Access AWX",
-              "description": "",
-              "source": "@site/docs/Developer Access/Access AWX.md",
-              "sourceDirName": "Developer Access",
-              "slug": "/Developer Access/Access AWX",
-              "permalink": "/docs/Developer Access/Access AWX",
+              "unversionedId": "6/Installation & Configuration of Keycloak",
+              "id": "6/Installation & Configuration of Keycloak",
+              "title": "Installation & Configuration of Keycloak",
+              "description": "1. Navigate to the Keycloak Helm Chart directory in your Git repo:",
+              "source": "@site/docs/6/Installation & Configuration of Keycloak.md",
+              "sourceDirName": "6",
+              "slug": "/6/Installation & Configuration of Keycloak",
+              "permalink": "/docs/6/Installation & Configuration of Keycloak",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Developer Access/Access AWX.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/6/Installation & Configuration of Keycloak.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -308,25 +362,79 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Access GCP instance",
-                "permalink": "/docs/Developer Access/Access GCP instance"
+                "title": "Overview",
+                "permalink": "/docs/6/Overview"
               },
               "next": {
-                "title": "This is my video script",
-                "permalink": "/docs/script/"
+                "title": "How to Integrate Keycloak with AWX",
+                "permalink": "/docs/6/Integration with AWX"
               }
             },
             {
-              "unversionedId": "Developer Access/Access GCP instance",
-              "id": "Developer Access/Access GCP instance",
-              "title": "Access GCP instance",
-              "description": "Step 1 install ssh plugin in VSCODE",
-              "source": "@site/docs/Developer Access/Access GCP instance.md",
-              "sourceDirName": "Developer Access",
-              "slug": "/Developer Access/Access GCP instance",
-              "permalink": "/docs/Developer Access/Access GCP instance",
+              "unversionedId": "6/Integration with AWX",
+              "id": "6/Integration with AWX",
+              "title": "How to Integrate Keycloak with AWX",
+              "description": "1. Navigate to setttings on AWX -> Miscellaneous System settings",
+              "source": "@site/docs/6/Integration with AWX.md",
+              "sourceDirName": "6",
+              "slug": "/6/Integration with AWX",
+              "permalink": "/docs/6/Integration with AWX",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Developer Access/Access GCP instance.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/6/Integration with AWX.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation & Configuration of Keycloak",
+                "permalink": "/docs/6/Installation & Configuration of Keycloak"
+              },
+              "next": {
+                "title": "Integration with Grafana",
+                "permalink": "/docs/6/Integration with Grafana"
+              }
+            },
+            {
+              "unversionedId": "6/Integration with Grafana",
+              "id": "6/Integration with Grafana",
+              "title": "Integration with Grafana",
+              "description": "Integrate Keycloak with Grafana",
+              "source": "@site/docs/6/Integration with Grafana.md",
+              "sourceDirName": "6",
+              "slug": "/6/Integration with Grafana",
+              "permalink": "/docs/6/Integration with Grafana",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/6/Integration with Grafana.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "How to Integrate Keycloak with AWX",
+                "permalink": "/docs/6/Integration with AWX"
+              },
+              "next": {
+                "title": "Backup",
+                "permalink": "/docs/category/backup"
+              }
+            },
+            {
+              "unversionedId": "6/Overview",
+              "id": "6/Overview",
+              "title": "Overview",
+              "description": "Single Sign-On with Keycloak",
+              "source": "@site/docs/6/Overview.md",
+              "sourceDirName": "6",
+              "slug": "/6/Overview",
+              "permalink": "/docs/6/Overview",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/6/Overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -335,25 +443,268 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
+                "title": "Single Sign-On with Keycloak",
+                "permalink": "/docs/category/single-sign-on-with-keycloak"
               },
               "next": {
-                "title": "Access AWX",
-                "permalink": "/docs/Developer Access/Access AWX"
+                "title": "Installation & Configuration of Keycloak",
+                "permalink": "/docs/6/Installation & Configuration of Keycloak"
               }
             },
             {
-              "unversionedId": "Disaster Recovery/CommingSoon",
-              "id": "Disaster Recovery/CommingSoon",
+              "unversionedId": "7/Backup Developer workstation with Veeam",
+              "id": "7/Backup Developer workstation with Veeam",
+              "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
+              "description": "Overview",
+              "source": "@site/docs/7/Backup Developer workstation with Veeam.md",
+              "sourceDirName": "7",
+              "slug": "/7/Backup Developer workstation with Veeam",
+              "permalink": "/docs/7/Backup Developer workstation with Veeam",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/7/Backup Developer workstation with Veeam.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Backup kubernetes namespace with Kasten10 by Veeam",
+                "permalink": "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam"
+              },
+              "next": {
+                "title": "Secrets",
+                "permalink": "/docs/category/secrets"
+              }
+            },
+            {
+              "unversionedId": "7/Backup kubernetes namespace with Kasten10 by Veeam",
+              "id": "7/Backup kubernetes namespace with Kasten10 by Veeam",
+              "title": "Backup kubernetes namespace with Kasten10 by Veeam",
+              "description": "This documentation provides a step-by-step guide on how to configure backup policies using the GCP Veeam service. By following these instructions, you can effectively manage and store backups for your namespaces in Google Cloud Platform (GCP). Video tutorials are included to demonstrate the configuration process.",
+              "source": "@site/docs/7/Backup kubernetes namespace with Kasten10 by Veeam.md",
+              "sourceDirName": "7",
+              "slug": "/7/Backup kubernetes namespace with Kasten10 by Veeam",
+              "permalink": "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/7/Backup kubernetes namespace with Kasten10 by Veeam.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installatation of Kasten10 by Veaam",
+                "permalink": "/docs/7/Installatation of Kasten10 by Veaam"
+              },
+              "next": {
+                "title": "Documentation: Configuring Backup Policies with GCP Veeam Service",
+                "permalink": "/docs/7/Backup Developer workstation with Veeam"
+              }
+            },
+            {
+              "unversionedId": "7/Installatation of Kasten10 by Veaam",
+              "id": "7/Installatation of Kasten10 by Veaam",
+              "title": "Installatation of Kasten10 by Veaam",
+              "description": "Step 1: Create a K10 Service Account",
+              "source": "@site/docs/7/Installatation of Kasten10 by Veaam.md",
+              "sourceDirName": "7",
+              "slug": "/7/Installatation of Kasten10 by Veaam",
+              "permalink": "/docs/7/Installatation of Kasten10 by Veaam",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/7/Installatation of Kasten10 by Veaam.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Veeam Use Cases",
+                "permalink": "/docs/7/Introduction"
+              },
+              "next": {
+                "title": "Backup kubernetes namespace with Kasten10 by Veeam",
+                "permalink": "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam"
+              }
+            },
+            {
+              "unversionedId": "7/Introduction",
+              "id": "7/Introduction",
+              "title": "Veeam Use Cases",
+              "description": "Veeam is a comprehensive backup and disaster recovery solution that offers various use cases to meet the needs of different organizations. Here are some common use cases where Veeam proves to be valuable:",
+              "source": "@site/docs/7/Introduction.md",
+              "sourceDirName": "7",
+              "slug": "/7/Introduction",
+              "permalink": "/docs/7/Introduction",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/7/Introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Backup",
+                "permalink": "/docs/category/backup"
+              },
+              "next": {
+                "title": "Installatation of Kasten10 by Veaam",
+                "permalink": "/docs/7/Installatation of Kasten10 by Veaam"
+              }
+            },
+            {
+              "unversionedId": "8/CentralizedSecret",
+              "id": "8/CentralizedSecret",
+              "title": "CentralizedSecret",
+              "description": "Importance of Centralized Credentials Management with Vault by HashiCorp",
+              "source": "@site/docs/8/CentralizedSecret.md",
+              "sourceDirName": "8",
+              "slug": "/8/CentralizedSecret",
+              "permalink": "/docs/8/CentralizedSecret",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/CentralizedSecret.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Secrets",
+                "permalink": "/docs/category/secrets"
+              },
+              "next": {
+                "title": "Install Vault",
+                "permalink": "/docs/8/Install Vault"
+              }
+            },
+            {
+              "unversionedId": "8/Configure Vault",
+              "id": "8/Configure Vault",
+              "title": "Configure Vault Cluster",
+              "description": "Step 1: Initialize and unseal one Vault pod",
+              "source": "@site/docs/8/Configure Vault.md",
+              "sourceDirName": "8",
+              "slug": "/8/Configure Vault",
+              "permalink": "/docs/8/Configure Vault",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/Configure Vault.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Install Vault",
+                "permalink": "/docs/8/Install Vault"
+              },
+              "next": {
+                "title": "Integrate Vault with helm",
+                "permalink": "/docs/8/Integrate Vault with helm"
+              }
+            },
+            {
+              "unversionedId": "8/Install Vault",
+              "id": "8/Install Vault",
+              "title": "Install Vault",
+              "description": "Install the Vault Helm chart",
+              "source": "@site/docs/8/Install Vault.md",
+              "sourceDirName": "8",
+              "slug": "/8/Install Vault",
+              "permalink": "/docs/8/Install Vault",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/Install Vault.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "CentralizedSecret",
+                "permalink": "/docs/8/CentralizedSecret"
+              },
+              "next": {
+                "title": "Configure Vault Cluster",
+                "permalink": "/docs/8/Configure Vault"
+              }
+            },
+            {
+              "unversionedId": "8/Integrate Vault with helm",
+              "id": "8/Integrate Vault with helm",
+              "title": "Integrate Vault with helm",
+              "description": "",
+              "source": "@site/docs/8/Integrate Vault with helm.md",
+              "sourceDirName": "8",
+              "slug": "/8/Integrate Vault with helm",
+              "permalink": "/docs/8/Integrate Vault with helm",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/Integrate Vault with helm.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configure Vault Cluster",
+                "permalink": "/docs/8/Configure Vault"
+              },
+              "next": {
+                "title": "Integrate Vault with Jenkins",
+                "permalink": "/docs/8/Integrate Vault with Jenkins"
+              }
+            },
+            {
+              "unversionedId": "8/Integrate Vault with Jenkins",
+              "id": "8/Integrate Vault with Jenkins",
+              "title": "Integrate Vault with Jenkins",
+              "description": "",
+              "source": "@site/docs/8/Integrate Vault with Jenkins.md",
+              "sourceDirName": "8",
+              "slug": "/8/Integrate Vault with Jenkins",
+              "permalink": "/docs/8/Integrate Vault with Jenkins",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/Integrate Vault with Jenkins.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Integrate Vault with helm",
+                "permalink": "/docs/8/Integrate Vault with helm"
+              },
+              "next": {
+                "title": "Disaster Recovery",
+                "permalink": "/docs/category/disaster-recovery"
+              }
+            },
+            {
+              "unversionedId": "9/CommingSoon",
+              "id": "9/CommingSoon",
               "title": "CommingSoon",
               "description": "- Scaling and managing the infrastructure",
-              "source": "@site/docs/Disaster Recovery/CommingSoon.md",
-              "sourceDirName": "Disaster Recovery",
-              "slug": "/Disaster Recovery/CommingSoon",
-              "permalink": "/docs/Disaster Recovery/CommingSoon",
+              "source": "@site/docs/9/CommingSoon.md",
+              "sourceDirName": "9",
+              "slug": "/9/CommingSoon",
+              "permalink": "/docs/9/CommingSoon",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Disaster Recovery/CommingSoon.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/9/CommingSoon.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -371,6 +722,83 @@
               }
             },
             {
+              "unversionedId": "90/Access AWX",
+              "id": "90/Access AWX",
+              "title": "Access AWX",
+              "description": "",
+              "source": "@site/docs/90/Access AWX.md",
+              "sourceDirName": "90",
+              "slug": "/90/Access AWX",
+              "permalink": "/docs/90/Access AWX",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/90/Access AWX.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Access GCP instance",
+                "permalink": "/docs/90/Access GCP instance"
+              }
+            },
+            {
+              "unversionedId": "90/Access GCP instance",
+              "id": "90/Access GCP instance",
+              "title": "Access GCP instance",
+              "description": "Step 1 install ssh plugin in VSCODE",
+              "source": "@site/docs/90/Access GCP instance.md",
+              "sourceDirName": "90",
+              "slug": "/90/Access GCP instance",
+              "permalink": "/docs/90/Access GCP instance",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/90/Access GCP instance.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Translate your site",
+                "permalink": "/docs/tutorial-extras/translate-your-site"
+              },
+              "next": {
+                "title": "Access AWX",
+                "permalink": "/docs/90/Access AWX"
+              }
+            },
+            {
+              "unversionedId": "Application Architecture/Overview",
+              "id": "Application Architecture/Overview",
+              "title": "CRUD 3-Tier Application",
+              "description": "Overview",
+              "source": "@site/docs/Application Architecture/Overview.md",
+              "sourceDirName": "Application Architecture",
+              "slug": "/Application Architecture/Overview",
+              "permalink": "/docs/Application Architecture/Overview",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Application Architecture/Overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Application Architecture",
+                "permalink": "/docs/category/application-architecture"
+              },
+              "next": {
+                "title": "Dockerizing ",
+                "permalink": "/docs/category/dockerizing-"
+              }
+            },
+            {
               "unversionedId": "Dockerizing/docker compose",
               "id": "Dockerizing/docker compose",
               "title": "Docker Compose Configuration",
@@ -380,7 +808,7 @@
               "slug": "/Dockerizing/docker compose",
               "permalink": "/docs/Dockerizing/docker compose",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Dockerizing/docker compose.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Dockerizing/docker compose.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -407,7 +835,7 @@
               "slug": "/Dockerizing/dockerizing the 3-tier app",
               "permalink": "/docs/Dockerizing/dockerizing the 3-tier app",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Dockerizing/dockerizing the 3-tier app.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Dockerizing/dockerizing the 3-tier app.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -434,7 +862,7 @@
               "slug": "/Getting Started/Requirements",
               "permalink": "/docs/Getting Started/Requirements",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Getting Started/Requirements.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Getting Started/Requirements.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -454,14 +882,14 @@
             {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Introduction",
-              "description": "-->",
+              "title": "CRUD 3-Tier Application",
+              "description": "Project Purpose",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
               "permalink": "/docs/intro",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/intro.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/intro.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 0,
@@ -475,458 +903,6 @@
               }
             },
             {
-              "unversionedId": "Monitoring/Configuration of Grafana Dashboards",
-              "id": "Monitoring/Configuration of Grafana Dashboards",
-              "title": "Configuration of Grafana Dashboards",
-              "description": "Configuration of Grafana Dashboards",
-              "source": "@site/docs/Monitoring/Configuration of Grafana Dashboards.md",
-              "sourceDirName": "Monitoring",
-              "slug": "/Monitoring/Configuration of Grafana Dashboards",
-              "permalink": "/docs/Monitoring/Configuration of Grafana Dashboards",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/Configuration of Grafana Dashboards.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Installation of Grafana",
-                "permalink": "/docs/Monitoring/Installation of Grafana"
-              },
-              "next": {
-                "title": "Configuration Management",
-                "permalink": "/docs/category/configuration-management"
-              }
-            },
-            {
-              "unversionedId": "Monitoring/ExposeMetrics",
-              "id": "Monitoring/ExposeMetrics",
-              "title": "Exposing Metrics for Developer VMs",
-              "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
-              "source": "@site/docs/Monitoring/ExposeMetrics.md",
-              "sourceDirName": "Monitoring",
-              "slug": "/Monitoring/ExposeMetrics",
-              "permalink": "/docs/Monitoring/ExposeMetrics",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/ExposeMetrics.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/docs/Monitoring/Overview"
-              },
-              "next": {
-                "title": "Installation of Prometheus",
-                "permalink": "/docs/Monitoring/Installation of Prometheus"
-              }
-            },
-            {
-              "unversionedId": "Monitoring/Installation of Grafana",
-              "id": "Monitoring/Installation of Grafana",
-              "title": "Installation of Grafana",
-              "description": "To deploy Grafana using the Helm Chart, follow these steps:",
-              "source": "@site/docs/Monitoring/Installation of Grafana.md",
-              "sourceDirName": "Monitoring",
-              "slug": "/Monitoring/Installation of Grafana",
-              "permalink": "/docs/Monitoring/Installation of Grafana",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/Installation of Grafana.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Installation of Prometheus",
-                "permalink": "/docs/Monitoring/Installation of Prometheus"
-              },
-              "next": {
-                "title": "Configuration of Grafana Dashboards",
-                "permalink": "/docs/Monitoring/Configuration of Grafana Dashboards"
-              }
-            },
-            {
-              "unversionedId": "Monitoring/Installation of Prometheus",
-              "id": "Monitoring/Installation of Prometheus",
-              "title": "Installation of Prometheus",
-              "description": "1. Navigate to the Prometheus chart directory:",
-              "source": "@site/docs/Monitoring/Installation of Prometheus.md",
-              "sourceDirName": "Monitoring",
-              "slug": "/Monitoring/Installation of Prometheus",
-              "permalink": "/docs/Monitoring/Installation of Prometheus",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/Installation of Prometheus.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Exposing Metrics for Developer VMs",
-                "permalink": "/docs/Monitoring/ExposeMetrics"
-              },
-              "next": {
-                "title": "Installation of Grafana",
-                "permalink": "/docs/Monitoring/Installation of Grafana"
-              }
-            },
-            {
-              "unversionedId": "Monitoring/Overview",
-              "id": "Monitoring/Overview",
-              "title": "Overview",
-              "description": "Monitoring with Prometheus and Grafana",
-              "source": "@site/docs/Monitoring/Overview.md",
-              "sourceDirName": "Monitoring",
-              "slug": "/Monitoring/Overview",
-              "permalink": "/docs/Monitoring/Overview",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Monitoring/Overview.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Monitoring",
-                "permalink": "/docs/category/monitoring"
-              },
-              "next": {
-                "title": "Exposing Metrics for Developer VMs",
-                "permalink": "/docs/Monitoring/ExposeMetrics"
-              }
-            },
-            {
-              "unversionedId": "Multi-Tenancy/Configure & Install Capsule",
-              "id": "Multi-Tenancy/Configure & Install Capsule",
-              "title": "Configure & Install Capsule",
-              "description": "Due to the limitation of my gcp university account it's not possible to enable rbac security groups",
-              "source": "@site/docs/Multi-Tenancy/Configure & Install Capsule.md",
-              "sourceDirName": "Multi-Tenancy",
-              "slug": "/Multi-Tenancy/Configure & Install Capsule",
-              "permalink": "/docs/Multi-Tenancy/Configure & Install Capsule",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Multi-Tenancy/Configure & Install Capsule.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Overview of Capsule",
-                "permalink": "/docs/Multi-Tenancy/Overview"
-              },
-              "next": {
-                "title": "Tutorial - Basics",
-                "permalink": "/docs/category/tutorial---basics"
-              }
-            },
-            {
-              "unversionedId": "Multi-Tenancy/Overview",
-              "id": "Multi-Tenancy/Overview",
-              "title": "Overview of Capsule",
-              "description": "",
-              "source": "@site/docs/Multi-Tenancy/Overview.md",
-              "sourceDirName": "Multi-Tenancy",
-              "slug": "/Multi-Tenancy/Overview",
-              "permalink": "/docs/Multi-Tenancy/Overview",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Multi-Tenancy/Overview.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Multi-Tenancy",
-                "permalink": "/docs/category/multi-tenancy"
-              },
-              "next": {
-                "title": "Configure & Install Capsule",
-                "permalink": "/docs/Multi-Tenancy/Configure & Install Capsule"
-              }
-            },
-            {
-              "unversionedId": "script/script",
-              "id": "script/script",
-              "title": "This is my video script",
-              "description": "end result",
-              "source": "@site/docs/script/script.md",
-              "sourceDirName": "script",
-              "slug": "/script/",
-              "permalink": "/docs/script/",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/script/script.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Access AWX",
-                "permalink": "/docs/Developer Access/Access AWX"
-              }
-            },
-            {
-              "unversionedId": "Secrets/CentralizedSecret",
-              "id": "Secrets/CentralizedSecret",
-              "title": "CentralizedSecret",
-              "description": "Importance of Centralized Credentials Management with Vault by HashiCorp",
-              "source": "@site/docs/Secrets/CentralizedSecret.md",
-              "sourceDirName": "Secrets",
-              "slug": "/Secrets/CentralizedSecret",
-              "permalink": "/docs/Secrets/CentralizedSecret",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Secrets/CentralizedSecret.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Secrets",
-                "permalink": "/docs/category/secrets"
-              },
-              "next": {
-                "title": "Install Vault",
-                "permalink": "/docs/Secrets/Install Vault"
-              }
-            },
-            {
-              "unversionedId": "Secrets/Configure Vault",
-              "id": "Secrets/Configure Vault",
-              "title": "Configure Vault Cluster",
-              "description": "Step 1: Initialize and unseal one Vault pod",
-              "source": "@site/docs/Secrets/Configure Vault.md",
-              "sourceDirName": "Secrets",
-              "slug": "/Secrets/Configure Vault",
-              "permalink": "/docs/Secrets/Configure Vault",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Secrets/Configure Vault.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Install Vault",
-                "permalink": "/docs/Secrets/Install Vault"
-              },
-              "next": {
-                "title": "Integrate Vault with helm",
-                "permalink": "/docs/Secrets/Integrate Vault with helm"
-              }
-            },
-            {
-              "unversionedId": "Secrets/Install Vault",
-              "id": "Secrets/Install Vault",
-              "title": "Install Vault",
-              "description": "Install the Vault Helm chart",
-              "source": "@site/docs/Secrets/Install Vault.md",
-              "sourceDirName": "Secrets",
-              "slug": "/Secrets/Install Vault",
-              "permalink": "/docs/Secrets/Install Vault",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Secrets/Install Vault.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "CentralizedSecret",
-                "permalink": "/docs/Secrets/CentralizedSecret"
-              },
-              "next": {
-                "title": "Configure Vault Cluster",
-                "permalink": "/docs/Secrets/Configure Vault"
-              }
-            },
-            {
-              "unversionedId": "Secrets/Integrate Vault with helm",
-              "id": "Secrets/Integrate Vault with helm",
-              "title": "Integrate Vault with helm",
-              "description": "",
-              "source": "@site/docs/Secrets/Integrate Vault with helm.md",
-              "sourceDirName": "Secrets",
-              "slug": "/Secrets/Integrate Vault with helm",
-              "permalink": "/docs/Secrets/Integrate Vault with helm",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Secrets/Integrate Vault with helm.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Configure Vault Cluster",
-                "permalink": "/docs/Secrets/Configure Vault"
-              },
-              "next": {
-                "title": "Integrate Vault with Jenkins",
-                "permalink": "/docs/Secrets/Integrate Vault with Jenkins"
-              }
-            },
-            {
-              "unversionedId": "Secrets/Integrate Vault with Jenkins",
-              "id": "Secrets/Integrate Vault with Jenkins",
-              "title": "Integrate Vault with Jenkins",
-              "description": "",
-              "source": "@site/docs/Secrets/Integrate Vault with Jenkins.md",
-              "sourceDirName": "Secrets",
-              "slug": "/Secrets/Integrate Vault with Jenkins",
-              "permalink": "/docs/Secrets/Integrate Vault with Jenkins",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Secrets/Integrate Vault with Jenkins.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Integrate Vault with helm",
-                "permalink": "/docs/Secrets/Integrate Vault with helm"
-              },
-              "next": {
-                "title": "Disaster Recovery",
-                "permalink": "/docs/category/disaster-recovery"
-              }
-            },
-            {
-              "unversionedId": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-              "id": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-              "title": "Installation & Configuration of Keycloak",
-              "description": "1. Navigate to the Keycloak Helm Chart directory in your Git repo:",
-              "source": "@site/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak.md",
-              "sourceDirName": "Single Sign-On with Keycloak",
-              "slug": "/Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-              "permalink": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/docs/Single Sign-On with Keycloak/Overview"
-              },
-              "next": {
-                "title": "How to Integrate Keycloak with AWX",
-                "permalink": "/docs/Single Sign-On with Keycloak/Integration with AWX"
-              }
-            },
-            {
-              "unversionedId": "Single Sign-On with Keycloak/Integration with AWX",
-              "id": "Single Sign-On with Keycloak/Integration with AWX",
-              "title": "How to Integrate Keycloak with AWX",
-              "description": "1. Navigate to setttings on AWX -> Miscellaneous System settings",
-              "source": "@site/docs/Single Sign-On with Keycloak/Integration with AWX.md",
-              "sourceDirName": "Single Sign-On with Keycloak",
-              "slug": "/Single Sign-On with Keycloak/Integration with AWX",
-              "permalink": "/docs/Single Sign-On with Keycloak/Integration with AWX",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Single Sign-On with Keycloak/Integration with AWX.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Installation & Configuration of Keycloak",
-                "permalink": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak"
-              },
-              "next": {
-                "title": "Integration with Grafana",
-                "permalink": "/docs/Single Sign-On with Keycloak/Integration with Grafana"
-              }
-            },
-            {
-              "unversionedId": "Single Sign-On with Keycloak/Integration with Grafana",
-              "id": "Single Sign-On with Keycloak/Integration with Grafana",
-              "title": "Integration with Grafana",
-              "description": "Integrate Keycloak with Grafana",
-              "source": "@site/docs/Single Sign-On with Keycloak/Integration with Grafana.md",
-              "sourceDirName": "Single Sign-On with Keycloak",
-              "slug": "/Single Sign-On with Keycloak/Integration with Grafana",
-              "permalink": "/docs/Single Sign-On with Keycloak/Integration with Grafana",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Single Sign-On with Keycloak/Integration with Grafana.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "How to Integrate Keycloak with AWX",
-                "permalink": "/docs/Single Sign-On with Keycloak/Integration with AWX"
-              },
-              "next": {
-                "title": "Backup",
-                "permalink": "/docs/category/backup"
-              }
-            },
-            {
-              "unversionedId": "Single Sign-On with Keycloak/Overview",
-              "id": "Single Sign-On with Keycloak/Overview",
-              "title": "Overview",
-              "description": "Single Sign-On with Keycloak",
-              "source": "@site/docs/Single Sign-On with Keycloak/Overview.md",
-              "sourceDirName": "Single Sign-On with Keycloak",
-              "slug": "/Single Sign-On with Keycloak/Overview",
-              "permalink": "/docs/Single Sign-On with Keycloak/Overview",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/Single Sign-On with Keycloak/Overview.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Single Sign-On with Keycloak",
-                "permalink": "/docs/category/single-sign-on-with-keycloak"
-              },
-              "next": {
-                "title": "Installation & Configuration of Keycloak",
-                "permalink": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak"
-              }
-            },
-            {
               "unversionedId": "tutorial-basics/congratulations",
               "id": "tutorial-basics/congratulations",
               "title": "Congratulations!",
@@ -936,7 +912,7 @@
               "slug": "/tutorial-basics/congratulations",
               "permalink": "/docs/tutorial-basics/congratulations",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-basics/congratulations.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-basics/congratulations.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -963,7 +939,7 @@
               "slug": "/tutorial-basics/create-a-blog-post",
               "permalink": "/docs/tutorial-basics/create-a-blog-post",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-basics/create-a-blog-post.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-basics/create-a-blog-post.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -990,7 +966,7 @@
               "slug": "/tutorial-basics/create-a-document",
               "permalink": "/docs/tutorial-basics/create-a-document",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-basics/create-a-document.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-basics/create-a-document.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -1017,7 +993,7 @@
               "slug": "/tutorial-basics/create-a-page",
               "permalink": "/docs/tutorial-basics/create-a-page",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-basics/create-a-page.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-basics/create-a-page.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1044,7 +1020,7 @@
               "slug": "/tutorial-basics/deploy-your-site",
               "permalink": "/docs/tutorial-basics/deploy-your-site",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-basics/deploy-your-site.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-basics/deploy-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -1071,7 +1047,7 @@
               "slug": "/tutorial-basics/markdown-features",
               "permalink": "/docs/tutorial-basics/markdown-features",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-basics/markdown-features.mdx",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-basics/markdown-features.mdx",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -1098,7 +1074,7 @@
               "slug": "/tutorial-extras/manage-docs-versions",
               "permalink": "/docs/tutorial-extras/manage-docs-versions",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-extras/manage-docs-versions.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-extras/manage-docs-versions.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1125,7 +1101,7 @@
               "slug": "/tutorial-extras/translate-your-site",
               "permalink": "/docs/tutorial-extras/translate-your-site",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-extras/translate-your-site.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-extras/translate-your-site.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -1139,7 +1115,7 @@
               },
               "next": {
                 "title": "Access GCP instance",
-                "permalink": "/docs/Developer Access/Access GCP instance"
+                "permalink": "/docs/90/Access GCP instance"
               }
             }
           ],
@@ -1216,23 +1192,23 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Monitoring/Overview"
+                    "id": "4/Overview"
                   },
                   {
                     "type": "doc",
-                    "id": "Monitoring/ExposeMetrics"
+                    "id": "4/ExposeMetrics"
                   },
                   {
                     "type": "doc",
-                    "id": "Monitoring/Installation of Prometheus"
+                    "id": "4/Installation of Prometheus"
                   },
                   {
                     "type": "doc",
-                    "id": "Monitoring/Installation of Grafana"
+                    "id": "4/Installation of Grafana"
                   },
                   {
                     "type": "doc",
-                    "id": "Monitoring/Configuration of Grafana Dashboards"
+                    "id": "4/Configuration of Grafana Dashboards"
                   }
                 ],
                 "link": {
@@ -1250,23 +1226,23 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Configuration Management/Introduction"
+                    "id": "5/Introduction"
                   },
                   {
                     "type": "doc",
-                    "id": "Configuration Management/Installing AWX"
+                    "id": "5/Installing AWX"
                   },
                   {
                     "type": "doc",
-                    "id": "Configuration Management/Ansible"
+                    "id": "5/Ansible"
                   },
                   {
                     "type": "doc",
-                    "id": "Configuration Management/Configuring AWX"
+                    "id": "5/Configuring AWX"
                   },
                   {
                     "type": "doc",
-                    "id": "Configuration Management/Serverspec"
+                    "id": "5/Serverspec"
                   }
                 ],
                 "link": {
@@ -1284,19 +1260,19 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Single Sign-On with Keycloak/Overview"
+                    "id": "6/Overview"
                   },
                   {
                     "type": "doc",
-                    "id": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak"
+                    "id": "6/Installation & Configuration of Keycloak"
                   },
                   {
                     "type": "doc",
-                    "id": "Single Sign-On with Keycloak/Integration with AWX"
+                    "id": "6/Integration with AWX"
                   },
                   {
                     "type": "doc",
-                    "id": "Single Sign-On with Keycloak/Integration with Grafana"
+                    "id": "6/Integration with Grafana"
                   }
                 ],
                 "link": {
@@ -1314,19 +1290,19 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Backup/Introduction"
+                    "id": "7/Introduction"
                   },
                   {
                     "type": "doc",
-                    "id": "Backup/Installatation of Kasten10 by Veaam"
+                    "id": "7/Installatation of Kasten10 by Veaam"
                   },
                   {
                     "type": "doc",
-                    "id": "Backup/Backup kubernetes namespace with Kasten10 by Veeam"
+                    "id": "7/Backup kubernetes namespace with Kasten10 by Veeam"
                   },
                   {
                     "type": "doc",
-                    "id": "Backup/Backup Developer workstation with Veeam"
+                    "id": "7/Backup Developer workstation with Veeam"
                   }
                 ],
                 "link": {
@@ -1344,23 +1320,23 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Secrets/CentralizedSecret"
+                    "id": "8/CentralizedSecret"
                   },
                   {
                     "type": "doc",
-                    "id": "Secrets/Install Vault"
+                    "id": "8/Install Vault"
                   },
                   {
                     "type": "doc",
-                    "id": "Secrets/Configure Vault"
+                    "id": "8/Configure Vault"
                   },
                   {
                     "type": "doc",
-                    "id": "Secrets/Integrate Vault with helm"
+                    "id": "8/Integrate Vault with helm"
                   },
                   {
                     "type": "doc",
-                    "id": "Secrets/Integrate Vault with Jenkins"
+                    "id": "8/Integrate Vault with Jenkins"
                   }
                 ],
                 "link": {
@@ -1378,7 +1354,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Disaster Recovery/CommingSoon"
+                    "id": "9/CommingSoon"
                   }
                 ],
                 "link": {
@@ -1396,11 +1372,11 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Multi-Tenancy/Overview"
+                    "id": "10/Overview"
                   },
                   {
                     "type": "doc",
-                    "id": "Multi-Tenancy/Configure & Install Capsule"
+                    "id": "10/Configure & Install Capsule"
                   }
                 ],
                 "link": {
@@ -1471,24 +1447,19 @@
               },
               {
                 "type": "category",
-                "label": "Developer Access",
+                "label": "90",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Developer Access/Access GCP instance"
+                    "id": "90/Access GCP instance"
                   },
                   {
                     "type": "doc",
-                    "id": "Developer Access/Access AWX"
+                    "id": "90/Access AWX"
                   }
                 ]
-              },
-              {
-                "type": "doc",
-                "label": "This is my video script",
-                "id": "script/script"
               }
             ]
           }
@@ -1504,7 +1475,7 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/Chamssiddine/remote-development-environment/blog/2021-08-26-welcome/index.md",
+            "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -1566,7 +1537,7 @@
           "id": "mdx-blog-post",
           "metadata": {
             "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/Chamssiddine/remote-development-environment/blog/2021-08-01-mdx-blog-post.mdx",
+            "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -1614,7 +1585,7 @@
           "id": "long-blog-post",
           "metadata": {
             "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/Chamssiddine/remote-development-environment/blog/2019-05-29-long-blog-post.md",
+            "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
@@ -1665,7 +1636,7 @@
           "id": "first-blog-post",
           "metadata": {
             "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/Chamssiddine/remote-development-environment/blog/2019-05-28-first-blog-post.md",
+            "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",

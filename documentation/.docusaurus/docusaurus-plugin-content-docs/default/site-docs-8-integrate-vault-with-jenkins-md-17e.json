@@ -1,0 +1,27 @@
+{
+  "unversionedId": "8/Integrate Vault with Jenkins",
+  "id": "8/Integrate Vault with Jenkins",
+  "title": "Integrate Vault with Jenkins",
+  "description": "",
+  "source": "@site/docs/8/Integrate Vault with Jenkins.md",
+  "sourceDirName": "8",
+  "slug": "/8/Integrate Vault with Jenkins",
+  "permalink": "/docs/8/Integrate Vault with Jenkins",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/Integrate Vault with Jenkins.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integrate Vault with helm",
+    "permalink": "/docs/8/Integrate Vault with helm"
+  },
+  "next": {
+    "title": "Disaster Recovery",
+    "permalink": "/docs/category/disaster-recovery"
+  }
+}

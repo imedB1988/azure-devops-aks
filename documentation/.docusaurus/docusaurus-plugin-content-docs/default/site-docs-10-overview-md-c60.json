@@ -1,0 +1,27 @@
+{
+  "unversionedId": "10/Overview",
+  "id": "10/Overview",
+  "title": "Overview of Capsule",
+  "description": "",
+  "source": "@site/docs/10/Overview.md",
+  "sourceDirName": "10",
+  "slug": "/10/Overview",
+  "permalink": "/docs/10/Overview",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/10/Overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Multi-Tenancy",
+    "permalink": "/docs/category/multi-tenancy"
+  },
+  "next": {
+    "title": "Configure & Install Capsule",
+    "permalink": "/docs/10/Configure & Install Capsule"
+  }
+}

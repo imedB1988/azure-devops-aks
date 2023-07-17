@@ -4,13 +4,13 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "Remote Development Environment",
-  "tagline": "A remote development environment for your team",
-  "favicon": "img/logo.png",
+  "title": "Migrate 3-tier application to AZURE",
+  "tagline": "Move to Cloud Properly with AZURE",
+  "favicon": "img/logo.pngx",
   "url": "https://rde.netlify.app",
   "baseUrl": "/",
   "organizationName": "Chamssiddine",
-  "projectName": "Remote Development Environment",
+  "projectName": "Migrate 3-tier application to azure",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
@@ -27,11 +27,11 @@ export default {
       {
         "docs": {
           "sidebarPath": "/Users/chamseddine/Documents/github/azure-devops-aks/documentation/sidebars.js",
-          "editUrl": "https://github.com/Chamssiddine/remote-development-environment"
+          "editUrl": "https://github.com/Chamssiddine/azure-devops-aks"
         },
         "blog": {
           "showReadingTime": true,
-          "editUrl": "https://github.com/Chamssiddine/remote-development-environment"
+          "editUrl": "https://github.com/Chamssiddine/azure-devops-aks"
         },
         "theme": {
           "customCss": "/Users/chamseddine/Documents/github/azure-devops-aks/documentation/src/css/custom.css"
@@ -42,7 +42,7 @@ export default {
   "themeConfig": {
     "image": "img/docusaurus-social-card.jpg",
     "navbar": {
-      "title": "Remote Dev Env",
+      "title": "Azure DevOps AKS",
       "logo": {
         "alt": "My Site Logo",
         "src": "img/logo.png"
@@ -55,7 +55,7 @@ export default {
           "label": "Documentation"
         },
         {
-          "href": "https://github.com/Chamssiddine/remote-development-environment",
+          "href": "https://github.com/Chamssiddine/azure-devops-aks",
           "label": "GitHub",
           "position": "right"
         }
@@ -83,12 +83,12 @@ export default {
             },
             {
               "label": "GitHub",
-              "href": "https://github.com/Chamssiddine/remote-development-environment"
+              "href": "https://github.com/Chamssiddine/azure-devops-aks"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2023 Remote Dev Env. Chamssiddine Project ."
+      "copyright": "Copyright © 2023 Azure DevOps AKS. Chamssiddine Project ."
     },
     "prism": {
       "theme": {

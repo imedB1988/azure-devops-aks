@@ -8,7 +8,7 @@
   "slug": "/tutorial-extras/translate-your-site",
   "permalink": "/docs/tutorial-extras/translate-your-site",
   "draft": false,
-  "editUrl": "https://github.com/Chamssiddine/remote-development-environment/docs/tutorial-extras/translate-your-site.md",
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/tutorial-extras/translate-your-site.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -22,6 +22,6 @@
   },
   "next": {
     "title": "Access GCP instance",
-    "permalink": "/docs/Developer Access/Access GCP instance"
+    "permalink": "/docs/90/Access GCP instance"
   }
 }

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "7/Installatation of Kasten10 by Veaam",
+  "id": "7/Installatation of Kasten10 by Veaam",
+  "title": "Installatation of Kasten10 by Veaam",
+  "description": "Step 1: Create a K10 Service Account",
+  "source": "@site/docs/7/Installatation of Kasten10 by Veaam.md",
+  "sourceDirName": "7",
+  "slug": "/7/Installatation of Kasten10 by Veaam",
+  "permalink": "/docs/7/Installatation of Kasten10 by Veaam",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/7/Installatation of Kasten10 by Veaam.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Veeam Use Cases",
+    "permalink": "/docs/7/Introduction"
+  },
+  "next": {
+    "title": "Backup kubernetes namespace with Kasten10 by Veeam",
+    "permalink": "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam"
+  }
+}

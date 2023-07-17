@@ -1,0 +1,27 @@
+{
+  "unversionedId": "4/ExposeMetrics",
+  "id": "4/ExposeMetrics",
+  "title": "Exposing Metrics for Developer VMs",
+  "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
+  "source": "@site/docs/4/ExposeMetrics.md",
+  "sourceDirName": "4",
+  "slug": "/4/ExposeMetrics",
+  "permalink": "/docs/4/ExposeMetrics",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/ExposeMetrics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/4/Overview"
+  },
+  "next": {
+    "title": "Installation of Prometheus",
+    "permalink": "/docs/4/Installation of Prometheus"
+  }
+}

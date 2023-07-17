@@ -2,8 +2,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1689578155615.json",
-        "lunrIndex": "lunr-index-1689578155615.json"
+        "searchDoc": "search-doc-1689583837891.json",
+        "lunrIndex": "lunr-index-1689583837891.json"
       }
     }
   },
@@ -19,68 +19,148 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "10/Configure & Install Capsule",
+              "path": "/docs/10/Configure & Install Capsule",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "10/Overview",
+              "path": "/docs/10/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "4/Configuration of Grafana Dashboards",
+              "path": "/docs/4/Configuration of Grafana Dashboards",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "4/ExposeMetrics",
+              "path": "/docs/4/ExposeMetrics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "4/Installation of Grafana",
+              "path": "/docs/4/Installation of Grafana",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "4/Installation of Prometheus",
+              "path": "/docs/4/Installation of Prometheus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "4/Overview",
+              "path": "/docs/4/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "5/Ansible",
+              "path": "/docs/5/Ansible",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "5/Configuring AWX",
+              "path": "/docs/5/Configuring AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "5/Installing AWX",
+              "path": "/docs/5/Installing AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "5/Introduction",
+              "path": "/docs/5/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "5/Serverspec",
+              "path": "/docs/5/Serverspec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "6/Installation & Configuration of Keycloak",
+              "path": "/docs/6/Installation & Configuration of Keycloak",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "6/Integration with AWX",
+              "path": "/docs/6/Integration with AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "6/Integration with Grafana",
+              "path": "/docs/6/Integration with Grafana",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "6/Overview",
+              "path": "/docs/6/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "7/Backup Developer workstation with Veeam",
+              "path": "/docs/7/Backup Developer workstation with Veeam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "7/Backup kubernetes namespace with Kasten10 by Veeam",
+              "path": "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "7/Installatation of Kasten10 by Veaam",
+              "path": "/docs/7/Installatation of Kasten10 by Veaam",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "7/Introduction",
+              "path": "/docs/7/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "8/CentralizedSecret",
+              "path": "/docs/8/CentralizedSecret",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "8/Configure Vault",
+              "path": "/docs/8/Configure Vault",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "8/Install Vault",
+              "path": "/docs/8/Install Vault",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "8/Integrate Vault with helm",
+              "path": "/docs/8/Integrate Vault with helm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "8/Integrate Vault with Jenkins",
+              "path": "/docs/8/Integrate Vault with Jenkins",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "9/CommingSoon",
+              "path": "/docs/9/CommingSoon",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "90/Access AWX",
+              "path": "/docs/90/Access AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "90/Access GCP instance",
+              "path": "/docs/90/Access GCP instance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Application Architecture/Overview",
               "path": "/docs/Application Architecture/Overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Backup/Backup Developer workstation with Veeam",
-              "path": "/docs/Backup/Backup Developer workstation with Veeam",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-              "path": "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Backup/Installatation of Kasten10 by Veaam",
-              "path": "/docs/Backup/Installatation of Kasten10 by Veaam",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Backup/Introduction",
-              "path": "/docs/Backup/Introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Configuration Management/Ansible",
-              "path": "/docs/Configuration Management/Ansible",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Configuration Management/Configuring AWX",
-              "path": "/docs/Configuration Management/Configuring AWX",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Configuration Management/Installing AWX",
-              "path": "/docs/Configuration Management/Installing AWX",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Configuration Management/Introduction",
-              "path": "/docs/Configuration Management/Introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Configuration Management/Serverspec",
-              "path": "/docs/Configuration Management/Serverspec",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Developer Access/Access AWX",
-              "path": "/docs/Developer Access/Access AWX",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Developer Access/Access GCP instance",
-              "path": "/docs/Developer Access/Access GCP instance",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Disaster Recovery/CommingSoon",
-              "path": "/docs/Disaster Recovery/CommingSoon",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -101,91 +181,6 @@
             {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Monitoring/Configuration of Grafana Dashboards",
-              "path": "/docs/Monitoring/Configuration of Grafana Dashboards",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Monitoring/ExposeMetrics",
-              "path": "/docs/Monitoring/ExposeMetrics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Monitoring/Installation of Grafana",
-              "path": "/docs/Monitoring/Installation of Grafana",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Monitoring/Installation of Prometheus",
-              "path": "/docs/Monitoring/Installation of Prometheus",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Monitoring/Overview",
-              "path": "/docs/Monitoring/Overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Multi-Tenancy/Configure & Install Capsule",
-              "path": "/docs/Multi-Tenancy/Configure & Install Capsule",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Multi-Tenancy/Overview",
-              "path": "/docs/Multi-Tenancy/Overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "script/script",
-              "path": "/docs/script/",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Secrets/CentralizedSecret",
-              "path": "/docs/Secrets/CentralizedSecret",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Secrets/Configure Vault",
-              "path": "/docs/Secrets/Configure Vault",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Secrets/Install Vault",
-              "path": "/docs/Secrets/Install Vault",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Secrets/Integrate Vault with helm",
-              "path": "/docs/Secrets/Integrate Vault with helm",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Secrets/Integrate Vault with Jenkins",
-              "path": "/docs/Secrets/Integrate Vault with Jenkins",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-              "path": "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Single Sign-On with Keycloak/Integration with AWX",
-              "path": "/docs/Single Sign-On with Keycloak/Integration with AWX",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Single Sign-On with Keycloak/Integration with Grafana",
-              "path": "/docs/Single Sign-On with Keycloak/Integration with Grafana",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Single Sign-On with Keycloak/Overview",
-              "path": "/docs/Single Sign-On with Keycloak/Overview",
               "sidebar": "tutorialSidebar"
             },
             {

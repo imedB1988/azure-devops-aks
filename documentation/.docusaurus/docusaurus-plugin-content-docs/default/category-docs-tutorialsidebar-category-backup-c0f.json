@@ -6,11 +6,11 @@
   "navigation": {
     "previous": {
       "title": "Integration with Grafana",
-      "permalink": "/docs/Single Sign-On with Keycloak/Integration with Grafana"
+      "permalink": "/docs/6/Integration with Grafana"
     },
     "next": {
       "title": "Veeam Use Cases",
-      "permalink": "/docs/Backup/Introduction"
+      "permalink": "/docs/7/Introduction"
     }
   }
 }

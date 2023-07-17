@@ -6,11 +6,11 @@
   "navigation": {
     "previous": {
       "title": "Integrate Vault with Jenkins",
-      "permalink": "/docs/Secrets/Integrate Vault with Jenkins"
+      "permalink": "/docs/8/Integrate Vault with Jenkins"
     },
     "next": {
       "title": "CommingSoon",
-      "permalink": "/docs/Disaster Recovery/CommingSoon"
+      "permalink": "/docs/9/CommingSoon"
     }
   }
 }

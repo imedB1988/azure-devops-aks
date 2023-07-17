@@ -1,0 +1,27 @@
+{
+  "unversionedId": "5/Installing AWX",
+  "id": "5/Installing AWX",
+  "title": "Installing AWX",
+  "description": "How to install AWX using kubernetes operator",
+  "source": "@site/docs/5/Installing AWX.md",
+  "sourceDirName": "5",
+  "slug": "/5/Installing AWX",
+  "permalink": "/docs/5/Installing AWX",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Installing AWX.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration Management",
+    "permalink": "/docs/5/Introduction"
+  },
+  "next": {
+    "title": "Running Ansible Playbook with Dynamic Inventory",
+    "permalink": "/docs/5/Ansible"
+  }
+}

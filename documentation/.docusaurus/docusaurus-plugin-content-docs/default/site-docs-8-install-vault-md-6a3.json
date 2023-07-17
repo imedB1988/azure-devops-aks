@@ -1,0 +1,27 @@
+{
+  "unversionedId": "8/Install Vault",
+  "id": "8/Install Vault",
+  "title": "Install Vault",
+  "description": "Install the Vault Helm chart",
+  "source": "@site/docs/8/Install Vault.md",
+  "sourceDirName": "8",
+  "slug": "/8/Install Vault",
+  "permalink": "/docs/8/Install Vault",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/8/Install Vault.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CentralizedSecret",
+    "permalink": "/docs/8/CentralizedSecret"
+  },
+  "next": {
+    "title": "Configure Vault Cluster",
+    "permalink": "/docs/8/Configure Vault"
+  }
+}

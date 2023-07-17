@@ -186,32 +186,128 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-17a": {
+  "/docs-6ab": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsb-77-206"
     },
     "versionMetadata": "versionMetadata---docs-935-398"
   },
+  "/docs/10/Configure & Install Capsule-709": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-10-configure-install-capsule-587-694"
+  },
+  "/docs/10/Overview-260": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-10-overviewc-60-0d3"
+  },
+  "/docs/4/Configuration of Grafana Dashboards-3c6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-4-configuration-of-grafana-dashboards-17-d-9c1"
+  },
+  "/docs/4/ExposeMetrics-75b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-4-expose-metrics-859-353"
+  },
+  "/docs/4/Installation of Grafana-0e9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-4-installation-of-grafana-7-f-6-7d0"
+  },
+  "/docs/4/Installation of Prometheus-3cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-4-installation-of-prometheus-9-d-0-ecf"
+  },
+  "/docs/4/Overview-b84": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-4-overview-025-ead"
+  },
+  "/docs/5/Ansible-c9b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-5-ansible-5-ce-7c9"
+  },
+  "/docs/5/Configuring AWX-6f9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-5-configuring-aw-xf-5-a-995"
+  },
+  "/docs/5/Installing AWX-003": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-5-installing-awx-39-b-311"
+  },
+  "/docs/5/Introduction-2e4": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-5-introduction-15-c-889"
+  },
+  "/docs/5/Serverspec-63a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-5-serverspec-46-d-425"
+  },
+  "/docs/6/Installation & Configuration of Keycloak-7a3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-6-installation-configuration-of-keycloakc-60-d42"
+  },
+  "/docs/6/Integration with AWX-472": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-6-integration-with-awx-506-7f7"
+  },
+  "/docs/6/Integration with Grafana-862": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-6-integration-with-grafana-9-a-3-d8e"
+  },
+  "/docs/6/Overview-f34": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-6-overviewbaa-eab"
+  },
+  "/docs/7/Backup Developer workstation with Veeam-962": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-7-backup-developer-workstation-with-veeamdf-0-a35"
+  },
+  "/docs/7/Backup kubernetes namespace with Kasten10 by Veeam-7db": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-7-backup-kubernetes-namespace-with-kasten-10-by-veeam-024-c4a"
+  },
+  "/docs/7/Installatation of Kasten10 by Veaam-434": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-7-installatation-of-kasten-10-by-veaamb-13-4ed"
+  },
+  "/docs/7/Introduction-d66": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-7-introduction-5-f-9-985"
+  },
+  "/docs/8/CentralizedSecret-fd3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-8-centralized-secret-76-f-3d8"
+  },
+  "/docs/8/Configure Vault-d09": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-8-configure-vault-42-e-d49"
+  },
+  "/docs/8/Install Vault-8ca": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-8-install-vault-6-a-3-dc8"
+  },
+  "/docs/8/Integrate Vault with helm-682": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-8-integrate-vault-with-helm-59-f-e25"
+  },
+  "/docs/8/Integrate Vault with Jenkins-bf7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-8-integrate-vault-with-jenkins-17-e-0c2"
+  },
+  "/docs/9/CommingSoon-437": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-9-comming-soonde-8-249"
+  },
+  "/docs/90/Access AWX-b7a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-90-access-awx-422-cd7"
+  },
+  "/docs/90/Access GCP instance-153": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-90-access-gcp-instancef-2-f-705"
+  },
   "/docs/Application Architecture/Overview-8a2": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-application-architecture-overview-4-f-7-32e"
-  },
-  "/docs/Backup/Backup Developer workstation with Veeam-664": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-backup-backup-developer-workstation-with-veeam-9-ce-c8c"
-  },
-  "/docs/Backup/Backup kubernetes namespace with Kasten10 by Veeam-431": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-backup-backup-kubernetes-namespace-with-kasten-10-by-veeam-163-9a2"
-  },
-  "/docs/Backup/Installatation of Kasten10 by Veaam-04f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-backup-installatation-of-kasten-10-by-veaam-4-de-ef6"
-  },
-  "/docs/Backup/Introduction-f0f": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-backup-introduction-285-3fa"
   },
   "/docs/category/application-architecture-882": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -261,38 +357,6 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorial-extrasc-84-abc"
   },
-  "/docs/Configuration Management/Ansible-f41": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-management-ansiblea-34-7cf"
-  },
-  "/docs/Configuration Management/Configuring AWX-cc3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-management-configuring-aw-xdbf-9e0"
-  },
-  "/docs/Configuration Management/Installing AWX-8f1": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-management-installing-aw-xc-8-a-9ae"
-  },
-  "/docs/Configuration Management/Introduction-22b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-management-introduction-096-663"
-  },
-  "/docs/Configuration Management/Serverspec-43e": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-configuration-management-serverspec-971-aa9"
-  },
-  "/docs/Developer Access/Access AWX-0c3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-developer-access-access-awx-3-e-9-793"
-  },
-  "/docs/Developer Access/Access GCP instance-c0c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-developer-access-access-gcp-instance-071-750"
-  },
-  "/docs/Disaster Recovery/CommingSoon-17d": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-disaster-recovery-comming-soon-2-fa-b2d"
-  },
   "/docs/Dockerizing/docker compose-6e9": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-dockerizing-docker-composeaf-9-c20"
@@ -308,74 +372,6 @@
   "/docs/intro-aed": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/docs/Monitoring/Configuration of Grafana Dashboards-541": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-monitoring-configuration-of-grafana-dashboardsc-42-dd3"
-  },
-  "/docs/Monitoring/ExposeMetrics-190": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-monitoring-expose-metricsf-0-e-287"
-  },
-  "/docs/Monitoring/Installation of Grafana-3a3": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-monitoring-installation-of-grafanafd-9-8dd"
-  },
-  "/docs/Monitoring/Installation of Prometheus-88a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-monitoring-installation-of-prometheus-1-f-7-49a"
-  },
-  "/docs/Monitoring/Overview-86b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-monitoring-overview-91-d-508"
-  },
-  "/docs/Multi-Tenancy/Configure & Install Capsule-888": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-multi-tenancy-configure-install-capsule-6-f-3-f85"
-  },
-  "/docs/Multi-Tenancy/Overview-436": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-multi-tenancy-overviewe-7-f-d64"
-  },
-  "/docs/script/-31c": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-script-dbd-ba3"
-  },
-  "/docs/Secrets/CentralizedSecret-bbd": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-secrets-centralized-secretc-9-e-b37"
-  },
-  "/docs/Secrets/Configure Vault-2db": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-secrets-configure-vault-3-b-7-d85"
-  },
-  "/docs/Secrets/Install Vault-c63": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-secrets-install-vaultd-16-cbf"
-  },
-  "/docs/Secrets/Integrate Vault with helm-bd6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-secrets-integrate-vault-with-helm-088-566"
-  },
-  "/docs/Secrets/Integrate Vault with Jenkins-f42": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-secrets-integrate-vault-with-jenkinsff-3-ffa"
-  },
-  "/docs/Single Sign-On with Keycloak/Installation & Configuration of Keycloak-1ff": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-single-sign-on-with-keycloak-installation-configuration-of-keycloak-73-b-338"
-  },
-  "/docs/Single Sign-On with Keycloak/Integration with AWX-0e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-single-sign-on-with-keycloak-integration-with-awx-0-d-4-ad9"
-  },
-  "/docs/Single Sign-On with Keycloak/Integration with Grafana-5cc": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-single-sign-on-with-keycloak-integration-with-grafana-631-78c"
-  },
-  "/docs/Single Sign-On with Keycloak/Overview-def": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-single-sign-on-with-keycloak-overviewa-08-c93"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",

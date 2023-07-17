@@ -1,0 +1,27 @@
+{
+  "unversionedId": "6/Installation & Configuration of Keycloak",
+  "id": "6/Installation & Configuration of Keycloak",
+  "title": "Installation & Configuration of Keycloak",
+  "description": "1. Navigate to the Keycloak Helm Chart directory in your Git repo:",
+  "source": "@site/docs/6/Installation & Configuration of Keycloak.md",
+  "sourceDirName": "6",
+  "slug": "/6/Installation & Configuration of Keycloak",
+  "permalink": "/docs/6/Installation & Configuration of Keycloak",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/6/Installation & Configuration of Keycloak.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/6/Overview"
+  },
+  "next": {
+    "title": "How to Integrate Keycloak with AWX",
+    "permalink": "/docs/6/Integration with AWX"
+  }
+}

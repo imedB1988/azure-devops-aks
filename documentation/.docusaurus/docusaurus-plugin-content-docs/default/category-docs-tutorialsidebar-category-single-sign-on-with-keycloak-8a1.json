@@ -6,11 +6,11 @@
   "navigation": {
     "previous": {
       "title": "Serverspec",
-      "permalink": "/docs/Configuration Management/Serverspec"
+      "permalink": "/docs/5/Serverspec"
     },
     "next": {
       "title": "Overview",
-      "permalink": "/docs/Single Sign-On with Keycloak/Overview"
+      "permalink": "/docs/6/Overview"
     }
   }
 }
