@@ -1,8 +1,8 @@
 {
-  "title": "Monitoring",
+  "title": "Azure DevOps",
   "description": "Enjoy!",
-  "slug": "/category/monitoring",
-  "permalink": "/docs/category/monitoring",
+  "slug": "/category/azure-devops",
+  "permalink": "/docs/category/azure-devops",
   "navigation": {
     "previous": {
       "title": "Docker Compose",
@@ -10,7 +10,7 @@
     },
     "next": {
       "title": "Overview",
-      "permalink": "/docs/4/Overview"
+      "permalink": "/docs/Azure DevOps/Overview"
     }
   }
 }

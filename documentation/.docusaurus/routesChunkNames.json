@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-6ab": {
+  "/docs-844": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsb-77-206"
@@ -200,26 +200,6 @@
   "/docs/10/Overview-260": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-10-overviewc-60-0d3"
-  },
-  "/docs/4/Configuration of Grafana Dashboards-3c6": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-4-configuration-of-grafana-dashboards-17-d-9c1"
-  },
-  "/docs/4/ExposeMetrics-75b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-4-expose-metrics-859-353"
-  },
-  "/docs/4/Installation of Grafana-0e9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-4-installation-of-grafana-7-f-6-7d0"
-  },
-  "/docs/4/Installation of Prometheus-3cf": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-4-installation-of-prometheus-9-d-0-ecf"
-  },
-  "/docs/4/Overview-b84": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-4-overview-025-ead"
   },
   "/docs/5/Ansible-c9b": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -309,9 +289,33 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-application-architecture-overview-4-f-7-32e"
   },
+  "/docs/Azure DevOps/Configuration of Grafana Dashboards-a65": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-azure-dev-ops-configuration-of-grafana-dashboardsca-5-11c"
+  },
+  "/docs/Azure DevOps/ExposeMetrics-7b3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-azure-dev-ops-expose-metrics-3-cd-c5b"
+  },
+  "/docs/Azure DevOps/Installation of Grafana-393": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-azure-dev-ops-installation-of-grafana-2-d-1-9eb"
+  },
+  "/docs/Azure DevOps/Installation of Prometheus-3a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-azure-dev-ops-installation-of-prometheusce-7-c2b"
+  },
+  "/docs/Azure DevOps/Overview-91e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-azure-dev-ops-overview-2-a-0-e5e"
+  },
   "/docs/category/application-architecture-882": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-application-architecturef-0-b-4d4"
+  },
+  "/docs/category/azure-devops-717": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-azure-devops-3-c-5-ca0"
   },
   "/docs/category/backup-bb2": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -332,10 +336,6 @@
   "/docs/category/getting-started-01f": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-getting-started-315-9c6"
-  },
-  "/docs/category/monitoring-f80": {
-    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-monitoring-9-cf-5d5"
   },
   "/docs/category/multi-tenancy-23f": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -361,17 +361,13 @@
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-dockerizing-docker-composeaf-9-c20"
   },
-  "/docs/Dockerizing/dockerizing the 3-tier app-e31": {
+  "/docs/Dockerizing/Dockerfile-707": {
     "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-dockerizing-dockerizing-the-3-tier-app-2-db-a8d"
+    "content": "content---docs-dockerizing-dockerfile-320-5cd"
   },
   "/docs/Getting Started/Requirements-def": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-getting-started-requirementse-9-c-6fa"
-  },
-  "/docs/intro-aed": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-intro-0-e-3-be1"
   },
   "/docs/tutorial-basics/congratulations-793": {
     "__comp": "__comp---theme-doc-item-178-a40",

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Azure DevOps/Installation of Grafana",
+  "id": "Azure DevOps/Installation of Grafana",
+  "title": "Installation of Grafana",
+  "description": "To deploy Grafana using the Helm Chart, follow these steps:",
+  "source": "@site/docs/Azure DevOps/Installation of Grafana.md",
+  "sourceDirName": "Azure DevOps",
+  "slug": "/Azure DevOps/Installation of Grafana",
+  "permalink": "/docs/Azure DevOps/Installation of Grafana",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/Installation of Grafana.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation of Prometheus",
+    "permalink": "/docs/Azure DevOps/Installation of Prometheus"
+  },
+  "next": {
+    "title": "Configuration of Grafana Dashboards",
+    "permalink": "/docs/Azure DevOps/Configuration of Grafana Dashboards"
+  }
+}

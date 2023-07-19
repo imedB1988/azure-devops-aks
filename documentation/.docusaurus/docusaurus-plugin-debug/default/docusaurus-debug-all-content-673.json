@@ -74,141 +74,6 @@
               }
             },
             {
-              "unversionedId": "4/Configuration of Grafana Dashboards",
-              "id": "4/Configuration of Grafana Dashboards",
-              "title": "Configuration of Grafana Dashboards",
-              "description": "Configuration of Grafana Dashboards",
-              "source": "@site/docs/4/Configuration of Grafana Dashboards.md",
-              "sourceDirName": "4",
-              "slug": "/4/Configuration of Grafana Dashboards",
-              "permalink": "/docs/4/Configuration of Grafana Dashboards",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Configuration of Grafana Dashboards.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Installation of Grafana",
-                "permalink": "/docs/4/Installation of Grafana"
-              },
-              "next": {
-                "title": "Configuration Management",
-                "permalink": "/docs/category/configuration-management"
-              }
-            },
-            {
-              "unversionedId": "4/ExposeMetrics",
-              "id": "4/ExposeMetrics",
-              "title": "Exposing Metrics for Developer VMs",
-              "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
-              "source": "@site/docs/4/ExposeMetrics.md",
-              "sourceDirName": "4",
-              "slug": "/4/ExposeMetrics",
-              "permalink": "/docs/4/ExposeMetrics",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/ExposeMetrics.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/docs/4/Overview"
-              },
-              "next": {
-                "title": "Installation of Prometheus",
-                "permalink": "/docs/4/Installation of Prometheus"
-              }
-            },
-            {
-              "unversionedId": "4/Installation of Grafana",
-              "id": "4/Installation of Grafana",
-              "title": "Installation of Grafana",
-              "description": "To deploy Grafana using the Helm Chart, follow these steps:",
-              "source": "@site/docs/4/Installation of Grafana.md",
-              "sourceDirName": "4",
-              "slug": "/4/Installation of Grafana",
-              "permalink": "/docs/4/Installation of Grafana",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Installation of Grafana.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Installation of Prometheus",
-                "permalink": "/docs/4/Installation of Prometheus"
-              },
-              "next": {
-                "title": "Configuration of Grafana Dashboards",
-                "permalink": "/docs/4/Configuration of Grafana Dashboards"
-              }
-            },
-            {
-              "unversionedId": "4/Installation of Prometheus",
-              "id": "4/Installation of Prometheus",
-              "title": "Installation of Prometheus",
-              "description": "1. Navigate to the Prometheus chart directory:",
-              "source": "@site/docs/4/Installation of Prometheus.md",
-              "sourceDirName": "4",
-              "slug": "/4/Installation of Prometheus",
-              "permalink": "/docs/4/Installation of Prometheus",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Installation of Prometheus.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Exposing Metrics for Developer VMs",
-                "permalink": "/docs/4/ExposeMetrics"
-              },
-              "next": {
-                "title": "Installation of Grafana",
-                "permalink": "/docs/4/Installation of Grafana"
-              }
-            },
-            {
-              "unversionedId": "4/Overview",
-              "id": "4/Overview",
-              "title": "Overview",
-              "description": "Monitoring with Prometheus and Grafana",
-              "source": "@site/docs/4/Overview.md",
-              "sourceDirName": "4",
-              "slug": "/4/Overview",
-              "permalink": "/docs/4/Overview",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/4/Overview.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Monitoring",
-                "permalink": "/docs/category/monitoring"
-              },
-              "next": {
-                "title": "Exposing Metrics for Developer VMs",
-                "permalink": "/docs/4/ExposeMetrics"
-              }
-            },
-            {
               "unversionedId": "5/Ansible",
               "id": "5/Ansible",
               "title": "Running Ansible Playbook with Dynamic Inventory",
@@ -799,9 +664,144 @@
               }
             },
             {
+              "unversionedId": "Azure DevOps/Configuration of Grafana Dashboards",
+              "id": "Azure DevOps/Configuration of Grafana Dashboards",
+              "title": "Configuration of Grafana Dashboards",
+              "description": "Configuration of Grafana Dashboards",
+              "source": "@site/docs/Azure DevOps/Configuration of Grafana Dashboards.md",
+              "sourceDirName": "Azure DevOps",
+              "slug": "/Azure DevOps/Configuration of Grafana Dashboards",
+              "permalink": "/docs/Azure DevOps/Configuration of Grafana Dashboards",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/Configuration of Grafana Dashboards.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation of Grafana",
+                "permalink": "/docs/Azure DevOps/Installation of Grafana"
+              },
+              "next": {
+                "title": "Configuration Management",
+                "permalink": "/docs/category/configuration-management"
+              }
+            },
+            {
+              "unversionedId": "Azure DevOps/ExposeMetrics",
+              "id": "Azure DevOps/ExposeMetrics",
+              "title": "Exposing Metrics for Developer VMs",
+              "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
+              "source": "@site/docs/Azure DevOps/ExposeMetrics.md",
+              "sourceDirName": "Azure DevOps",
+              "slug": "/Azure DevOps/ExposeMetrics",
+              "permalink": "/docs/Azure DevOps/ExposeMetrics",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/ExposeMetrics.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/Azure DevOps/Overview"
+              },
+              "next": {
+                "title": "Installation of Prometheus",
+                "permalink": "/docs/Azure DevOps/Installation of Prometheus"
+              }
+            },
+            {
+              "unversionedId": "Azure DevOps/Installation of Grafana",
+              "id": "Azure DevOps/Installation of Grafana",
+              "title": "Installation of Grafana",
+              "description": "To deploy Grafana using the Helm Chart, follow these steps:",
+              "source": "@site/docs/Azure DevOps/Installation of Grafana.md",
+              "sourceDirName": "Azure DevOps",
+              "slug": "/Azure DevOps/Installation of Grafana",
+              "permalink": "/docs/Azure DevOps/Installation of Grafana",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/Installation of Grafana.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation of Prometheus",
+                "permalink": "/docs/Azure DevOps/Installation of Prometheus"
+              },
+              "next": {
+                "title": "Configuration of Grafana Dashboards",
+                "permalink": "/docs/Azure DevOps/Configuration of Grafana Dashboards"
+              }
+            },
+            {
+              "unversionedId": "Azure DevOps/Installation of Prometheus",
+              "id": "Azure DevOps/Installation of Prometheus",
+              "title": "Installation of Prometheus",
+              "description": "1. Navigate to the Prometheus chart directory:",
+              "source": "@site/docs/Azure DevOps/Installation of Prometheus.md",
+              "sourceDirName": "Azure DevOps",
+              "slug": "/Azure DevOps/Installation of Prometheus",
+              "permalink": "/docs/Azure DevOps/Installation of Prometheus",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/Installation of Prometheus.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exposing Metrics for Developer VMs",
+                "permalink": "/docs/Azure DevOps/ExposeMetrics"
+              },
+              "next": {
+                "title": "Installation of Grafana",
+                "permalink": "/docs/Azure DevOps/Installation of Grafana"
+              }
+            },
+            {
+              "unversionedId": "Azure DevOps/Overview",
+              "id": "Azure DevOps/Overview",
+              "title": "Overview",
+              "description": "Monitoring with Prometheus and Grafana",
+              "source": "@site/docs/Azure DevOps/Overview.md",
+              "sourceDirName": "Azure DevOps",
+              "slug": "/Azure DevOps/Overview",
+              "permalink": "/docs/Azure DevOps/Overview",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/Overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Azure DevOps",
+                "permalink": "/docs/category/azure-devops"
+              },
+              "next": {
+                "title": "Exposing Metrics for Developer VMs",
+                "permalink": "/docs/Azure DevOps/ExposeMetrics"
+              }
+            },
+            {
               "unversionedId": "Dockerizing/docker compose",
               "id": "Dockerizing/docker compose",
-              "title": "Docker Compose Configuration",
+              "title": "Docker Compose",
               "description": "To create and manage multiple containers simultaneously, you can use Docker Compose. The following Docker Compose configuration file allows you to deploy the front end, back end, and MongoDB containers together:",
               "source": "@site/docs/Dockerizing/docker compose.md",
               "sourceDirName": "Dockerizing",
@@ -817,25 +817,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Dockerizing the Front End",
-                "permalink": "/docs/Dockerizing/dockerizing the 3-tier app"
+                "title": "Dockerfile",
+                "permalink": "/docs/Dockerizing/Dockerfile"
               },
               "next": {
-                "title": "Monitoring",
-                "permalink": "/docs/category/monitoring"
+                "title": "Azure DevOps",
+                "permalink": "/docs/category/azure-devops"
               }
             },
             {
-              "unversionedId": "Dockerizing/dockerizing the 3-tier app",
-              "id": "Dockerizing/dockerizing the 3-tier app",
-              "title": "Dockerizing the Front End",
+              "unversionedId": "Dockerizing/Dockerfile",
+              "id": "Dockerizing/Dockerfile",
+              "title": "Dockerfile",
               "description": "To containerize the front end application using Docker, follow these steps:",
-              "source": "@site/docs/Dockerizing/dockerizing the 3-tier app.md",
+              "source": "@site/docs/Dockerizing/Dockerfile.md",
               "sourceDirName": "Dockerizing",
-              "slug": "/Dockerizing/dockerizing the 3-tier app",
-              "permalink": "/docs/Dockerizing/dockerizing the 3-tier app",
+              "slug": "/Dockerizing/Dockerfile",
+              "permalink": "/docs/Dockerizing/Dockerfile",
               "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Dockerizing/dockerizing the 3-tier app.md",
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Dockerizing/Dockerfile.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -848,7 +848,7 @@
                 "permalink": "/docs/category/dockerizing-"
               },
               "next": {
-                "title": "Docker Compose Configuration",
+                "title": "Docker Compose",
                 "permalink": "/docs/Dockerizing/docker compose"
               }
             },
@@ -877,29 +877,6 @@
               "next": {
                 "title": "Application Architecture",
                 "permalink": "/docs/category/application-architecture"
-              }
-            },
-            {
-              "unversionedId": "intro",
-              "id": "intro",
-              "title": "CRUD 3-Tier Application",
-              "description": "Project Purpose",
-              "source": "@site/docs/intro.md",
-              "sourceDirName": ".",
-              "slug": "/intro",
-              "permalink": "/docs/intro",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/intro.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 0,
-              "frontMatter": {
-                "sidebar_position": 0
-              },
-              "sidebar": "tutorialSidebar",
-              "next": {
-                "title": "Getting Started",
-                "permalink": "/docs/category/getting-started"
               }
             },
             {
@@ -1123,10 +1100,6 @@
           "sidebars": {
             "tutorialSidebar": [
               {
-                "type": "doc",
-                "id": "intro"
-              },
-              {
                 "type": "category",
                 "label": "Getting Started",
                 "collapsible": true,
@@ -1170,7 +1143,7 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Dockerizing/dockerizing the 3-tier app"
+                    "id": "Dockerizing/Dockerfile"
                   },
                   {
                     "type": "doc",
@@ -1186,36 +1159,36 @@
               },
               {
                 "type": "category",
-                "label": "Monitoring",
+                "label": "Azure DevOps",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "4/Overview"
+                    "id": "Azure DevOps/Overview"
                   },
                   {
                     "type": "doc",
-                    "id": "4/ExposeMetrics"
+                    "id": "Azure DevOps/ExposeMetrics"
                   },
                   {
                     "type": "doc",
-                    "id": "4/Installation of Prometheus"
+                    "id": "Azure DevOps/Installation of Prometheus"
                   },
                   {
                     "type": "doc",
-                    "id": "4/Installation of Grafana"
+                    "id": "Azure DevOps/Installation of Grafana"
                   },
                   {
                     "type": "doc",
-                    "id": "4/Configuration of Grafana Dashboards"
+                    "id": "Azure DevOps/Configuration of Grafana Dashboards"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "Enjoy!",
-                  "slug": "/category/monitoring",
-                  "permalink": "/docs/category/monitoring"
+                  "slug": "/category/azure-devops",
+                  "permalink": "/docs/category/azure-devops"
                 }
               },
               {

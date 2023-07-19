@@ -2,6 +2,7 @@
 sidebar_position: 1
 ---
 
+# Dockerfile
 # Dockerizing the Front End
 
 To containerize the front end application using Docker, follow these steps:

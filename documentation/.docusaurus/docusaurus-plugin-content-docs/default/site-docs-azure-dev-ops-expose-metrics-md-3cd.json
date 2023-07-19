@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Azure DevOps/ExposeMetrics",
+  "id": "Azure DevOps/ExposeMetrics",
+  "title": "Exposing Metrics for Developer VMs",
+  "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
+  "source": "@site/docs/Azure DevOps/ExposeMetrics.md",
+  "sourceDirName": "Azure DevOps",
+  "slug": "/Azure DevOps/ExposeMetrics",
+  "permalink": "/docs/Azure DevOps/ExposeMetrics",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/ExposeMetrics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/Azure DevOps/Overview"
+  },
+  "next": {
+    "title": "Installation of Prometheus",
+    "permalink": "/docs/Azure DevOps/Installation of Prometheus"
+  }
+}

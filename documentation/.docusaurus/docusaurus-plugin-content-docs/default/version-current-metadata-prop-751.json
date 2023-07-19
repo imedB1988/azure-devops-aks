@@ -10,12 +10,6 @@
   "docsSidebars": {
     "tutorialSidebar": [
       {
-        "type": "link",
-        "label": "CRUD 3-Tier Application",
-        "href": "/docs/intro",
-        "docId": "intro"
-      },
-      {
         "type": "category",
         "label": "Getting Started",
         "collapsible": true,
@@ -53,13 +47,13 @@
         "items": [
           {
             "type": "link",
-            "label": "Dockerizing the Front End",
-            "href": "/docs/Dockerizing/dockerizing the 3-tier app",
-            "docId": "Dockerizing/dockerizing the 3-tier app"
+            "label": "Dockerfile",
+            "href": "/docs/Dockerizing/Dockerfile",
+            "docId": "Dockerizing/Dockerfile"
           },
           {
             "type": "link",
-            "label": "Docker Compose Configuration",
+            "label": "Docker Compose",
             "href": "/docs/Dockerizing/docker compose",
             "docId": "Dockerizing/docker compose"
           }
@@ -68,42 +62,42 @@
       },
       {
         "type": "category",
-        "label": "Monitoring",
+        "label": "Azure DevOps",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
             "label": "Overview",
-            "href": "/docs/4/Overview",
-            "docId": "4/Overview"
+            "href": "/docs/Azure DevOps/Overview",
+            "docId": "Azure DevOps/Overview"
           },
           {
             "type": "link",
             "label": "Exposing Metrics for Developer VMs",
-            "href": "/docs/4/ExposeMetrics",
-            "docId": "4/ExposeMetrics"
+            "href": "/docs/Azure DevOps/ExposeMetrics",
+            "docId": "Azure DevOps/ExposeMetrics"
           },
           {
             "type": "link",
             "label": "Installation of Prometheus",
-            "href": "/docs/4/Installation of Prometheus",
-            "docId": "4/Installation of Prometheus"
+            "href": "/docs/Azure DevOps/Installation of Prometheus",
+            "docId": "Azure DevOps/Installation of Prometheus"
           },
           {
             "type": "link",
             "label": "Installation of Grafana",
-            "href": "/docs/4/Installation of Grafana",
-            "docId": "4/Installation of Grafana"
+            "href": "/docs/Azure DevOps/Installation of Grafana",
+            "docId": "Azure DevOps/Installation of Grafana"
           },
           {
             "type": "link",
             "label": "Configuration of Grafana Dashboards",
-            "href": "/docs/4/Configuration of Grafana Dashboards",
-            "docId": "4/Configuration of Grafana Dashboards"
+            "href": "/docs/Azure DevOps/Configuration of Grafana Dashboards",
+            "docId": "Azure DevOps/Configuration of Grafana Dashboards"
           }
         ],
-        "href": "/docs/category/monitoring"
+        "href": "/docs/category/azure-devops"
       },
       {
         "type": "category",
@@ -386,36 +380,6 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "4/Configuration of Grafana Dashboards": {
-      "id": "4/Configuration of Grafana Dashboards",
-      "title": "Configuration of Grafana Dashboards",
-      "description": "Configuration of Grafana Dashboards",
-      "sidebar": "tutorialSidebar"
-    },
-    "4/ExposeMetrics": {
-      "id": "4/ExposeMetrics",
-      "title": "Exposing Metrics for Developer VMs",
-      "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
-      "sidebar": "tutorialSidebar"
-    },
-    "4/Installation of Grafana": {
-      "id": "4/Installation of Grafana",
-      "title": "Installation of Grafana",
-      "description": "To deploy Grafana using the Helm Chart, follow these steps:",
-      "sidebar": "tutorialSidebar"
-    },
-    "4/Installation of Prometheus": {
-      "id": "4/Installation of Prometheus",
-      "title": "Installation of Prometheus",
-      "description": "1. Navigate to the Prometheus chart directory:",
-      "sidebar": "tutorialSidebar"
-    },
-    "4/Overview": {
-      "id": "4/Overview",
-      "title": "Overview",
-      "description": "Monitoring with Prometheus and Grafana",
-      "sidebar": "tutorialSidebar"
-    },
     "5/Ansible": {
       "id": "5/Ansible",
       "title": "Running Ansible Playbook with Dynamic Inventory",
@@ -548,15 +512,45 @@
       "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
+    "Azure DevOps/Configuration of Grafana Dashboards": {
+      "id": "Azure DevOps/Configuration of Grafana Dashboards",
+      "title": "Configuration of Grafana Dashboards",
+      "description": "Configuration of Grafana Dashboards",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure DevOps/ExposeMetrics": {
+      "id": "Azure DevOps/ExposeMetrics",
+      "title": "Exposing Metrics for Developer VMs",
+      "description": "To expose metrics for each developer's VM in your project, we will be using Node Exporter. We have prepared a bash script to install Node Exporter using the gcloud CLI and the scp feature.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure DevOps/Installation of Grafana": {
+      "id": "Azure DevOps/Installation of Grafana",
+      "title": "Installation of Grafana",
+      "description": "To deploy Grafana using the Helm Chart, follow these steps:",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure DevOps/Installation of Prometheus": {
+      "id": "Azure DevOps/Installation of Prometheus",
+      "title": "Installation of Prometheus",
+      "description": "1. Navigate to the Prometheus chart directory:",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure DevOps/Overview": {
+      "id": "Azure DevOps/Overview",
+      "title": "Overview",
+      "description": "Monitoring with Prometheus and Grafana",
+      "sidebar": "tutorialSidebar"
+    },
     "Dockerizing/docker compose": {
       "id": "Dockerizing/docker compose",
-      "title": "Docker Compose Configuration",
+      "title": "Docker Compose",
       "description": "To create and manage multiple containers simultaneously, you can use Docker Compose. The following Docker Compose configuration file allows you to deploy the front end, back end, and MongoDB containers together:",
       "sidebar": "tutorialSidebar"
     },
-    "Dockerizing/dockerizing the 3-tier app": {
-      "id": "Dockerizing/dockerizing the 3-tier app",
-      "title": "Dockerizing the Front End",
+    "Dockerizing/Dockerfile": {
+      "id": "Dockerizing/Dockerfile",
+      "title": "Dockerfile",
       "description": "To containerize the front end application using Docker, follow these steps:",
       "sidebar": "tutorialSidebar"
     },
@@ -564,12 +558,6 @@
       "id": "Getting Started/Requirements",
       "title": "How to start with the project",
       "description": "In this guide, we'll walk you through the steps necessary to get started with the project.",
-      "sidebar": "tutorialSidebar"
-    },
-    "intro": {
-      "id": "intro",
-      "title": "CRUD 3-Tier Application",
-      "description": "Project Purpose",
       "sidebar": "tutorialSidebar"
     },
     "tutorial-basics/congratulations": {

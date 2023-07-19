@@ -9,8 +9,8 @@
       "permalink": "/docs/Application Architecture/Overview"
     },
     "next": {
-      "title": "Dockerizing the Front End",
-      "permalink": "/docs/Dockerizing/dockerizing the 3-tier app"
+      "title": "Dockerfile",
+      "permalink": "/docs/Dockerizing/Dockerfile"
     }
   }
 }

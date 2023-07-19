@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Azure DevOps/Configuration of Grafana Dashboards",
+  "id": "Azure DevOps/Configuration of Grafana Dashboards",
+  "title": "Configuration of Grafana Dashboards",
+  "description": "Configuration of Grafana Dashboards",
+  "source": "@site/docs/Azure DevOps/Configuration of Grafana Dashboards.md",
+  "sourceDirName": "Azure DevOps",
+  "slug": "/Azure DevOps/Configuration of Grafana Dashboards",
+  "permalink": "/docs/Azure DevOps/Configuration of Grafana Dashboards",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/Configuration of Grafana Dashboards.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation of Grafana",
+    "permalink": "/docs/Azure DevOps/Installation of Grafana"
+  },
+  "next": {
+    "title": "Configuration Management",
+    "permalink": "/docs/category/configuration-management"
+  }
+}

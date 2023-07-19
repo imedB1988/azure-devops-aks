@@ -2,8 +2,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1689583837891.json",
-        "lunrIndex": "lunr-index-1689583837891.json"
+        "searchDoc": "search-doc-1689676561958.json",
+        "lunrIndex": "lunr-index-1689676561958.json"
       }
     }
   },
@@ -16,7 +16,7 @@
           "label": "Next",
           "isLast": true,
           "path": "/docs",
-          "mainDocId": "intro",
+          "mainDocId": "Getting Started/Requirements",
           "docs": [
             {
               "id": "10/Configure & Install Capsule",
@@ -26,31 +26,6 @@
             {
               "id": "10/Overview",
               "path": "/docs/10/Overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "4/Configuration of Grafana Dashboards",
-              "path": "/docs/4/Configuration of Grafana Dashboards",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "4/ExposeMetrics",
-              "path": "/docs/4/ExposeMetrics",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "4/Installation of Grafana",
-              "path": "/docs/4/Installation of Grafana",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "4/Installation of Prometheus",
-              "path": "/docs/4/Installation of Prometheus",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "4/Overview",
-              "path": "/docs/4/Overview",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -164,23 +139,43 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Azure DevOps/Configuration of Grafana Dashboards",
+              "path": "/docs/Azure DevOps/Configuration of Grafana Dashboards",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure DevOps/ExposeMetrics",
+              "path": "/docs/Azure DevOps/ExposeMetrics",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure DevOps/Installation of Grafana",
+              "path": "/docs/Azure DevOps/Installation of Grafana",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure DevOps/Installation of Prometheus",
+              "path": "/docs/Azure DevOps/Installation of Prometheus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure DevOps/Overview",
+              "path": "/docs/Azure DevOps/Overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Dockerizing/docker compose",
               "path": "/docs/Dockerizing/docker compose",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Dockerizing/dockerizing the 3-tier app",
-              "path": "/docs/Dockerizing/dockerizing the 3-tier app",
+              "id": "Dockerizing/Dockerfile",
+              "path": "/docs/Dockerizing/Dockerfile",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Getting Started/Requirements",
               "path": "/docs/Getting Started/Requirements",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "intro",
-              "path": "/docs/intro",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -239,8 +234,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/monitoring",
-              "path": "/docs/category/monitoring",
+              "id": "/category/azure-devops",
+              "path": "/docs/category/azure-devops",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -288,8 +283,8 @@
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/docs/intro",
-                "label": "intro"
+                "path": "/docs/category/getting-started",
+                "label": "Getting Started"
               }
             }
           }

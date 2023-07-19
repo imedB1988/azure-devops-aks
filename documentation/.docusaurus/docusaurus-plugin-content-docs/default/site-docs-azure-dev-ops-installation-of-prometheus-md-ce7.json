@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Azure DevOps/Installation of Prometheus",
+  "id": "Azure DevOps/Installation of Prometheus",
+  "title": "Installation of Prometheus",
+  "description": "1. Navigate to the Prometheus chart directory:",
+  "source": "@site/docs/Azure DevOps/Installation of Prometheus.md",
+  "sourceDirName": "Azure DevOps",
+  "slug": "/Azure DevOps/Installation of Prometheus",
+  "permalink": "/docs/Azure DevOps/Installation of Prometheus",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Azure DevOps/Installation of Prometheus.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exposing Metrics for Developer VMs",
+    "permalink": "/docs/Azure DevOps/ExposeMetrics"
+  },
+  "next": {
+    "title": "Installation of Grafana",
+    "permalink": "/docs/Azure DevOps/Installation of Grafana"
+  }
+}

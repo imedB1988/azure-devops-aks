@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '6ab'),
+    component: ComponentCreator('/docs', '844'),
     routes: [
       {
         path: '/docs/10/Configure & Install Capsule',
@@ -110,36 +110,6 @@ export default [
       {
         path: '/docs/10/Overview',
         component: ComponentCreator('/docs/10/Overview', '260'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/4/Configuration of Grafana Dashboards',
-        component: ComponentCreator('/docs/4/Configuration of Grafana Dashboards', '3c6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/4/ExposeMetrics',
-        component: ComponentCreator('/docs/4/ExposeMetrics', '75b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/4/Installation of Grafana',
-        component: ComponentCreator('/docs/4/Installation of Grafana', '0e9'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/4/Installation of Prometheus',
-        component: ComponentCreator('/docs/4/Installation of Prometheus', '3cf'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/4/Overview',
-        component: ComponentCreator('/docs/4/Overview', 'b84'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -276,8 +246,44 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/Azure DevOps/Configuration of Grafana Dashboards',
+        component: ComponentCreator('/docs/Azure DevOps/Configuration of Grafana Dashboards', 'a65'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Azure DevOps/ExposeMetrics',
+        component: ComponentCreator('/docs/Azure DevOps/ExposeMetrics', '7b3'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Azure DevOps/Installation of Grafana',
+        component: ComponentCreator('/docs/Azure DevOps/Installation of Grafana', '393'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Azure DevOps/Installation of Prometheus',
+        component: ComponentCreator('/docs/Azure DevOps/Installation of Prometheus', '3a2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Azure DevOps/Overview',
+        component: ComponentCreator('/docs/Azure DevOps/Overview', '91e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/category/application-architecture',
         component: ComponentCreator('/docs/category/application-architecture', '882'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/azure-devops',
+        component: ComponentCreator('/docs/category/azure-devops', '717'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -308,12 +314,6 @@ export default [
       {
         path: '/docs/category/getting-started',
         component: ComponentCreator('/docs/category/getting-started', '01f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/monitoring',
-        component: ComponentCreator('/docs/category/monitoring', 'f80'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -354,20 +354,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Dockerizing/dockerizing the 3-tier app',
-        component: ComponentCreator('/docs/Dockerizing/dockerizing the 3-tier app', 'e31'),
+        path: '/docs/Dockerizing/Dockerfile',
+        component: ComponentCreator('/docs/Dockerizing/Dockerfile', '707'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
         path: '/docs/Getting Started/Requirements',
         component: ComponentCreator('/docs/Getting Started/Requirements', 'def'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/intro',
-        component: ComponentCreator('/docs/intro', 'aed'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

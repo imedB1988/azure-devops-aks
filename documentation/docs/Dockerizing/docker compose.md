@@ -2,7 +2,8 @@
 sidebar_position: 2
 ---
 
-# Docker Compose Configuration
+# Docker Compose 
+# Configuration
 
 To create and manage multiple containers simultaneously, you can use Docker Compose. The following Docker Compose configuration file allows you to deploy the front end, back end, and MongoDB containers together:
 

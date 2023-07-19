@@ -1,7 +1,7 @@
 {
   "unversionedId": "Dockerizing/docker compose",
   "id": "Dockerizing/docker compose",
-  "title": "Docker Compose Configuration",
+  "title": "Docker Compose",
   "description": "To create and manage multiple containers simultaneously, you can use Docker Compose. The following Docker Compose configuration file allows you to deploy the front end, back end, and MongoDB containers together:",
   "source": "@site/docs/Dockerizing/docker compose.md",
   "sourceDirName": "Dockerizing",
@@ -17,11 +17,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Dockerizing the Front End",
-    "permalink": "/docs/Dockerizing/dockerizing the 3-tier app"
+    "title": "Dockerfile",
+    "permalink": "/docs/Dockerizing/Dockerfile"
   },
   "next": {
-    "title": "Monitoring",
-    "permalink": "/docs/category/monitoring"
+    "title": "Azure DevOps",
+    "permalink": "/docs/category/azure-devops"
   }
 }
