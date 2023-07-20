@@ -1,0 +1,104 @@
+trigger:
+  branches:
+    include:
+      - main
+
+variables:
+  imageNameFrontend: 'frontend'
+  tagNameFrontend: 'v2'
+  imageNameBackend: 'backend'
+  tagNameBackend: 'v2'
+
+
+stages:
+- stage: BuildAndTestFrontend
+  displayName: 'Build and Test Frontend'
+  jobs:
+  - job: InstallAndBuildFrontend
+    displayName: 'Install Dependencies and Build Frontend'
+    steps:
+    - checkout: self
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '18.x'
+      displayName: 'Install Node.js'
+    - script: |
+        cd src/frontend
+        npm install
+        npm run build
+      displayName: 'Install Dependencies and Build Frontend'
+  
+  - job: TestFrontend
+    displayName: 'Test Frontend'
+    dependsOn: InstallAndBuildFrontend
+    steps:
+    - checkout: self
+    - script: |
+        cd src/frontend
+        npm install --only=dev
+        echo testing..
+        # npm run test
+      displayName: 'Test Frontend'
+
+- stage: BuildAndTestBackend
+  displayName: 'Build and Test Backend'
+  jobs:
+  - job: InstallAndBuildBackend
+    displayName: 'Install Dependencies and Build Backend'
+    steps:
+    - checkout: self
+    - task: NodeTool@0
+      inputs:
+        versionSpec: '18.x'
+      displayName: 'Install Node.js'
+    - script: |
+        cd src/backend
+        npm install
+        npm run build
+      displayName: 'Install Dependencies and Build Backend'
+  
+  - job: TestBackend
+    displayName: 'Test Backend'
+    dependsOn: InstallAndBuildBackend
+    steps:
+    - checkout: self
+    - script: |
+        cd src/backend
+        npm install --only=dev
+        echo testing...
+        # npm run test
+      displayName: 'Test Backend'
+
+- stage: BuildAndPushDockerImages
+  displayName: 'Build and Push Docker Images'
+  dependsOn:
+  - BuildAndTestFrontend
+  - BuildAndTestBackend
+  jobs:
+  - job: BuildAndPushFrontend
+    displayName: 'Build and Push Frontend Docker Image'
+    steps:
+    - checkout: self
+    - task: Docker@2
+      displayName: 'Build and Push Frontend Docker Image'
+      inputs:
+        repository: 'frontend'
+        command: build
+        Dockerfile: 'src/frontend/Dockerfile'
+        tags: |
+          $(tagNameFrontend)
+        containerRegistry: 'crudappcontainerregistry.azurecr.io'
+
+  - job: BuildAndPushBackend
+    displayName: 'Build and Push Backend Docker Image'
+    steps:
+    - checkout: self
+    - task: Docker@2
+      displayName: 'Build and Push Backend Docker Image'
+      inputs:
+        repository: 'backend'
+        command: build
+        Dockerfile: 'src/backend/Dockerfile'
+        tags: |
+          $(tagNameBackend)
+        containerRegistry: 'crudappcontainerregistry.azurecr.io'
