@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deploy ArgoCD/Introduction",
+  "id": "Deploy ArgoCD/Introduction",
+  "title": "Deploy ArgoCD",
+  "description": "",
+  "source": "@site/docs/Deploy ArgoCD/Introduction.md",
+  "sourceDirName": "Deploy ArgoCD",
+  "slug": "/Deploy ArgoCD/Introduction",
+  "permalink": "/docs/Deploy ArgoCD/Introduction",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Introduction.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy ArgoCD",
+    "permalink": "/docs/category/deploy-argocd"
+  },
+  "next": {
+    "title": "## How to install ArgoCD using Helm",
+    "permalink": "/docs/Deploy ArgoCD/Installing ArgoCD with Helm"
+  }
+}

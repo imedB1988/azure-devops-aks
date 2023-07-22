@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deploy ArgoCD/Serverspec",
+  "id": "Deploy ArgoCD/Serverspec",
+  "title": "Serverspec",
+  "description": "Why Use ServerSpec with Ansible",
+  "source": "@site/docs/Deploy ArgoCD/Serverspec.md",
+  "sourceDirName": "Deploy ArgoCD",
+  "slug": "/Deploy ArgoCD/Serverspec",
+  "permalink": "/docs/Deploy ArgoCD/Serverspec",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Serverspec.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuring AWX",
+    "permalink": "/docs/Deploy ArgoCD/Configuring AWX"
+  },
+  "next": {
+    "title": "Single Sign-On with Keycloak",
+    "permalink": "/docs/category/single-sign-on-with-keycloak"
+  }
+}

@@ -186,7 +186,7 @@
     },
     "content": "content---markdown-page-393-028"
   },
-  "/docs-844": {
+  "/docs-efd": {
     "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
       "plugin": "plugin---docsb-77-206"
@@ -200,26 +200,6 @@
   "/docs/10/Overview-260": {
     "__comp": "__comp---theme-doc-item-178-a40",
     "content": "content---docs-10-overviewc-60-0d3"
-  },
-  "/docs/5/Ansible-c9b": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-5-ansible-5-ce-7c9"
-  },
-  "/docs/5/Configuring AWX-6f9": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-5-configuring-aw-xf-5-a-995"
-  },
-  "/docs/5/Installing AWX-003": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-5-installing-awx-39-b-311"
-  },
-  "/docs/5/Introduction-2e4": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-5-introduction-15-c-889"
-  },
-  "/docs/5/Serverspec-63a": {
-    "__comp": "__comp---theme-doc-item-178-a40",
-    "content": "content---docs-5-serverspec-46-d-425"
   },
   "/docs/6/Installation & Configuration of Keycloak-7a3": {
     "__comp": "__comp---theme-doc-item-178-a40",
@@ -321,9 +301,9 @@
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-backupe-3-f-4f6"
   },
-  "/docs/category/configuration-management-b53": {
+  "/docs/category/deploy-argocd-b27": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
-    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-configuration-management-293-726"
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-deploy-argocd-67-e-7d6"
   },
   "/docs/category/disaster-recovery-f2b": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
@@ -356,6 +336,26 @@
   "/docs/category/tutorial---extras-f09": {
     "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
     "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-tutorial-extrasc-84-abc"
+  },
+  "/docs/Deploy ArgoCD/Ansible-ff6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-deploy-argo-cd-ansiblec-3-e-933"
+  },
+  "/docs/Deploy ArgoCD/Configuring AWX-b14": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-deploy-argo-cd-configuring-awx-413-043"
+  },
+  "/docs/Deploy ArgoCD/Installing ArgoCD with Helm-7b6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-deploy-argo-cd-installing-argo-cd-with-helm-52-b-ba5"
+  },
+  "/docs/Deploy ArgoCD/Introduction-830": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-deploy-argo-cd-introductionbda-f23"
+  },
+  "/docs/Deploy ArgoCD/Serverspec-fa3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-deploy-argo-cd-serverspecaf-8-4b5"
   },
   "/docs/Dockerizing/docker compose-6e9": {
     "__comp": "__comp---theme-doc-item-178-a40",

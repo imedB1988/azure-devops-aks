@@ -1,0 +1,16 @@
+{
+  "title": "Deploy ArgoCD",
+  "description": "Enjoy!",
+  "slug": "/category/deploy-argocd",
+  "permalink": "/docs/category/deploy-argocd",
+  "navigation": {
+    "previous": {
+      "title": "Configuration of Grafana Dashboards",
+      "permalink": "/docs/Azure DevOps/Configuration of Grafana Dashboards"
+    },
+    "next": {
+      "title": "Deploy ArgoCD",
+      "permalink": "/docs/Deploy ArgoCD/Introduction"
+    }
+  }
+}

@@ -74,141 +74,6 @@
               }
             },
             {
-              "unversionedId": "5/Ansible",
-              "id": "5/Ansible",
-              "title": "Running Ansible Playbook with Dynamic Inventory",
-              "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
-              "source": "@site/docs/5/Ansible.md",
-              "sourceDirName": "5",
-              "slug": "/5/Ansible",
-              "permalink": "/docs/5/Ansible",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Ansible.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Installing AWX",
-                "permalink": "/docs/5/Installing AWX"
-              },
-              "next": {
-                "title": "Configuring AWX",
-                "permalink": "/docs/5/Configuring AWX"
-              }
-            },
-            {
-              "unversionedId": "5/Configuring AWX",
-              "id": "5/Configuring AWX",
-              "title": "Configuring AWX",
-              "description": "Requirements",
-              "source": "@site/docs/5/Configuring AWX.md",
-              "sourceDirName": "5",
-              "slug": "/5/Configuring AWX",
-              "permalink": "/docs/5/Configuring AWX",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Configuring AWX.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Running Ansible Playbook with Dynamic Inventory",
-                "permalink": "/docs/5/Ansible"
-              },
-              "next": {
-                "title": "Serverspec",
-                "permalink": "/docs/5/Serverspec"
-              }
-            },
-            {
-              "unversionedId": "5/Installing AWX",
-              "id": "5/Installing AWX",
-              "title": "Installing AWX",
-              "description": "How to install AWX using kubernetes operator",
-              "source": "@site/docs/5/Installing AWX.md",
-              "sourceDirName": "5",
-              "slug": "/5/Installing AWX",
-              "permalink": "/docs/5/Installing AWX",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Installing AWX.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Configuration Management",
-                "permalink": "/docs/5/Introduction"
-              },
-              "next": {
-                "title": "Running Ansible Playbook with Dynamic Inventory",
-                "permalink": "/docs/5/Ansible"
-              }
-            },
-            {
-              "unversionedId": "5/Introduction",
-              "id": "5/Introduction",
-              "title": "Configuration Management",
-              "description": "Introduction",
-              "source": "@site/docs/5/Introduction.md",
-              "sourceDirName": "5",
-              "slug": "/5/Introduction",
-              "permalink": "/docs/5/Introduction",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Introduction.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Configuration Management",
-                "permalink": "/docs/category/configuration-management"
-              },
-              "next": {
-                "title": "Installing AWX",
-                "permalink": "/docs/5/Installing AWX"
-              }
-            },
-            {
-              "unversionedId": "5/Serverspec",
-              "id": "5/Serverspec",
-              "title": "Serverspec",
-              "description": "Why Use ServerSpec with Ansible",
-              "source": "@site/docs/5/Serverspec.md",
-              "sourceDirName": "5",
-              "slug": "/5/Serverspec",
-              "permalink": "/docs/5/Serverspec",
-              "draft": false,
-              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/5/Serverspec.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Configuring AWX",
-                "permalink": "/docs/5/Configuring AWX"
-              },
-              "next": {
-                "title": "Single Sign-On with Keycloak",
-                "permalink": "/docs/category/single-sign-on-with-keycloak"
-              }
-            },
-            {
               "unversionedId": "6/Installation & Configuration of Keycloak",
               "id": "6/Installation & Configuration of Keycloak",
               "title": "Installation & Configuration of Keycloak",
@@ -686,8 +551,8 @@
                 "permalink": "/docs/Azure DevOps/Installation of Grafana"
               },
               "next": {
-                "title": "Configuration Management",
-                "permalink": "/docs/category/configuration-management"
+                "title": "Deploy ArgoCD",
+                "permalink": "/docs/category/deploy-argocd"
               }
             },
             {
@@ -796,6 +661,141 @@
               "next": {
                 "title": "Exposing Metrics for Developer VMs",
                 "permalink": "/docs/Azure DevOps/ExposeMetrics"
+              }
+            },
+            {
+              "unversionedId": "Deploy ArgoCD/Ansible",
+              "id": "Deploy ArgoCD/Ansible",
+              "title": "Running Ansible Playbook with Dynamic Inventory",
+              "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
+              "source": "@site/docs/Deploy ArgoCD/Ansible.md",
+              "sourceDirName": "Deploy ArgoCD",
+              "slug": "/Deploy ArgoCD/Ansible",
+              "permalink": "/docs/Deploy ArgoCD/Ansible",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Ansible.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "## How to install ArgoCD using Helm",
+                "permalink": "/docs/Deploy ArgoCD/Installing ArgoCD with Helm"
+              },
+              "next": {
+                "title": "Configuring AWX",
+                "permalink": "/docs/Deploy ArgoCD/Configuring AWX"
+              }
+            },
+            {
+              "unversionedId": "Deploy ArgoCD/Configuring AWX",
+              "id": "Deploy ArgoCD/Configuring AWX",
+              "title": "Configuring AWX",
+              "description": "Requirements",
+              "source": "@site/docs/Deploy ArgoCD/Configuring AWX.md",
+              "sourceDirName": "Deploy ArgoCD",
+              "slug": "/Deploy ArgoCD/Configuring AWX",
+              "permalink": "/docs/Deploy ArgoCD/Configuring AWX",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Configuring AWX.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Running Ansible Playbook with Dynamic Inventory",
+                "permalink": "/docs/Deploy ArgoCD/Ansible"
+              },
+              "next": {
+                "title": "Serverspec",
+                "permalink": "/docs/Deploy ArgoCD/Serverspec"
+              }
+            },
+            {
+              "unversionedId": "Deploy ArgoCD/Installing ArgoCD with Helm",
+              "id": "Deploy ArgoCD/Installing ArgoCD with Helm",
+              "title": "## How to install ArgoCD using Helm",
+              "description": "How to install ArgoCD using Helm",
+              "source": "@site/docs/Deploy ArgoCD/Installing ArgoCD with Helm.md",
+              "sourceDirName": "Deploy ArgoCD",
+              "slug": "/Deploy ArgoCD/Installing ArgoCD with Helm",
+              "permalink": "/docs/Deploy ArgoCD/Installing ArgoCD with Helm",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Installing ArgoCD with Helm.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy ArgoCD",
+                "permalink": "/docs/Deploy ArgoCD/Introduction"
+              },
+              "next": {
+                "title": "Running Ansible Playbook with Dynamic Inventory",
+                "permalink": "/docs/Deploy ArgoCD/Ansible"
+              }
+            },
+            {
+              "unversionedId": "Deploy ArgoCD/Introduction",
+              "id": "Deploy ArgoCD/Introduction",
+              "title": "Deploy ArgoCD",
+              "description": "",
+              "source": "@site/docs/Deploy ArgoCD/Introduction.md",
+              "sourceDirName": "Deploy ArgoCD",
+              "slug": "/Deploy ArgoCD/Introduction",
+              "permalink": "/docs/Deploy ArgoCD/Introduction",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Introduction.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Deploy ArgoCD",
+                "permalink": "/docs/category/deploy-argocd"
+              },
+              "next": {
+                "title": "## How to install ArgoCD using Helm",
+                "permalink": "/docs/Deploy ArgoCD/Installing ArgoCD with Helm"
+              }
+            },
+            {
+              "unversionedId": "Deploy ArgoCD/Serverspec",
+              "id": "Deploy ArgoCD/Serverspec",
+              "title": "Serverspec",
+              "description": "Why Use ServerSpec with Ansible",
+              "source": "@site/docs/Deploy ArgoCD/Serverspec.md",
+              "sourceDirName": "Deploy ArgoCD",
+              "slug": "/Deploy ArgoCD/Serverspec",
+              "permalink": "/docs/Deploy ArgoCD/Serverspec",
+              "draft": false,
+              "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Serverspec.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Configuring AWX",
+                "permalink": "/docs/Deploy ArgoCD/Configuring AWX"
+              },
+              "next": {
+                "title": "Single Sign-On with Keycloak",
+                "permalink": "/docs/category/single-sign-on-with-keycloak"
               }
             },
             {
@@ -1193,36 +1193,36 @@
               },
               {
                 "type": "category",
-                "label": "Configuration Management",
+                "label": "Deploy ArgoCD",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "5/Introduction"
+                    "id": "Deploy ArgoCD/Introduction"
                   },
                   {
                     "type": "doc",
-                    "id": "5/Installing AWX"
+                    "id": "Deploy ArgoCD/Installing ArgoCD with Helm"
                   },
                   {
                     "type": "doc",
-                    "id": "5/Ansible"
+                    "id": "Deploy ArgoCD/Ansible"
                   },
                   {
                     "type": "doc",
-                    "id": "5/Configuring AWX"
+                    "id": "Deploy ArgoCD/Configuring AWX"
                   },
                   {
                     "type": "doc",
-                    "id": "5/Serverspec"
+                    "id": "Deploy ArgoCD/Serverspec"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "Enjoy!",
-                  "slug": "/category/configuration-management",
-                  "permalink": "/docs/category/configuration-management"
+                  "slug": "/category/deploy-argocd",
+                  "permalink": "/docs/category/deploy-argocd"
                 }
               },
               {

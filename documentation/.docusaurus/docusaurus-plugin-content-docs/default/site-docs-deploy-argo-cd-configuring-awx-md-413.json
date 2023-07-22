@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deploy ArgoCD/Configuring AWX",
+  "id": "Deploy ArgoCD/Configuring AWX",
+  "title": "Configuring AWX",
+  "description": "Requirements",
+  "source": "@site/docs/Deploy ArgoCD/Configuring AWX.md",
+  "sourceDirName": "Deploy ArgoCD",
+  "slug": "/Deploy ArgoCD/Configuring AWX",
+  "permalink": "/docs/Deploy ArgoCD/Configuring AWX",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Configuring AWX.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Running Ansible Playbook with Dynamic Inventory",
+    "permalink": "/docs/Deploy ArgoCD/Ansible"
+  },
+  "next": {
+    "title": "Serverspec",
+    "permalink": "/docs/Deploy ArgoCD/Serverspec"
+  }
+}

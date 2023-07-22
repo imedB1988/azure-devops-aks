@@ -101,42 +101,42 @@
       },
       {
         "type": "category",
-        "label": "Configuration Management",
+        "label": "Deploy ArgoCD",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Configuration Management",
-            "href": "/docs/5/Introduction",
-            "docId": "5/Introduction"
+            "label": "Deploy ArgoCD",
+            "href": "/docs/Deploy ArgoCD/Introduction",
+            "docId": "Deploy ArgoCD/Introduction"
           },
           {
             "type": "link",
-            "label": "Installing AWX",
-            "href": "/docs/5/Installing AWX",
-            "docId": "5/Installing AWX"
+            "label": "## How to install ArgoCD using Helm",
+            "href": "/docs/Deploy ArgoCD/Installing ArgoCD with Helm",
+            "docId": "Deploy ArgoCD/Installing ArgoCD with Helm"
           },
           {
             "type": "link",
             "label": "Running Ansible Playbook with Dynamic Inventory",
-            "href": "/docs/5/Ansible",
-            "docId": "5/Ansible"
+            "href": "/docs/Deploy ArgoCD/Ansible",
+            "docId": "Deploy ArgoCD/Ansible"
           },
           {
             "type": "link",
             "label": "Configuring AWX",
-            "href": "/docs/5/Configuring AWX",
-            "docId": "5/Configuring AWX"
+            "href": "/docs/Deploy ArgoCD/Configuring AWX",
+            "docId": "Deploy ArgoCD/Configuring AWX"
           },
           {
             "type": "link",
             "label": "Serverspec",
-            "href": "/docs/5/Serverspec",
-            "docId": "5/Serverspec"
+            "href": "/docs/Deploy ArgoCD/Serverspec",
+            "docId": "Deploy ArgoCD/Serverspec"
           }
         ],
-        "href": "/docs/category/configuration-management"
+        "href": "/docs/category/deploy-argocd"
       },
       {
         "type": "category",
@@ -380,36 +380,6 @@
       "description": "",
       "sidebar": "tutorialSidebar"
     },
-    "5/Ansible": {
-      "id": "5/Ansible",
-      "title": "Running Ansible Playbook with Dynamic Inventory",
-      "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
-      "sidebar": "tutorialSidebar"
-    },
-    "5/Configuring AWX": {
-      "id": "5/Configuring AWX",
-      "title": "Configuring AWX",
-      "description": "Requirements",
-      "sidebar": "tutorialSidebar"
-    },
-    "5/Installing AWX": {
-      "id": "5/Installing AWX",
-      "title": "Installing AWX",
-      "description": "How to install AWX using kubernetes operator",
-      "sidebar": "tutorialSidebar"
-    },
-    "5/Introduction": {
-      "id": "5/Introduction",
-      "title": "Configuration Management",
-      "description": "Introduction",
-      "sidebar": "tutorialSidebar"
-    },
-    "5/Serverspec": {
-      "id": "5/Serverspec",
-      "title": "Serverspec",
-      "description": "Why Use ServerSpec with Ansible",
-      "sidebar": "tutorialSidebar"
-    },
     "6/Installation & Configuration of Keycloak": {
       "id": "6/Installation & Configuration of Keycloak",
       "title": "Installation & Configuration of Keycloak",
@@ -540,6 +510,36 @@
       "id": "Azure DevOps/Overview",
       "title": "Overview",
       "description": "Monitoring with Prometheus and Grafana",
+      "sidebar": "tutorialSidebar"
+    },
+    "Deploy ArgoCD/Ansible": {
+      "id": "Deploy ArgoCD/Ansible",
+      "title": "Running Ansible Playbook with Dynamic Inventory",
+      "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Deploy ArgoCD/Configuring AWX": {
+      "id": "Deploy ArgoCD/Configuring AWX",
+      "title": "Configuring AWX",
+      "description": "Requirements",
+      "sidebar": "tutorialSidebar"
+    },
+    "Deploy ArgoCD/Installing ArgoCD with Helm": {
+      "id": "Deploy ArgoCD/Installing ArgoCD with Helm",
+      "title": "## How to install ArgoCD using Helm",
+      "description": "How to install ArgoCD using Helm",
+      "sidebar": "tutorialSidebar"
+    },
+    "Deploy ArgoCD/Introduction": {
+      "id": "Deploy ArgoCD/Introduction",
+      "title": "Deploy ArgoCD",
+      "description": "",
+      "sidebar": "tutorialSidebar"
+    },
+    "Deploy ArgoCD/Serverspec": {
+      "id": "Deploy ArgoCD/Serverspec",
+      "title": "Serverspec",
+      "description": "Why Use ServerSpec with Ansible",
       "sidebar": "tutorialSidebar"
     },
     "Dockerizing/docker compose": {

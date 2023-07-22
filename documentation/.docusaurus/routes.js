@@ -99,7 +99,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '844'),
+    component: ComponentCreator('/docs', 'efd'),
     routes: [
       {
         path: '/docs/10/Configure & Install Capsule',
@@ -110,36 +110,6 @@ export default [
       {
         path: '/docs/10/Overview',
         component: ComponentCreator('/docs/10/Overview', '260'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/5/Ansible',
-        component: ComponentCreator('/docs/5/Ansible', 'c9b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/5/Configuring AWX',
-        component: ComponentCreator('/docs/5/Configuring AWX', '6f9'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/5/Installing AWX',
-        component: ComponentCreator('/docs/5/Installing AWX', '003'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/5/Introduction',
-        component: ComponentCreator('/docs/5/Introduction', '2e4'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/5/Serverspec',
-        component: ComponentCreator('/docs/5/Serverspec', '63a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -294,8 +264,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/configuration-management',
-        component: ComponentCreator('/docs/category/configuration-management', 'b53'),
+        path: '/docs/category/deploy-argocd',
+        component: ComponentCreator('/docs/category/deploy-argocd', 'b27'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -344,6 +314,36 @@ export default [
       {
         path: '/docs/category/tutorial---extras',
         component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Deploy ArgoCD/Ansible',
+        component: ComponentCreator('/docs/Deploy ArgoCD/Ansible', 'ff6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Deploy ArgoCD/Configuring AWX',
+        component: ComponentCreator('/docs/Deploy ArgoCD/Configuring AWX', 'b14'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Deploy ArgoCD/Installing ArgoCD with Helm',
+        component: ComponentCreator('/docs/Deploy ArgoCD/Installing ArgoCD with Helm', '7b6'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Deploy ArgoCD/Introduction',
+        component: ComponentCreator('/docs/Deploy ArgoCD/Introduction', '830'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Deploy ArgoCD/Serverspec',
+        component: ComponentCreator('/docs/Deploy ArgoCD/Serverspec', 'fa3'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     app: frontend
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 3000
@@ -26,7 +27,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: <your-frontend-image>
+          image: chamseddinedocker/crudappfrontend:latest
           ports:
             - containerPort: 3000
           env:

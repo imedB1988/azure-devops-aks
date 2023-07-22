@@ -2,8 +2,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1689676561958.json",
-        "lunrIndex": "lunr-index-1689676561958.json"
+        "searchDoc": "search-doc-1689950476891.json",
+        "lunrIndex": "lunr-index-1689950476891.json"
       }
     }
   },
@@ -26,31 +26,6 @@
             {
               "id": "10/Overview",
               "path": "/docs/10/Overview",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "5/Ansible",
-              "path": "/docs/5/Ansible",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "5/Configuring AWX",
-              "path": "/docs/5/Configuring AWX",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "5/Installing AWX",
-              "path": "/docs/5/Installing AWX",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "5/Introduction",
-              "path": "/docs/5/Introduction",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "5/Serverspec",
-              "path": "/docs/5/Serverspec",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -164,6 +139,31 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Deploy ArgoCD/Ansible",
+              "path": "/docs/Deploy ArgoCD/Ansible",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deploy ArgoCD/Configuring AWX",
+              "path": "/docs/Deploy ArgoCD/Configuring AWX",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deploy ArgoCD/Installing ArgoCD with Helm",
+              "path": "/docs/Deploy ArgoCD/Installing ArgoCD with Helm",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deploy ArgoCD/Introduction",
+              "path": "/docs/Deploy ArgoCD/Introduction",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Deploy ArgoCD/Serverspec",
+              "path": "/docs/Deploy ArgoCD/Serverspec",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Dockerizing/docker compose",
               "path": "/docs/Dockerizing/docker compose",
               "sidebar": "tutorialSidebar"
@@ -239,8 +239,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/configuration-management",
-              "path": "/docs/category/configuration-management",
+              "id": "/category/deploy-argocd",
+              "path": "/docs/category/deploy-argocd",
               "sidebar": "tutorialSidebar"
             },
             {

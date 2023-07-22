@@ -9,8 +9,8 @@
       "permalink": "/docs/Azure DevOps/Configuration of Grafana Dashboards"
     },
     "next": {
-      "title": "Configuration Management",
-      "permalink": "/docs/5/Introduction"
+      "title": "# ArgoCD role",
+      "permalink": "/docs/Deploy ArgoCD with Helm/Introduction"
     }
   }
 }

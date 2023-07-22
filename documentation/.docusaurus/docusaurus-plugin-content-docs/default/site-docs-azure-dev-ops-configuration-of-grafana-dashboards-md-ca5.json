@@ -21,7 +21,7 @@
     "permalink": "/docs/Azure DevOps/Installation of Grafana"
   },
   "next": {
-    "title": "Configuration Management",
-    "permalink": "/docs/category/configuration-management"
+    "title": "Deploy ArgoCD",
+    "permalink": "/docs/category/deploy-argocd"
   }
 }

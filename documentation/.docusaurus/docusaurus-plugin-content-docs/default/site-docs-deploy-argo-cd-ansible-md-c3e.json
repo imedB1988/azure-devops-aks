@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Deploy ArgoCD/Ansible",
+  "id": "Deploy ArgoCD/Ansible",
+  "title": "Running Ansible Playbook with Dynamic Inventory",
+  "description": "This documentation provides a step-by-step guide on how to run an Ansible playbook with dynamic inventory on Google Cloud Platform (GCP). By the end of this guide, you should be able to transfer an SSH public key to workstations using bash scripts and run an Ansible playbook on GCP instances.",
+  "source": "@site/docs/Deploy ArgoCD/Ansible.md",
+  "sourceDirName": "Deploy ArgoCD",
+  "slug": "/Deploy ArgoCD/Ansible",
+  "permalink": "/docs/Deploy ArgoCD/Ansible",
+  "draft": false,
+  "editUrl": "https://github.com/Chamssiddine/azure-devops-aks/docs/Deploy ArgoCD/Ansible.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "## How to install ArgoCD using Helm",
+    "permalink": "/docs/Deploy ArgoCD/Installing ArgoCD with Helm"
+  },
+  "next": {
+    "title": "Configuring AWX",
+    "permalink": "/docs/Deploy ArgoCD/Configuring AWX"
+  }
+}
