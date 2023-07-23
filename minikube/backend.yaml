@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: backend
-          # image: chamseddinedocker/crudappbackend:latest
-          image: crudappcontainerregistry.azurecr.io/backend:v3
+          image: chamseddinedocker/crudappbackend:latest
+          # image: backend:prod
           ports:
             - containerPort: 3700
           env:
@@ -23,7 +23,8 @@ spec:
               value: mongodb://mongodb:27017/crud-users-db
             - name: PORT
               value: "3700"
-          imagePullPolicy: Always
+          # imagePullPolicy: Never
+
 
 ---
 

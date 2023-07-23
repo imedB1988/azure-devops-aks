@@ -9,19 +9,19 @@ COPY package.json ./
 # Install dependencies
 RUN npm install
 COPY . .
+EXPOSE 3000
+CMD [ "npm" ,"run" ,"start"]
+
+
 # build the app for production
-RUN npm run build
+# RUN npm run build
 
-FROM nginx:1.25.1 as deploy
-WORKDIR /usr/share/nginx/html
-COPY --from=builder /app/build .
+# FROM nginx:1.25.1 as deploy
+# WORKDIR /usr/share/nginx/html
+# COPY --from=builder /app/build .
 
-
-# Copy built files from the production stage
-COPY --from=builder /app/build .
-EXPOSE 80
 
 # # Run the app
-# CMD ["serve", "-s", ".", "-p", "80"]    
+
 
 
