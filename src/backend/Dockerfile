@@ -14,3 +14,4 @@ EXPOSE 3700
 COPY . .
 
 CMD [ "npm" ,"run" ,"start:dev"]
+

@@ -7,20 +7,20 @@ WORKDIR /app
 COPY package.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm install ci --only=production
 COPY . .
-EXPOSE 3000
-CMD [ "npm" ,"run" ,"start"]
-
-
+# EXPOSE 3000
+# CMD [ "npm" ,"run" ,"start"]
 # build the app for production
-# RUN npm run build
+RUN npm run build
 
-# FROM nginx:1.25.1 as deploy
-# WORKDIR /usr/share/nginx/html
-# COPY --from=builder /app/build .
-
-
+FROM nginx:stable-alpine3.17-slim AS deploy
+WORKDIR /usr/share/nginx/html
+COPY --from=builder /app/build .
+RUN rm -rf /etc/nginx/conf.d
+COPY conf.d /etc/nginx/conf.d/default.conf
+EXPOSE 3000
+CMD ["nginx", "-g", "daemon off;"]
 # # Run the app
 
 
