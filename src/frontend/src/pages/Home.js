@@ -3,6 +3,7 @@ import InputGroup from "../components/InputGroup";
 import RowDetails from "../components/RowDetails";
 import axios from "axios";
 import Alert from "../components/Alert";
+import _ from "lodash"
 
 
 function Home() {
@@ -12,12 +13,18 @@ function Home() {
   const [message, setMessage] = useState("");
   const [show, setShow] = useState(false);
 
+  
   const onChangeHandler = (e) => {
-    setForm({
-      ...form,
-      [e.target.name]: e.target.value,
-    });
-    
+    // setForm({
+    //   ...form,
+    //   [e.target.name]: e.target.value,
+    // });
+    const { name, value } = e.target
+    console.log(name, value)
+    setForm((prevFormData) => ({
+      ...prevFormData,
+      [name]: value,
+    }))
   };
 
   const onSubmitHandler = (e)=>{
@@ -25,8 +32,14 @@ function Home() {
     axios.post('/api/users', form)
     .then(res=>{
       setMessage(res.data.message)
+      setUsers((users)=> [...users, form])
       /* hide form after save */
-      setForm({})
+      setForm({
+        Email: '',
+        Lastname: '',
+        Firstname: '',
+        Age: ''
+      })
       /* hide errors after save */
       setErrors({})
       setShow(true)
@@ -44,7 +57,8 @@ function Home() {
  
      axios.delete(`/api/users/${id__}`)
      .then(res=>{
-      setMessage(res.data.message)
+       setMessage(res.data.message)
+       setUsers((users)=> {return users.filter(user=>user._id !== id__)})
       setShow(true)
       setTimeout(() => {
         setShow(false)
@@ -64,9 +78,11 @@ function Home() {
   getUsers()  
   }, []);
   
+  console.log(form)
+
   return (
     <div className="row p-4">
-      <Alert message={message} show={show}/>
+      <Alert message={message} show={show} />
       <div className="mt-4">
         <h2>Crud Users</h2>
       </div>
@@ -76,6 +92,7 @@ function Home() {
             label="Email"
             type="text"
             name="Email"
+            value={form.Email}
             onChangeHandler={onChangeHandler}
             errors={errors.Email}
           />
@@ -83,6 +100,7 @@ function Home() {
             label="Lastname"
             type="text"
             name="Lastname"
+            value={form.Lastname}
             onChangeHandler={onChangeHandler}
             errors={errors.Lastname}
           />
@@ -90,6 +108,7 @@ function Home() {
             label="Firstname"
             type="text"
             name="Firstname"
+            value={form.Firstname}
             onChangeHandler={onChangeHandler}
             errors={errors.Firstname}
           />
@@ -97,10 +116,13 @@ function Home() {
             label="Age"
             type="text"
             name="Age"
+            value={form.Age}
             onChangeHandler={onChangeHandler}
             errors={errors.Age}
           />
-          <button className="btn btn-primary" type="submit">Add user</button>
+          <button className="btn btn-primary" type="submit">
+            Add user
+          </button>
         </form>
       </div>
       <div className="col-12 col-lg-7">
@@ -117,7 +139,7 @@ function Home() {
           <tbody>
             {users.map(({ Email, Lastname, Firstname, Age, _id }) => (
               <RowDetails
-                key={_id} 
+                key={_id}
                 Email={Email}
                 Lastname={Lastname}
                 Firstname={Firstname}
@@ -130,7 +152,7 @@ function Home() {
         </table>
       </div>
     </div>
-  );
+  )
 }
 
 export default Home;
