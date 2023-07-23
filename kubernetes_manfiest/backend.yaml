@@ -7,6 +7,11 @@ spec:
     matchLabels:
       app: backend
   replicas: 2
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 50%
+      maxSurge: 50%
   template:
     metadata:
       labels:
@@ -15,7 +20,7 @@ spec:
       containers:
         - name: backend
           # image: chamseddinedocker/crudappbackend:latest
-          image: crudappcontainerregistry.azurecr.io/backend:v2
+          image: crudappcontainerregistry.azurecr.io/backend:v1
           ports:
             - containerPort: 3700
           env:
