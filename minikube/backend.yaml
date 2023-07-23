@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: chamseddinedocker/crudappbackend:latest
+          image: chamseddinedocker/crudappbackend:prod
           # image: backend:prod
           ports:
             - containerPort: 3700
