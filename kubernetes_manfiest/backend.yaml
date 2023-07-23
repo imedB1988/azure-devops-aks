@@ -20,7 +20,7 @@ spec:
       containers:
         - name: backend
           # image: chamseddinedocker/crudappbackend:latest
-          image: crudappcontainerregistry.azurecr.io/backend:v1
+          image: crudappcontainerregistry.azurecr.io/backend:v3
           ports:
             - containerPort: 3700
           env:
