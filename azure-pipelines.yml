@@ -8,71 +8,71 @@ stages:
   displayName: 'Build and Push Docker Images'
   jobs:
 
-  # - job: BuildAndPushFrontend
-  #   displayName: 'Build and Push Frontend Docker Image'
-  #   steps:
-  #   - checkout: self
-  #   - task: Docker@2
-  #     displayName: 'Build Frontend Docker Image for dockerhub'
-  #     inputs:
-  #       containerRegistry: 'dockerregistry'  # Replace with the name of the Docker Hub service connection
-  #       repository: 'chamseddinedocker/crudappfrontend'    # Replace with your Docker Hub repository name for the frontend
-  #       command: build
-  #       Dockerfile: 'src/frontend/Dockerfile'
-  #       tags: 'prod'
-  #   - task: Docker@2
-  #     displayName: 'Push Frontend Docker Image to Docker Hub'
-  #     inputs:
-  #       containerRegistry: 'dockerregistry'  # Replace with the name of the Docker Hub service connection
-  #       command: push
-  #       repository: chamseddinedocker/crudappfrontend
-  #       tags: 'prod'
-  # - job: BuildAndPushBackend
-  #   displayName: 'Build and Push Backend Docker Image'
-  #   steps:
-  #   - checkout: self
-  #   - task: Docker@2
-  #     displayName: 'Build Backend Docker Image for dockerhub'
-  #     inputs:
-  #       containerRegistry: 'dockerregistry'  
-  #       repository: 'chamseddinedocker/crudappbackend'     
-  #       command: build
-  #       Dockerfile: 'src/backend/Dockerfile'
-  #       tags: 'prod'
-  #   - task: Docker@2
-  #     displayName: 'Push Frontend Docker Image to Docker Hub'
-  #     inputs:
-  #       containerRegistry: 'dockerregistry'  # Replace with the name of the Docker Hub service connection
-  #       command: push
-  #       repository: chamseddinedocker/crudappbackend
-  #       tags: 'prod'
-  
   - job: BuildAndPushFrontend
     displayName: 'Build and Push Frontend Docker Image'
     steps:
     - checkout: self
-
     - task: Docker@2
+      displayName: 'Build Frontend Docker Image for dockerhub'
       inputs:
-        containerRegistry: 'acr'
-        repository: 'frontend'
-        command: 'buildAndPush'
-        Dockerfile: '$(Build.SourcesDirectory)/src/frontend/Dockerfile'
-        buildContext: '$(Build.SourcesDirectory)/src/frontend'
-        tags: 'v3'
-
+        containerRegistry: 'dockerregistry'  # Replace with the name of the Docker Hub service connection
+        repository: 'chamseddinedocker/crudappfrontend'    # Replace with your Docker Hub repository name for the frontend
+        command: build
+        Dockerfile: 'src/frontend/Dockerfile'
+        tags: 'prod'
+    - task: Docker@2
+      displayName: 'Push Frontend Docker Image to Docker Hub'
+      inputs:
+        containerRegistry: 'dockerregistry'  # Replace with the name of the Docker Hub service connection
+        command: push
+        repository: chamseddinedocker/crudappfrontend
+        tags: 'prod'
   - job: BuildAndPushBackend
     displayName: 'Build and Push Backend Docker Image'
     steps:
     - checkout: self
     - task: Docker@2
+      displayName: 'Build Backend Docker Image for dockerhub'
       inputs:
-        containerRegistry: 'acr'
-        repository: 'backend'
-        command: 'buildAndPush'
-        Dockerfile: '$(Build.SourcesDirectory)/src/backend/Dockerfile'
-        buildContext: '$(Build.SourcesDirectory)/src/backend'
-        tags: 'v3'
+        containerRegistry: 'dockerregistry'  
+        repository: 'chamseddinedocker/crudappbackend'     
+        command: build
+        Dockerfile: 'src/backend/Dockerfile'
+        tags: 'prod'
+    - task: Docker@2
+      displayName: 'Push Frontend Docker Image to Docker Hub'
+      inputs:
+        containerRegistry: 'dockerregistry'  # Replace with the name of the Docker Hub service connection
+        command: push
+        repository: chamseddinedocker/crudappbackend
+        tags: 'prod'
+  
+  # - job: BuildAndPushFrontend
+  #   displayName: 'Build and Push Frontend Docker Image'
+  #   steps:
+  #   - checkout: self
+
+  #   - task: Docker@2
+  #     inputs:
+  #       containerRegistry: 'acr'
+  #       repository: 'frontend'
+  #       command: 'buildAndPush'
+  #       Dockerfile: '$(Build.SourcesDirectory)/src/frontend/Dockerfile'
+  #       buildContext: '$(Build.SourcesDirectory)/src/frontend'
+  #       tags: 'v3'
+
+  # - job: BuildAndPushBackend
+  #   displayName: 'Build and Push Backend Docker Image'
+  #   steps:
+  #   - checkout: self
+  #   - task: Docker@2
+  #     inputs:
+  #       containerRegistry: 'acr'
+  #       repository: 'backend'
+  #       command: 'buildAndPush'
+  #       Dockerfile: '$(Build.SourcesDirectory)/src/backend/Dockerfile'
+  #       buildContext: '$(Build.SourcesDirectory)/src/backend'
+  #       tags: 'v3'
 
 
   
