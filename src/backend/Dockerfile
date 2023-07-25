@@ -8,10 +8,8 @@ COPY package.json ./
 
 # Install dependencies
 RUN npm install
-
-EXPOSE 3700
-# Copy the rest of the application files
 COPY . .
+EXPOSE 3700
 
 CMD [ "npm" ,"run" ,"start:dev"]
 

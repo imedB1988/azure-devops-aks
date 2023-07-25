@@ -3,9 +3,11 @@ import InputGroup from "../components/InputGroup";
 import RowDetails from "../components/RowDetails";
 import axios from "axios";
 import Alert from "../components/Alert";
-import _ from "lodash"
+import _ from "lodash";
+// import dotenv from 'dotenv';
 
-
+// Load environment variables from .env
+// dotenv.config();
 function Home() {
   const [users, setUsers] = useState([]);
   const [form, setForm] = useState({});
@@ -13,72 +15,62 @@ function Home() {
   const [message, setMessage] = useState("");
   const [show, setShow] = useState(false);
 
-  
   const onChangeHandler = (e) => {
-    // setForm({
-    //   ...form,
-    //   [e.target.name]: e.target.value,
-    // });
-    const { name, value } = e.target
-    console.log(name, value)
+    const { name, value } = e.target;
     setForm((prevFormData) => ({
       ...prevFormData,
       [name]: value,
-    }))
+    }));
   };
 
-  const onSubmitHandler = (e)=>{
-    e.preventDefault();
-    axios.post('/api/users', form)
-    .then(res=>{
-      setMessage(res.data.message)
-      setUsers((users)=> [...users, form])
-      /* hide form after save */
-      setForm({
-        Email: '',
-        Lastname: '',
-        Firstname: '',
-        Age: ''
-      })
-      /* hide errors after save */
-      setErrors({})
-      setShow(true)
-      setTimeout(() => {
-        setShow(false)
-      }, 4000);
-    })
-    .catch(err=>setErrors(err.response.data))
-    
-  }
 
-  /* delete */
-  const OnDelete = (id__)=>{
-    if(window.confirm("are you sure to delete this user")){
- 
-     axios.delete(`/api/users/${id__}`)
-     .then(res=>{
-       setMessage(res.data.message)
-       setUsers((users)=> {return users.filter(user=>user._id !== id__)})
-      setShow(true)
-      setTimeout(() => {
-        setShow(false)
-      }, 4000);
-     })
+  const onSubmitHandler = (e) => {
+    e.preventDefault();
+    axios.post("/api/users", form)
+      .then((res) => {
+        setMessage(res.data.message);
+        setUsers((users) => [...users, form]);
+        setForm({
+          Email: '',
+          Lastname: '',
+          Firstname: '',
+          Age: '',
+        });
+        setErrors({});
+        setShow(true);
+        setTimeout(() => {
+          setShow(false);
+        }, 4000);
+      })
+      .catch((err) => setErrors(err.response.data));
+  };
+
+  const OnDelete = (id__) => {
+    if (window.confirm("are you sure to delete this user")) {
+      axios.delete("/api/users/${id__}")
+        .then((res) => {
+          setMessage(res.data.message);
+          setUsers((users) => users.filter((user) => user._id !== id__));
+          setShow(true);
+          setTimeout(() => {
+            setShow(false);
+          }, 4000);
+        });
     }
-   }
-  /* find all users */
-  useEffect(() =>{
-  const getUsers = async () => {
-    const Users = await fetch("/api/users");
-    const uz = await Users.json()
-    setUsers(uz)
-    return Users
-  }
-  
-  getUsers()  
+  };
+
+  useEffect(() => {
+    const getUsers = async () => {
+      const Users = await fetch("/api/users");
+      const uz = await Users.json();
+      setUsers(uz);
+    };
+
+    getUsers();
   }, []);
-  
-  console.log(form)
+
+  console.log(form);
+
 
   return (
     <div className="row p-4">
