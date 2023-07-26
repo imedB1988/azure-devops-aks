@@ -9,18 +9,12 @@ COPY package.json ./
 # Install dependencies
 RUN npm install
 COPY . .
+# EXPOSE 3000
+# CMD [ "npm" ,"run" ,"start"]
 RUN npm run build
 
-# FROM node:18-alpine AS production
-# COPY --from=builder /app/build .
-# COPY --from=builder /app/package.json .
-# COPY --from=builder /app/node_modules ./node_modules
-# RUN ls -la
-# EXPOSE 3000
-# CMD [ "react-scripts", "start" ]
-# CMD [ "npm" ,"run" ,"start"]
 
-FROM nginx:stable-alpine3.17-slim AS deploy
+FROM nginx:stable-alpine3.17-slim AS production
 WORKDIR /usr/share/nginx/html
 COPY --from=builder /app/build .
 RUN rm -rf /etc/nginx/conf.d

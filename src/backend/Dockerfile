@@ -12,4 +12,3 @@ COPY . .
 EXPOSE 3700
 
 CMD [ "npm" ,"run" ,"start:dev"]
-

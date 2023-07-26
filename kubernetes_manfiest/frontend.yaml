@@ -33,10 +33,7 @@ spec:
       containers:
         - name: frontend
           # image: chamseddinedocker/crudappfrontend:latest
-          image: crudappcontainerregistry.azurecr.io/frontend:v3
+          image: crudappcontainerregistry.azurecr.io/frontend:production
           ports:
             - containerPort: 3000
-          env:
-            - name: BACKEND_URL
-              value: http://backend:3700
           imagePullPolicy: Always

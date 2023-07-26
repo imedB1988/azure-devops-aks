@@ -16,7 +16,7 @@ services:
   frontend:
     container_name: frontend
     # image: crudappcontainerregistry.azurecr.io/frontend:v2
-    image: frontend:finali
+    image: frontend:prod
     # build:
     #   context: ./src/frontend
     #   dockerfile: Dockerfile
