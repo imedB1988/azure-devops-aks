@@ -54,7 +54,7 @@ stages:
 
     - task: Docker@2
       inputs:
-        containerRegistry: 'acr'
+        containerRegistry: 'acrnew'
         repository: 'frontend'
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/src/frontend/Dockerfile'
@@ -67,7 +67,7 @@ stages:
     - checkout: self
     - task: Docker@2
       inputs:
-        containerRegistry: 'acr'
+        containerRegistry: 'acrnew'
         repository: 'backend'
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/src/backend/Dockerfile'
