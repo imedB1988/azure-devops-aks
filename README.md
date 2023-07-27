@@ -18,6 +18,7 @@ This project demonstrates the process of migrating a 3-tier application to Kuber
 ## Table of Contents
 
 - [Project Name](#project-name)
+  - [YouTube Tutorial](#youtube-tutorial)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
@@ -27,7 +28,6 @@ This project demonstrates the process of migrating a 3-tier application to Kuber
     - [Installation](#installation)
   - [Usage](#usage)
   - [Deployment](#deployment)
-  - [YouTube Tutorial](#youtube-tutorial)
   - [Contributing](#contributing)
 
 ## Introduction
