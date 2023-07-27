@@ -1,0 +1,35 @@
+trigger:
+  branches:
+    include:
+      - main
+
+stages:
+- stage: BuildAndPushDockerImages
+  displayName: 'Build and Push Docker Images'
+  jobs:
+  - job: BuildAndPushFrontend
+    displayName: 'Build and Push Frontend Docker Image'
+    steps:
+    - checkout: self
+
+    - task: Docker@2
+      inputs:
+        containerRegistry: 'acr'
+        repository: 'frontend'
+        command: 'buildAndPush'
+        Dockerfile: '$(Build.SourcesDirectory)/src/frontend/Dockerfile'
+        buildContext: '$(Build.SourcesDirectory)/src/frontend'
+        tags: 'production'
+
+  - job: BuildAndPushBackend
+    displayName: 'Build and Push Backend Docker Image'
+    steps:
+    - checkout: self
+    - task: Docker@2
+      inputs:
+        containerRegistry: 'acr'
+        repository: 'backend'
+        command: 'buildAndPush'
+        Dockerfile: '$(Build.SourcesDirectory)/src/backend/Dockerfile'
+        buildContext: '$(Build.SourcesDirectory)/src/backend'
+        tags: 'production'
