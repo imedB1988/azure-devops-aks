@@ -16,14 +16,12 @@ services:
   frontend:
     container_name: frontend
     # image: crudappcontainerregistry.azurecr.io/frontend:v2
-    image: frontend:prod
-    # build:
-    #   context: ./src/frontend
-    #   dockerfile: Dockerfile
+    # image: frontend:prod
+    build:
+      context: ./src/frontend
+      dockerfile: Dockerfile
     ports:
       - 3000:3000
-    # environment:
-    #   - REACT_APP_BACKEND_URL=http://backend:3700/api
     depends_on:
       - backend
     networks:

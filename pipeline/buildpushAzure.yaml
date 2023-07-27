@@ -19,7 +19,7 @@ stages:
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/src/frontend/Dockerfile'
         buildContext: '$(Build.SourcesDirectory)/src/frontend'
-        tags: v2
+        tags: 'production'
 
   - job: BuildAndPushBackend
     displayName: 'Build and Push Backend Docker Image'
@@ -32,7 +32,7 @@ stages:
         command: 'buildAndPush'
         Dockerfile: '$(Build.SourcesDirectory)/src/backend/Dockerfile'
         buildContext: '$(Build.SourcesDirectory)/src/backend'
-        tags: 'v2'
+        tags: 'production'
         
   
   # - job: BuildAndPushFrontend
