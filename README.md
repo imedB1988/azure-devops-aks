@@ -77,7 +77,8 @@ For deploying the application on Azure Kubernetes Service (AKS), please refer to
 
 ## YouTube Tutorial
 
-Check out the [YouTube tutorial](youtube.com/chams) for a detailed step-by-step guide. The video covers Dockerfile creation ,Docker-compose, Kubernetes manifest files, Azure DevOps Pipeline, and continuous deployment with Argo CD.
+Check out the [![Watch the video](images/diagram.png)](https://www.youtube.com/watch?v=_3vswaY7oYA&ab_channel=Chamssiddineabd) for a detailed step-by-step guide. The video covers Dockerfile creation ,Docker-compose, Kubernetes manifest files, Azure DevOps Pipeline, and continuous deployment with Argo CD.
+
 
 ## Contributing
 
