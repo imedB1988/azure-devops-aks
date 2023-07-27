@@ -1,9 +1,15 @@
-
 ---
 
-# Project Name
+# Introduction
 
-Migrating a 3-Tier Application to Kubernetes on Azure
+We will migrate  a 3-Tier Application to Azure Kubernetes Service and automate the deploying process with Azure DevOps and ArgoCD
+
+https://github.com/Chamssiddine/azure-devops-aks/assets/62959061/ae618f06-9db8-41f7-a099-6ae6ff67cdff
+
+
+## YouTube Tutorial
+
+Check out my [Youtube Tutorial](https://www.youtube.com/watch?v=_3vswaY7oYA&ab_channel=Chamssiddineabd) for a detailed step-by-step guide. The video covers Dockerfile creation ,Docker-compose, Kubernetes manifest files, Azure DevOps Pipeline, and continuous deployment with Argo CD.
 
 ## Description
 
@@ -74,10 +80,6 @@ Once the application is set up and running, you can access the frontend by navig
 ## Deployment
 
 For deploying the application on Azure Kubernetes Service (AKS), please refer to the YouTube tutorial provided in the next section.
-
-## YouTube Tutorial
-
-Check out the [![Watch the video](images/diagram.png)](https://www.youtube.com/watch?v=_3vswaY7oYA&ab_channel=Chamssiddineabd) for a detailed step-by-step guide. The video covers Dockerfile creation ,Docker-compose, Kubernetes manifest files, Azure DevOps Pipeline, and continuous deployment with Argo CD.
 
 
 ## Contributing
