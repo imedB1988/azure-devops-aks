@@ -2,7 +2,12 @@
 
 # Introduction
 
-We will migrate  a 3-Tier Application to Azure Kubernetes Service and automate the deploying process with Azure DevOps and ArgoCD
+We will migrate a 3-Tier Application to Azure Kubernetes Service and automate the deploying process with Azure DevOps and ArgoCD
+
+![diagram](/images/diagram.png)
+
+# Architecture
+
 
 https://github.com/Chamssiddine/azure-devops-aks/assets/62959061/ae618f06-9db8-41f7-a099-6ae6ff67cdff
 
@@ -38,10 +43,9 @@ The purpose of this project is to provide a step-by-step guide on how to migrate
 
 Before getting started, ensure you have the following prerequisites:
 
-- Node.js and npm installed for the backend.
-- ReactJS and npm installed for the frontend.
+- NPM installed.
 - MongoDB installed and running for the database.
-- Docker and Docker Compose installed for containerization.
+- Docker and Docker Compose installed.
 
 ## Getting Started
 
@@ -79,7 +83,7 @@ Once the application is set up and running, you can access the frontend by navig
 
 ## Deployment
 
-For deploying the application on Azure Kubernetes Service (AKS), please refer to the YouTube tutorial provided in the next section.
+For deploying the application on Azure Kubernetes Service (AKS), please refer to my YouTube tutorial.
 
 
 ## Contributing
