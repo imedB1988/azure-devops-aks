@@ -32,8 +32,8 @@ spec:
     spec:
       containers:
         - name: frontend
-          # image: chamseddinedocker/crudappfrontend:latest
-          image: crudappcontainerregistry.azurecr.io/frontend:production
+          image: chamseddinedocker/crudappfrontend:latest
+          # image: crudappcontainerregistry.azurecr.io/frontend:production
           ports:
             - containerPort: 3000
           imagePullPolicy: Always
