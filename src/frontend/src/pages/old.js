@@ -4,10 +4,11 @@ import RowDetails from "../components/RowDetails";
 import axios from "axios";
 import Alert from "../components/Alert";
 import _ from "lodash";
+// import dotenv from 'dotenv';
 
 // Load environment variables from .env
 const BACKEND_URL = process.env.REACT_APP_BACKEND_URL;
-
+// dotenv.config();
 function Home() {
   const [users, setUsers] = useState([]);
   const [form, setForm] = useState({});
@@ -23,9 +24,10 @@ function Home() {
     }));
   };
 
+
   const onSubmitHandler = (e) => {
     e.preventDefault();
-    axios.post(`${BACKEND_URL}/api/users`, form)
+    axios.post("/api/users", form)
       .then((res) => {
         setMessage(res.data.message);
         setUsers((users) => [...users, form]);
@@ -45,8 +47,8 @@ function Home() {
   };
 
   const OnDelete = (id__) => {
-    if (window.confirm("Are you sure you want to delete this user?")) {
-      axios.delete(`${BACKEND_URL}/api/users/${id__}`)
+    if (window.confirm("are you sure to delete this user")) {
+      axios.delete("/api/users/${id__}")
         .then((res) => {
           setMessage(res.data.message);
           setUsers((users) => users.filter((user) => user._id !== id__));
@@ -60,7 +62,7 @@ function Home() {
 
   useEffect(() => {
     const getUsers = async () => {
-      const Users = await fetch(`${BACKEND_URL}/api/users`);
+      const Users = await fetch("/api/users");
       const uz = await Users.json();
       setUsers(uz);
     };
@@ -69,6 +71,7 @@ function Home() {
   }, []);
 
   console.log(form);
+
 
   return (
     <div className="row p-4">
@@ -142,7 +145,7 @@ function Home() {
         </table>
       </div>
     </div>
-  );
+  )
 }
 
 export default Home;
