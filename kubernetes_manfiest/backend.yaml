@@ -1,11 +1,11 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backend
+  name: backends
 spec:
   selector:
     matchLabels:
-      app: backend
+      app: backends
   replicas: 1
   # strategy:
   #   type: RollingUpdate
