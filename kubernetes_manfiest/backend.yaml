@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: chamseddinedocker/crudappbackend:latest
+          image: 19880402/backend:imed
           # image: crudappcontainerregistry.azurecr.io/backend:production
           ports:
             - containerPort: 3700
@@ -33,10 +33,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: backend
+  name: backends
 spec:
   selector:
-    app: backend
+    app: backends
   ports:
     - protocol: TCP
       port: 3700
